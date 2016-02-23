@@ -15,6 +15,7 @@ public class RomanNumeral {
     static Map<Integer, String> noncountable_symbols = new LinkedHashMap<Integer, String>() {
         {
             put(50, "L");
+            put(10, "X");
             put(9, "IX");
             put(5, "V");
             put(4, "IV");
@@ -29,7 +30,7 @@ public class RomanNumeral {
             return "";
         }
         for (int k : noncountable_symbols.keySet()) {
-            if (i >= k && i < 9) {
+            if (i >= k) {
                 return noncountable_symbols.get(k) + valueOf(i - k);
             }
         }
