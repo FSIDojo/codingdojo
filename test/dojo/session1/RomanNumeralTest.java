@@ -25,6 +25,9 @@ public class RomanNumeralTest {
     public void testSingle() throws Exception {
         assertEquals("X", RomanNumeral.valueOf(10));
         assertEquals("L", RomanNumeral.valueOf(50));
+        assertEquals("C", RomanNumeral.valueOf(100));
+        assertEquals("D", RomanNumeral.valueOf(500));
+        assertEquals("M", RomanNumeral.valueOf(1000));
     }
 
     @Test
@@ -50,6 +53,6 @@ public class RomanNumeralTest {
     @Test
     public void test7() throws Exception {
         assertEquals("VII",RomanNumeral.valueOf(7));
-
     }
+
 }
