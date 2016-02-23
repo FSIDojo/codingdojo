@@ -3,10 +3,8 @@ package dojo.session1;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
-/**
- * Created by vwu on 2/22/2016.
- */
 public class RomanNumeral {
     static Map<Integer, String> countable_symbols = new LinkedHashMap<Integer, String>() {
         {
@@ -14,7 +12,7 @@ public class RomanNumeral {
             put(1, "I");
         }
     };
-    static Map<Integer, String> noncountable_symbols = new HashMap<Integer, String>() {
+    static Map<Integer, String> noncountable_symbols = new LinkedHashMap<Integer, String>() {
         {
             put(50, "L");
             put(9, "IX");
@@ -27,14 +25,18 @@ public class RomanNumeral {
 //        30 = 10 + 20 X + X + X
 //        for noncountable_symbols
 //        50, 10, 9, 5, 4, 1
-        if (i > 5 && i < 9) {
-            return valueOf(5) + valueOf(i-5);
+        if (i == 0) {
+            return "";
+        }
+        for (int k : noncountable_symbols.keySet()) {
+            if (i >= k && i < 9) {
+                return noncountable_symbols.get(k) + valueOf(i - k);
+            }
         }
         if (noncountable_symbols.containsKey(i)) return noncountable_symbols.get(i);
         for (int digital : countable_symbols.keySet()) {
             if (i % digital == 0) {
-                String numeral = repeatChar(i, digital);
-                return numeral;
+                return repeatChar(i, digital);
             }
         }
         return "";
