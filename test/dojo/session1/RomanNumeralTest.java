@@ -55,4 +55,8 @@ public class RomanNumeralTest {
         assertEquals("VII",RomanNumeral.valueOf(7));
     }
 
+    @Test
+    public void testBigNumber() throws Exception {
+        assertEquals("MMCDXX",RomanNumeral.valueOf(2420));
+    }
 }
