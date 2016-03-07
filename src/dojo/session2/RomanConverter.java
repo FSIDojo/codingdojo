@@ -6,7 +6,7 @@ import java.util.HashMap;
  * Created by vwu on 3/7/2016.
  */
 public class RomanConverter {
-    public String doConvert(int i) {
+    public String doConvert(int passedNumber) {
 
         HashMap<Integer, String> romanMap = new HashMap<Integer, String>();
 
@@ -15,16 +15,18 @@ public class RomanConverter {
         romanMap.put(10,"X");
         romanMap.put(50,"L");
 
-        String roman = romanMap.get(i);
-
-        if(roman == null){
+        String roman = romanMap.get(passedNumber);
+        if(roman == null) {
             roman = "";
-            for(Integer key : romanMap.keySet())
-                if (key < i) {
-                    for (int j = 0; j < i; j++) {
-                        roman += romanMap.get(key);
-                    }
+            int biggestKey = 0;
+            for (Integer key : romanMap.keySet())
+                if (key < passedNumber) {
+                    biggestKey = key;
                 }
+            for (int j = 0; j < passedNumber; j+=biggestKey) {
+                roman += romanMap.get(biggestKey);
+            }
+
         }
         return roman;
     }

@@ -34,4 +34,8 @@ public class RomanTest {
     public void testCompose2() throws Exception {
         assertEquals("II", converter.doConvert(2));
     }
+    @Test
+    public void testCompose20() throws Exception {
+        assertEquals("XX", converter.doConvert(20));
+    }
 }
