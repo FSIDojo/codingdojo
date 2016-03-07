@@ -27,8 +27,11 @@ public class RomanTest {
     @Test
     public void testSingleL() throws Exception {
         assertEquals("L", converter.doConvert(50));
+
     }
 
-
-
+    @Test
+    public void testCompose2() throws Exception {
+        assertEquals("II", converter.doConvert(2));
+    }
 }

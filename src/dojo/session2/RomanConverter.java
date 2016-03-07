@@ -15,7 +15,17 @@ public class RomanConverter {
         romanMap.put(10,"X");
         romanMap.put(50,"L");
 
-        return romanMap.get(i);
+        String roman = romanMap.get(i);
 
+        if(roman == null){
+            roman = "";
+            for(Integer key : romanMap.keySet())
+                if (key < i) {
+                    for (int j = 0; j < i; j++) {
+                        roman += romanMap.get(key);
+                    }
+                }
+        }
+        return roman;
     }
 }
