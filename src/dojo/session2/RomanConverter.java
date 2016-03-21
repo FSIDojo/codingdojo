@@ -15,12 +15,10 @@ public class RomanConverter {
     }};
 
     public String doConvert(int passedNumber) {
+        if (passedNumber == 0) return "";
         int biggestKey = getBiggestKey(passedNumber);
-
-        if(romanMap.get(passedNumber) == null) {
-            return romanMap.get(biggestKey) + doConvert(passedNumber - biggestKey);
-        }
-        return romanMap.get(biggestKey);
+        return romanMap.get(biggestKey)
+                + doConvert(passedNumber - biggestKey);
     }
 
     private int getBiggestKey(int passedNumber) {
