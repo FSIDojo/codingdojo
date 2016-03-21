@@ -4,9 +4,6 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-/**
- * Created by vwu on 3/7/2016.
- */
 public class RomanTest {
     RomanConverter converter = new RomanConverter();
     @Test
@@ -37,5 +34,30 @@ public class RomanTest {
     @Test
     public void testCompose20() throws Exception {
         assertEquals("XX", converter.doConvert(20));
+    }
+
+    @Test
+    public void testCompose15() throws Exception {
+        assertEquals("XV", converter.doConvert(15));
+    }
+
+    @Test
+    public void testCompose25() throws Exception {
+        assertEquals("XXV", converter.doConvert(25));
+    }
+
+    @Test
+    public void testCompose3() throws Exception {
+        assertEquals("III", converter.doConvert(3));
+    }
+
+    @Test
+    public void testCompose6() throws Exception {
+        assertEquals("VI", converter.doConvert(6));
+    }
+
+    @Test
+    public void testCompose16() throws Exception {
+        assertEquals("XVI", converter.doConvert(16));
     }
 }

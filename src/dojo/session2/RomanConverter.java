@@ -2,9 +2,6 @@ package dojo.session2;
 
 import java.util.HashMap;
 
-/**
- * Created by vwu on 3/7/2016.
- */
 public class RomanConverter {
     public String doConvert(int passedNumber) {
 
@@ -23,8 +20,19 @@ public class RomanConverter {
                 if (key < passedNumber) {
                     biggestKey = key;
                 }
+
+            int leftPart = passedNumber;
             for (int j = 0; j < passedNumber; j+=biggestKey) {
-                roman += romanMap.get(biggestKey);
+                if (leftPart < biggestKey) {
+                    if(leftPart == 6) {
+                        roman += romanMap.get(5) + romanMap.get(1);
+                    } else {
+                        roman += romanMap.get(leftPart);
+                    }
+                } else {
+                    roman += romanMap.get(biggestKey);
+                    leftPart = leftPart - biggestKey;
+                }
             }
 
         }
