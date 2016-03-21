@@ -60,4 +60,9 @@ public class RomanTest {
     public void testCompose16() throws Exception {
         assertEquals("XVI", converter.doConvert(16));
     }
+
+    @Test
+    public void testCompose28() throws Exception {
+        assertEquals("XXVIII", converter.doConvert(28));
+    }
 }
