@@ -4,7 +4,6 @@
     <list default="true" id="2d603f40-f5a4-4049-a29c-54c432fa2633" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dojo/session2/RomanConverter.java" afterPath="$PROJECT_DIR$/src/dojo/session2/RomanConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dojo/session2/RomanTest.java" afterPath="$PROJECT_DIR$/test/dojo/session2/RomanTest.java" />
     </list>
     <ignored path="codingdojo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +24,17 @@
     <favorites_list name="codingdojo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46251377">
+    <splitter split-orientation="horizontal" split-proportion="0.55071664">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="RomanConverter.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session2/RomanConverter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.29411766">
-                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="-0.23529412">
+                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -636,25 +637,16 @@
       <option name="project" value="LOCAL" />
       <updated>1458552999075</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="session 3,   all except 4, 9 ...">
+      <created>1458554838230</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1458554838230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanTest - 2016.03.21 at 17h 56m 34s.xml">
-      <configuration name="RomanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanTest - 2016.03.21 at 17h 57m 48s.xml">
-      <configuration name="RomanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanTest - 2016.03.21 at 17h 58m 28s.xml">
-      <configuration name="RomanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanTest - 2016.03.21 at 17h 58m 56s.xml">
-      <configuration name="RomanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanTest - 2016.03.21 at 18h 00m 16s.xml">
-      <configuration name="RomanTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanTest - 2016.03.21 at 18h 00m 45s.xml">
       <configuration name="RomanTest" configurationId="JUnit" />
     </history-entry>
@@ -668,6 +660,21 @@
       <configuration name="RomanTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RomanTest - 2016.03.21 at 18h 06m 54s.xml">
+      <configuration name="RomanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanTest - 2016.03.21 at 18h 10m 20s.xml">
+      <configuration name="RomanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanTest - 2016.03.21 at 18h 11m 05s.xml">
+      <configuration name="RomanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanTest - 2016.03.21 at 18h 14m 19s.xml">
+      <configuration name="RomanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanTest - 2016.03.21 at 18h 16m 12s.xml">
+      <configuration name="RomanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanTest - 2016.03.21 at 18h 18m 17s.xml">
       <configuration name="RomanTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -719,7 +726,8 @@
     <MESSAGE value="session 2,   2 -&gt; II" />
     <MESSAGE value="session 2,   2 0-&gt; XX" />
     <MESSAGE value="session 3,   16 -&gt; XVI" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 3,   16 -&gt; XVI" />
+    <MESSAGE value="session 3,   all except 4, 9 ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="session 3,   all except 4, 9 ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,7 +762,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,9 +866,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session2/RomanConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29411766">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-0.23529412">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
