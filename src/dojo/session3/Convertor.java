@@ -6,12 +6,22 @@ package dojo.session3;
 public class Convertor {
 
     public static final String I = "I";
+    public static final String V = "V";
 
     public static String convertRoman(int i) {
-        String result = I;
-        for (int j = 1; j < i; j++) {
-            result += I;
+        String result = "";
+
+        if (i >= 5) {
+            result = V;
+            i = i-5;
         }
+
+        if (i < 5) {
+            for (int j = 0; j < i; j++) {
+                result += I;
+            }
+        }
+
         return result;
     }
 }

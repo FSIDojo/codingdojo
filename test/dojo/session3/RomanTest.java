@@ -18,4 +18,14 @@ public class RomanTest {
     public void test2(){
         assertEquals("II", Convertor.convertRoman(2));
     }
+
+    @Test
+    public void test5(){
+        assertEquals("V", Convertor.convertRoman(5));
+    }
+
+    @Test
+    public void test6(){
+        assertEquals("VI", Convertor.convertRoman(6));
+    }
 }
