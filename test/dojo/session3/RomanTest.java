@@ -10,7 +10,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class RomanTest {
     @Test
-    public void testOne(){
+    public void test1(){
         assertEquals("I", Convertor.convertRoman(1));
+    }
+
+    @Test
+    public void test2(){
+        assertEquals("II", Convertor.convertRoman(2));
     }
 }
