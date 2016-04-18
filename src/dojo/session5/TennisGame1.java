@@ -1,5 +1,8 @@
 package dojo.session5;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TennisGame1 implements TennisGame {
 
     private int m_score1 = 0;
@@ -11,10 +14,17 @@ public class TennisGame1 implements TennisGame {
     private static final int ONE = 1;
     private static final int TWO = 2;
     private static final int THREE = 3;
+    private Map<Integer, String> scoreMap = null;
 
     public TennisGame1(String player1Name, String player2Name) {
         this.player1Name = player1Name;
         this.player2Name = player2Name;
+
+        scoreMap = new HashMap<Integer, String>();
+        scoreMap.put(ZERO, "Love");
+        scoreMap.put(ONE, "Fifteen");
+        scoreMap.put(TWO, "Thirty");
+        scoreMap.put(THREE, "Forty");
     }
 
     public void wonPoint(String playerName) {
@@ -63,21 +73,6 @@ public class TennisGame1 implements TennisGame {
     }
 
     private String scoreToString(int tempScore) {
-        StringBuilder score = new StringBuilder();
-        switch (tempScore) {
-            case ZERO:
-                score.append("Love");
-                break;
-            case ONE:
-                score.append("Fifteen");
-                break;
-            case TWO:
-                score.append("Thirty");
-                break;
-            case THREE:
-                score.append("Forty");
-                break;
-        }
-        return score.toString();
+        return scoreMap.get(tempScore);
     }
 }
