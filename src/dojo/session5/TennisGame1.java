@@ -27,6 +27,12 @@ public class TennisGame1 implements TennisGame {
         scoreMap.put(ONE, "Fifteen");
         scoreMap.put(TWO, "Thirty");
         scoreMap.put(THREE, "Forty");
+        scoreMap.put(100, "Advantage " + player1Name);
+        scoreMap.put(-100, "Advantage " + player2Name);
+        scoreMap.put(200, "Win for " + player1Name);
+        scoreMap.put(300, "Win for " + player1Name);
+        scoreMap.put(400, "Win for " + player1Name);
+        scoreMap.put(-200, "Win for " + player2Name);
     }
 
     public void wonPoint(String playerName) {
@@ -44,15 +50,11 @@ public class TennisGame1 implements TennisGame {
         } else if (m_score1 == m_score2) {
             score.append(scoreToString(m_score1)).append(DASH).append(ALL);
         } else if (m_score1 > THREE || m_score2 > THREE) {
-            int minusResult = m_score1 - m_score2;
-            if (minusResult == 1) {
-                score.append("Advantage ").append(player1Name);
-            } else if (minusResult == -1) {
-                score.append("Advantage ").append(player2Name);
-            } else if (minusResult >= 2) {
-                score.append("Win for ").append(player1Name);
+            int minusResult = (m_score1 - m_score2) * 100;
+            if(scoreMap.containsKey(minusResult)) {
+                score.append(scoreMap.get(minusResult));
             } else {
-                score.append("Win for ").append(player2Name);
+                score.append(scoreMap.get(-200));
             }
         } else {
             score.append(scoreToString(m_score1));

@@ -41,13 +41,13 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+                <state relative-caret-position="-162">
+                  <caret line="34" column="25" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#594#611#0" expanded="true" />
-                    <element signature="e#2159#2160#0" expanded="true" />
-                    <element signature="e#2205#2206#0" expanded="true" />
+                    <element signature="e#2275#2276#0" expanded="true" />
+                    <element signature="e#2321#2322#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -60,13 +60,13 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="516">
-                  <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+                <state relative-caret-position="594">
+                  <caret line="61" column="43" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#594#611#0" expanded="true" />
-                    <element signature="e#2159#2160#0" expanded="true" />
-                    <element signature="e#2205#2206#0" expanded="true" />
+                    <element signature="e#2275#2276#0" expanded="true" />
+                    <element signature="e#2321#2322#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -696,22 +696,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460974405898</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactor by reed">
+      <created>1460975153981</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1460975153981</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 03m 26s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 10m 13s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 12m 28s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 15m 11s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 17m 33s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -728,6 +723,18 @@
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 22m 58s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 26m 00s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 30m 21s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 31m 52s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 34m 29s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -790,7 +797,8 @@
     <MESSAGE value="session 5, not equal and smaller than 4" />
     <MESSAGE value="change for score map" />
     <MESSAGE value="Use score map while players has the same scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use score map while players has the same scores" />
+    <MESSAGE value="Refactor by reed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor by reed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1059,13 +1067,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="-162">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#594#611#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2321#2322#0" expanded="true" />
           </folding>
         </state>
       </provider>
