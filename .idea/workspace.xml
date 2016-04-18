@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d603f40-f5a4-4049-a29c-54c432fa2633" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dojo/session5/TennisGame1.java" afterPath="$PROJECT_DIR$/src/dojo/session5/TennisGame1.java" />
     </list>
     <list id="813084fe-62f6-4b74-8138-9ce1f6de225f" name="Rejected commit: Default" comment="session 5, init" />
     <ignored path="codingdojo.iws" />
@@ -703,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460975153981</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Refactor for Jack">
+      <created>1460975748989</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1460975748989</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +754,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14332967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -798,7 +804,8 @@
     <MESSAGE value="change for score map" />
     <MESSAGE value="Use score map while players has the same scores" />
     <MESSAGE value="Refactor by reed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor by reed" />
+    <MESSAGE value="Refactor for Jack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor for Jack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
