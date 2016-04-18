@@ -55,28 +55,28 @@ public class TennisGame1 implements TennisGame {
                 score.append("Win for player2");
             }
         } else {
-            for (int i = 1; i < 3; i++) {
-                if (i == 1) {
-                    tempScore = m_score1;
-                } else {
-                    score.append("-");
-                    tempScore = m_score2;
-                }
-                switch (tempScore) {
-                    case ZERO:
-                        score.append("Love");
-                        break;
-                    case ONE:
-                        score.append("Fifteen");
-                        break;
-                    case TWO:
-                        score.append("Thirty");
-                        break;
-                    case THREE:
-                        score.append("Forty");
-                        break;
-                }
-            }
+            score.append(scoreToString(m_score1));
+            score.append("-");
+            score.append(scoreToString(m_score2));
+        }
+        return score.toString();
+    }
+
+    private String scoreToString(int tempScore) {
+        StringBuilder score = new StringBuilder();
+        switch (tempScore) {
+            case ZERO:
+                score.append("Love");
+                break;
+            case ONE:
+                score.append("Fifteen");
+                break;
+            case TWO:
+                score.append("Thirty");
+                break;
+            case THREE:
+                score.append("Forty");
+                break;
         }
         return score.toString();
     }
