@@ -41,12 +41,13 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+                <state relative-caret-position="162">
+                  <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2001#2002#0" expanded="true" />
-                    <element signature="e#2047#2048#0" expanded="true" />
+                    <element signature="e#594#611#0" expanded="true" />
+                    <element signature="e#2159#2160#0" expanded="true" />
+                    <element signature="e#2205#2206#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -59,12 +60,13 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="776">
-                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                <state relative-caret-position="516">
+                  <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2001#2002#0" expanded="true" />
-                    <element signature="e#2047#2048#0" expanded="true" />
+                    <element signature="e#594#611#0" expanded="true" />
+                    <element signature="e#2159#2160#0" expanded="true" />
+                    <element signature="e#2205#2206#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -687,31 +689,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460973894944</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Use score map while players has the same scores">
+      <created>1460974405898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1460974405898</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 36m 06s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 42m 21s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 46m 52s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 50m 11s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 53m 24s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 53m 52s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 55m 47s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 03m 26s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -719,6 +707,27 @@
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 12m 28s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 15m 11s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 17m 33s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 17m 53s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 18m 43s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 20m 54s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 22m 08s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 22m 58s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -732,7 +741,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14332967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -780,7 +789,8 @@
     <MESSAGE value="session 5, using stringbuilder instead of string" />
     <MESSAGE value="session 5, not equal and smaller than 4" />
     <MESSAGE value="change for score map" />
-    <option name="LAST_COMMIT_MESSAGE" value="change for score map" />
+    <MESSAGE value="Use score map while players has the same scores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use score map while players has the same scores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,12 +1059,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="162">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#594#611#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
           </folding>
         </state>
       </provider>
