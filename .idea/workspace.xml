@@ -41,12 +41,12 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+                <state relative-caret-position="456">
+                  <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2269#2270#0" expanded="true" />
-                    <element signature="e#2315#2316#0" expanded="true" />
+                    <element signature="e#2001#2002#0" expanded="true" />
+                    <element signature="e#2047#2048#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -59,12 +59,12 @@
           <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+                <state relative-caret-position="776">
+                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2269#2270#0" expanded="true" />
-                    <element signature="e#2315#2316#0" expanded="true" />
+                    <element signature="e#2001#2002#0" expanded="true" />
+                    <element signature="e#2047#2048#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -680,16 +680,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460973407431</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="change for score map">
+      <created>1460973894944</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1460973894944</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 33m 59s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 34m 19s.xml">
-      <configuration name="TennisTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TennisTest_(1) - 2016.04.18 at 17h 36m 06s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -714,6 +715,12 @@
     <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 03m 26s.xml">
       <configuration name="TennisTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 10m 13s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 12m 28s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -725,7 +732,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14332967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -772,7 +779,8 @@
     <MESSAGE value="session 5, init" />
     <MESSAGE value="session 5, using stringbuilder instead of string" />
     <MESSAGE value="session 5, not equal and smaller than 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 5, not equal and smaller than 4" />
+    <MESSAGE value="change for score map" />
+    <option name="LAST_COMMIT_MESSAGE" value="change for score map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,12 +1049,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="456">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
           </folding>
         </state>
       </provider>

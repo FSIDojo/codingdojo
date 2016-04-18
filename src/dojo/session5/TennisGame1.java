@@ -28,7 +28,7 @@ public class TennisGame1 implements TennisGame {
     }
 
     public void wonPoint(String playerName) {
-        if (playerName.equals("player1"))
+        if ("player1".equals(playerName))
             m_score1 += 1;
         else
             m_score2 += 1;
@@ -38,20 +38,10 @@ public class TennisGame1 implements TennisGame {
         StringBuilder score = new StringBuilder();
         int tempScore = 0;
         if (m_score1 == m_score2) {
-            switch (m_score1) {
-                case ZERO:
-                    score.append("Love-All");
-                    break;
-                case ONE:
-                    score.append("Fifteen-All");
-                    break;
-                case TWO:
-                    score.append("Thirty-All");
-                    break;
-                default:
-                    score.append("Deuce");
-                    break;
-
+            if (m_score1 >= 3) {
+                score.append("Deuce");
+            } else {
+                score.append(scoreToString(m_score1)).append("-All");
             }
         } else if (m_score1 >= 4 || m_score2 >= 4) {
             int minusResult = m_score1 - m_score2;
