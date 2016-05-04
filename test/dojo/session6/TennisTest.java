@@ -1,4 +1,4 @@
-package dojo.session5;
+package dojo.session6;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
