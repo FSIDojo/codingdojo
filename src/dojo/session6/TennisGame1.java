@@ -55,28 +55,24 @@ public class TennisGame1 implements TennisGame {
                 score = "Win for "+"player2";
             }
         } else {
-            for (int i = 1; i < 3; i++) {
-                if (i == 1) {
-                    tempScore = m_score1;
-                } else {
-                    score += "-";
-                    tempScore = m_score2;
-                }
-                switch (tempScore) {
-                    case 0:
-                        score += LOVE;
-                        break;
-                    case 1:
-                        score += FIFTEEN;
-                        break;
-                    case 2:
-                        score += THIRTY;
-                        break;
-                    case 3:
-                        score += FORTY;
-                        break;
-                }
-            }
+            score += convertScoreToString(m_score1);
+            score += "-";
+            score += convertScoreToString(m_score2);
+        }
+        return score;
+    }
+
+    private String convertScoreToString(int tempScore) {
+        String score = "";
+        switch (tempScore) {
+            case 0:
+                return LOVE;
+            case 1:
+                return FIFTEEN;
+            case 2:
+                return THIRTY;
+            case 3:
+                return FORTY;
         }
         return score;
     }
