@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d603f40-f5a4-4049-a29c-54c432fa2633" name="Default" comment="">
+    <list default="true" id="2d603f40-f5a4-4049-a29c-54c432fa2633" name="Default" comment="session 6, round 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dojo/session6/TennisGame1.java" afterPath="$PROJECT_DIR$/src/dojo/session6/TennisGame1.java" />
     </list>
@@ -38,8 +38,8 @@
       <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dojo/session6/TennisGame1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -738,16 +738,17 @@
       <option name="project" value="LOCAL" />
       <updated>1462356209606</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="session 6, round 4">
+      <created>1462356591182</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1462356591182</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisTest - 2016.05.04 at 17h 51m 47s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 17h 52m 38s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TennisTest - 2016.05.04 at 17h 54m 21s.xml">
       <configuration name="TennisTest" configurationId="JUnit" />
     </history-entry>
@@ -770,6 +771,12 @@
       <configuration name="TennisTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TennisTest - 2016.05.04 at 18h 09m 15s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 10m 56s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 16m 13s.xml">
       <configuration name="TennisTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -828,7 +835,9 @@
     <MESSAGE value="session 4, V" />
     <MESSAGE value="session 6, round 1,2" />
     <MESSAGE value="session 6, round 3&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 6, round 3&#10;" />
+    <MESSAGE value="session 6, round 4" />
+    <MESSAGE value="session 6, round 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="session 6, round 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session6/TennisGame1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

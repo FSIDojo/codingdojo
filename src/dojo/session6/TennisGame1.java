@@ -13,6 +13,8 @@ public class TennisGame1 implements TennisGame {
     public static final String FIFTEEN_ALL = "Fifteen-All";
     public static final String THIRTY_ALL = "Thirty-All";
     public static final String DEUCE = "Deuce";
+    public static final String ADVANTAGE = "Advantage ";
+    public static final String WIN_FOR = "Win for ";
     private int m_score1 = 0;
     private int m_score2 = 0;
     private String player1Name;
@@ -46,13 +48,13 @@ public class TennisGame1 implements TennisGame {
         } else if (m_score1 >= 4 || m_score2 >= 4) {
             int minusResult = m_score1 - m_score2;
             if (minusResult == 1) {
-                score = "Advantage "+ "player1";
+                score = ADVANTAGE + this.player1Name;
             } else if (minusResult == -1) {
-                score = "Advantage "+"player2";
+                score = ADVANTAGE + this.player2Name;
             } else if (minusResult >= 2) {
-                score = "Win for "+"player1";
+                score = WIN_FOR + this.player1Name;
             } else {
-                score = "Win for "+"player2";
+                score = WIN_FOR + this.player2Name;
             }
         } else {
             score += convertScoreToString(m_score1);
@@ -63,17 +65,14 @@ public class TennisGame1 implements TennisGame {
     }
 
     private String convertScoreToString(int tempScore) {
-        String score = "";
-        switch (tempScore) {
-            case 0:
-                return LOVE;
-            case 1:
-                return FIFTEEN;
-            case 2:
-                return THIRTY;
-            case 3:
-                return FORTY;
-        }
-        return score;
+        Map<Integer, String> scoreMap = new HashMap<Integer, String>() {
+            {
+                put(0, LOVE);
+                put(1, FIFTEEN);
+                put(2, THIRTY);
+                put(3, FORTY);
+            }
+        };
+        return scoreMap.get(tempScore);
     }
 }
