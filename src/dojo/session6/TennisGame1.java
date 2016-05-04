@@ -4,14 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TennisGame1 implements TennisGame {
-
+    public static final String ALL = "-All";
     public static final String LOVE = "Love";
     public static final String FIFTEEN = "Fifteen";
     public static final String THIRTY = "Thirty";
     public static final String FORTY = "Forty";
-    public static final String LOVE_ALL = "Love-All";
-    public static final String FIFTEEN_ALL = "Fifteen-All";
-    public static final String THIRTY_ALL = "Thirty-All";
     public static final String DEUCE = "Deuce";
     public static final String ADVANTAGE = "Advantage ";
     public static final String WIN_FOR = "Win for ";
@@ -19,6 +16,15 @@ public class TennisGame1 implements TennisGame {
     private int m_score2 = 0;
     private String player1Name;
     private String player2Name;
+
+    private static final Map<Integer, String> scoreMap = new HashMap<Integer, String>() {
+        {
+            put(0, LOVE);
+            put(1, FIFTEEN);
+            put(2, THIRTY);
+            put(3, FORTY);
+        }
+    };
 
     public TennisGame1(String player1Name, String player2Name) {
         this.player1Name = player1Name;
@@ -34,24 +40,17 @@ public class TennisGame1 implements TennisGame {
 
     public String getScore() {
         String score = "";
-        int tempScore = 0;
-        Map<Integer, String> equalScore = new HashMap<Integer, String>(){
-            {   put(0, LOVE_ALL);
-                put(1, FIFTEEN_ALL);
-                put(2, THIRTY_ALL);
-            }
-        };
         if(m_score1 == m_score2 && m_score1>=3) {
             score = DEUCE;
-        }else if (m_score1 == m_score2) {
-            score = equalScore.get(m_score1);
         } else if (m_score1 >= 4 || m_score2 >= 4) {
             int minusResult = m_score1 - m_score2;
             score = getAdvOrWin(minusResult) + getAdvPlayer(minusResult);
+        }else if (m_score1 == m_score2) {
+            score = scoreMap.get(m_score1) + ALL;
         } else {
-            score += convertScoreToString(m_score1);
+            score += scoreMap.get(m_score1);
             score += "-";
-            score += convertScoreToString(m_score2);
+            score += scoreMap.get(m_score2);
         }
         return score;
     }
@@ -76,15 +75,4 @@ public class TennisGame1 implements TennisGame {
         return prefix;
     }
 
-    private String convertScoreToString(int tempScore) {
-        Map<Integer, String> scoreMap = new HashMap<Integer, String>() {
-            {
-                put(0, LOVE);
-                put(1, FIFTEEN);
-                put(2, THIRTY);
-                put(3, FORTY);
-            }
-        };
-        return scoreMap.get(tempScore);
-    }
 }

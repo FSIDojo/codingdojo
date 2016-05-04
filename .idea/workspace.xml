@@ -38,8 +38,8 @@
       <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dojo/session6/TennisGame1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="227">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -752,38 +752,45 @@
       <option name="project" value="LOCAL" />
       <updated>1462357015393</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="session 6, round 6">
+      <created>1462357617930</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1462357617930</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisTest - 2016.05.04 at 18h 06m 48s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 07m 51s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 09m 15s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 10m 56s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 16m 13s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 21m 36s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 22m 01s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 24m 03s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TennisTest - 2016.05.04 at 18h 24m 12s.xml">
-      <configuration name="TennisTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TennisTest - 2016.05.04 at 18h 25m 39s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 28m 16s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 30m 01s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 31m 01s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 33m 29s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 33m 51s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 35m 40s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 35m 50s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 36m 06s.xml">
+      <configuration name="TennisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest - 2016.05.04 at 18h 37m 42s.xml">
       <configuration name="TennisTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -844,7 +851,8 @@
     <MESSAGE value="session 6, round 3&#10;" />
     <MESSAGE value="session 6, round 4" />
     <MESSAGE value="session 6, round 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 6, round 5" />
+    <MESSAGE value="session 6, round 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="session 6, round 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session6/TennisGame1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        <state relative-caret-position="227">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
