@@ -4,6 +4,7 @@
     <list default="true" id="2d603f40-f5a4-4049-a29c-54c432fa2633" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="813084fe-62f6-4b74-8138-9ce1f6de225f" name="Rejected commit: Default" comment="session 5, init" />
     <ignored path="codingdojo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,6 +24,7 @@
     <favorites_list name="codingdojo" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TennisGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dojo/session6/TennisGame.java">
@@ -57,6 +59,58 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="TennisGame.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-162">
+                  <caret line="34" column="25" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#594#611#0" expanded="true" />
+                    <element signature="e#2275#2276#0" expanded="true" />
+                    <element signature="e#2321#2322#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="TennisGame1.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="594">
+                  <caret line="61" column="43" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#594#611#0" expanded="true" />
+                    <element signature="e#2275#2276#0" expanded="true" />
+                    <element signature="e#2321#2322#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> origin/master
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,11 +138,19 @@
         <option value="$PROJECT_DIR$/test/dojo/dojo/session3/RomanTest.java" />
         <option value="$PROJECT_DIR$/test/dojo/dojo/session3/Convertor.java" />
         <option value="$PROJECT_DIR$/src/dojo/session3/RomanTest.java" />
-        <option value="$PROJECT_DIR$/test/dojo/session3/RomanTest.java" />
         <option value="$PROJECT_DIR$/src/dojo/session3/Convertor.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/test/dojo/session6/TennisTest.java" />
         <option value="$PROJECT_DIR$/test/dojo/session6/TennisGame1.java" />
         <option value="$PROJECT_DIR$/src/dojo/session6/TennisGame1.java" />
+=======
+        <option value="$PROJECT_DIR$/test/dojo/session3/RomanTest.java" />
+        <option value="$PROJECT_DIR$/src/refactoring/TennisGame.java" />
+        <option value="$PROJECT_DIR$/src/TennisGame.java" />
+        <option value="$PROJECT_DIR$/src/dojo/session5/TennisGame.java" />
+        <option value="$PROJECT_DIR$/test/dojo/session5/TennisTest.java" />
+        <option value="$PROJECT_DIR$/src/dojo/session5/TennisGame1.java" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -131,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +296,13 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+>>>>>>> origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,10 +314,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+<<<<<<< HEAD
       <recent name="dojo.session6" />
+=======
+      <recent name="dojo.session5" />
+      <recent name="refactoring" />
+>>>>>>> origin/master
       <recent name="dojo.session3" />
       <recent name="dojo.dojo.session3" />
       <recent name="dojo.session1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\works\kata\codingdojo\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dojo.session5" />
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dojo.dojo.session3" />
@@ -255,34 +337,13 @@
       <recent name="dojo.session1" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.TennisTest">
     <configuration default="false" name="RomanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dojo.session2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="codingdojo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dojo.session2" />
-      <option name="MAIN_CLASS_NAME" value="dojo.session2.RomanTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+=======
+  <component name="RunManager" selected="JUnit.TennisTest (1)">
     <configuration default="false" name="RomanTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="dojo.session3.*" />
@@ -308,7 +369,11 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="RomanTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration default="false" name="RomanTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="dojo.session3.*" />
@@ -320,7 +385,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="dojo.session3" />
       <option name="MAIN_CLASS_NAME" value="dojo.session3.RomanTest" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="testOne" />
+=======
       <option name="METHOD_NAME" value="test1" />
+>>>>>>> origin/master
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -334,7 +403,11 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="RomanTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration default="false" name="RomanTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="dojo.session3.*" />
@@ -346,6 +419,46 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="dojo.session3" />
       <option name="MAIN_CLASS_NAME" value="dojo.session3.RomanTest" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+=======
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> origin/master
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="RomanTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="TennisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/master
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="refactoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="codingdojo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="dojo.session3" />
+      <option name="MAIN_CLASS_NAME" value="dojo.session3.RomanTest" />
+=======
+      <option name="PACKAGE_NAME" value="refactoring" />
+      <option name="MAIN_CLASS_NAME" value="refactoring.TennisTest" />
+>>>>>>> origin/master
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -360,18 +473,30 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="TennisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="dojo.session6.*" />
+=======
+    <configuration default="false" name="TennisTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dojo.session5.*" />
+>>>>>>> origin/master
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="codingdojo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="dojo.session6" />
       <option name="MAIN_CLASS_NAME" value="dojo.session6.TennisTest" />
+=======
+      <option name="PACKAGE_NAME" value="dojo.session5" />
+      <option name="MAIN_CLASS_NAME" value="dojo.session5.TennisTest" />
+>>>>>>> origin/master
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -567,6 +692,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="JUnit.RomanTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RomanTest.testOne" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RomanTest.test1" />
@@ -580,6 +706,21 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.RomanTest.test1" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.RomanTest.testOne" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.RomanTest" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RomanTest.testOne" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RomanTest.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RomanTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TennisTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TennisTest (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TennisTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TennisTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RomanTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RomanTest.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RomanTest.testOne" />
+>>>>>>> origin/master
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -723,6 +864,7 @@
       <option name="project" value="LOCAL" />
       <updated>1460541922583</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00017" summary="session 6, round 1,2">
       <created>1462355693577</created>
       <option name="number" value="00017" />
@@ -798,6 +940,97 @@
     </history-entry>
     <history-entry file="TennisTest - 2016.05.04 at 18h 37m 42s.xml">
       <configuration name="TennisTest" configurationId="JUnit" />
+=======
+    <task id="LOCAL-00017" summary="session 4, refactor expect X">
+      <created>1460542975976</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1460542975976</updated>
+    </task>
+    <task id="LOCAL-00018" summary="session 5, init">
+      <created>1460972281652</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1460972281652</updated>
+    </task>
+    <task id="LOCAL-00019" summary="session 5, using stringbuilder instead of string">
+      <created>1460972897737</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1460972897737</updated>
+    </task>
+    <task id="LOCAL-00020" summary="session 5, not equal and smaller than 4">
+      <created>1460973407431</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1460973407431</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change for score map">
+      <created>1460973894944</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1460973894944</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Use score map while players has the same scores">
+      <created>1460974405898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1460974405898</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Refactor by reed">
+      <created>1460975153981</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1460975153981</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Refactor for Jack">
+      <created>1460975748989</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1460975748989</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 17m 33s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 17m 53s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 18m 43s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 20m 54s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 22m 08s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 22m 58s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 26m 00s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 30m 21s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 31m 52s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisTest_(1) - 2016.04.18 at 18h 34m 29s.xml">
+      <configuration name="TennisTest (1)" configurationId="JUnit" />
+>>>>>>> origin/master
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -809,11 +1042,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20848708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27385893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14332967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14332967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -853,6 +1091,7 @@
     <MESSAGE value="session 3,  final refactoring expect 4, 9 .." />
     <MESSAGE value="session 4, II" />
     <MESSAGE value="session 4, V" />
+<<<<<<< HEAD
     <MESSAGE value="session 6, round 1,2" />
     <MESSAGE value="session 6, round 3&#10;" />
     <MESSAGE value="session 6, round 4" />
@@ -860,10 +1099,21 @@
     <MESSAGE value="session 6, round 6" />
     <MESSAGE value="session 6, round 7" />
     <option name="LAST_COMMIT_MESSAGE" value="session 6, round 7" />
+=======
+    <MESSAGE value="session 4, refactor expect X" />
+    <MESSAGE value="session 5, init" />
+    <MESSAGE value="session 5, using stringbuilder instead of string" />
+    <MESSAGE value="session 5, not equal and smaller than 4" />
+    <MESSAGE value="change for score map" />
+    <MESSAGE value="Use score map while players has the same scores" />
+    <MESSAGE value="Refactor by reed" />
+    <MESSAGE value="Refactor for Jack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor for Jack" />
+>>>>>>> origin/master
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -873,6 +1123,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/dojo/session3/RomanTest.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -893,12 +1144,75 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session2/RomanConverter.java">
+=======
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+<<<<<<< HEAD
+=======
+            <element signature="e#672#673#0" expanded="false" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/refactoring/TennisGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/refactoring/TennisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dojo/session3/Convertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dojo/session3/RomanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+<<<<<<< HEAD
+=======
+            <element signature="e#672#673#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dojo/session3/Convertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dojo/session2/RomanConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -906,9 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,9 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,9 +1234,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -943,9 +1254,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -953,9 +1267,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -1033,9 +1350,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -1043,8 +1363,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898">
           <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dojo/session3/RomanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="false" />
+<<<<<<< HEAD
           </folding>
         </state>
       </provider>
@@ -1055,20 +1383,24 @@
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
+=======
+            <element signature="e#672#673#0" expanded="false" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dojo/session3/Convertor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/dojo/session6/TennisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -1091,6 +1423,59 @@
           <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/refactoring/TennisGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/refactoring/TennisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/refactoring/TennisGame1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dojo/session5/TennisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="82" column="50" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dojo/session5/TennisGame1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#611#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2321#2322#0" expanded="true" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
