@@ -9,10 +9,6 @@ public class TennisGame1 implements TennisGame {
     public static final String FIFTEEN = "Fifteen";
     public static final String THIRTY = "Thirty";
     public static final String FORTY = "Forty";
-    public static final String ADVANTAGE_PLAYER1 = "Advantage player1";
-    public static final String ADVANTAGE_PLAYER2 = "Advantage player2";
-    public static final String WIN_FOR_PLAYER1 = "Win for player1";
-    public static final String WIN_FOR_PLAYER2 = "Win for player2";
     public static final String LOVE_ALL = "Love-All";
     public static final String FIFTEEN_ALL = "Fifteen-All";
     public static final String THIRTY_ALL = "Thirty-All";
@@ -43,23 +39,20 @@ public class TennisGame1 implements TennisGame {
                 put(2, THIRTY_ALL);
             }
         };
-        if (m_score1 == m_score2) {
-            if(m_score1>=3) {
-                score = DEUCE;
-            }else {
-                score = equalScore.get(m_score1);
-            }
-
+        if(m_score1 == m_score2 && m_score1>=3) {
+            score = DEUCE;
+        }else if (m_score1 == m_score2) {
+            score = equalScore.get(m_score1);
         } else if (m_score1 >= 4 || m_score2 >= 4) {
             int minusResult = m_score1 - m_score2;
             if (minusResult == 1) {
-                score = ADVANTAGE_PLAYER1;
+                score = "Advantage "+ "player1";
             } else if (minusResult == -1) {
-                score = ADVANTAGE_PLAYER2;
+                score = "Advantage "+"player2";
             } else if (minusResult >= 2) {
-                score = WIN_FOR_PLAYER1;
+                score = "Win for "+"player1";
             } else {
-                score = WIN_FOR_PLAYER2;
+                score = "Win for "+"player2";
             }
         } else {
             for (int i = 1; i < 3; i++) {
