@@ -47,21 +47,33 @@ public class TennisGame1 implements TennisGame {
             score = equalScore.get(m_score1);
         } else if (m_score1 >= 4 || m_score2 >= 4) {
             int minusResult = m_score1 - m_score2;
-            if (minusResult == 1) {
-                score = ADVANTAGE + this.player1Name;
-            } else if (minusResult == -1) {
-                score = ADVANTAGE + this.player2Name;
-            } else if (minusResult >= 2) {
-                score = WIN_FOR + this.player1Name;
-            } else {
-                score = WIN_FOR + this.player2Name;
-            }
+            score = getAdvOrWin(minusResult) + getAdvPlayer(minusResult);
         } else {
             score += convertScoreToString(m_score1);
             score += "-";
             score += convertScoreToString(m_score2);
         }
         return score;
+    }
+
+    private String getAdvPlayer(int minusResult) {
+        String playerName;
+        if (minusResult > 0 ) {
+            playerName = this.player1Name;
+        } else {
+            playerName = this.player2Name;
+        }
+        return playerName;
+    }
+
+    private String getAdvOrWin(int minusResult) {
+        String prefix = "";
+        if (minusResult == 1 || minusResult == -1) {
+            prefix = ADVANTAGE;
+        } else if (minusResult >= 2 || minusResult <= -2) {
+            prefix = WIN_FOR;
+        }
+        return prefix;
     }
 
     private String convertScoreToString(int tempScore) {
