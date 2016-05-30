@@ -1,21 +1,18 @@
 package dojo.session7;
 
-class InProgressScore {
+class InProgressScoreGame implements ScoreInvoke {
 
     private int m_score2;
     private int m_score1;
 
-    public InProgressScore(int m_score1, int m_score2) {
+    public InProgressScoreGame(int m_score1, int m_score2) {
         this.m_score1 = m_score1;
         this.m_score2 = m_score2;
     }
 
 
+    @Override
     public String invoke() {
-        return diffScore();
-    }
-
-    private String diffScore() {
         int tempScore;
         String score = "";
         for (int i = 1; i < 3; i++) {
@@ -42,4 +39,5 @@ class InProgressScore {
         }
         return score;
     }
+
 }

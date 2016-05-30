@@ -24,7 +24,7 @@ public class TennisGame1 implements TennisGame {
         int tempScore=0;
         if (m_score1==m_score2)
         {
-            score = new EqualScore(m_score1).invoke();
+            score = new EqualScoreGame(m_score1).invoke();
         }
         else if (m_score1>=4 || m_score2>=4)
         {
@@ -32,32 +32,7 @@ public class TennisGame1 implements TennisGame {
         }
         else
         {
-            score = diffScore(score);
-        }
-        return score;
-    }
-
-    private String diffScore(String score) {
-        int tempScore;
-        for (int i = 1; i<3; i++)
-        {
-            if (i==1) tempScore = m_score1;
-            else { score+="-"; tempScore = m_score2;}
-            switch(tempScore)
-            {
-                case 0:
-                    score+="Love";
-                    break;
-                case 1:
-                    score+="Fifteen";
-                    break;
-                case 2:
-                    score+="Thirty";
-                    break;
-                case 3:
-                    score+="Forty";
-                    break;
-            }
+            score = new InProgressScoreGame(m_score1, m_score2).invoke();
         }
         return score;
     }
