@@ -1,22 +1,13 @@
 package dojo.session7;
 
-/**
- * Created by vwu on 6/28/2016.
- */
 public class ScoreGameFactory {
     public static IScore createIScore(int score1, int score2) {
         IScore score;
-        if (score1== score2)
-
-        {
+        if (score1 == score2) {
             score = new EqualScoreGame(score1);
-        }
-        else if (score1>=4 || score2 >=4)
-        {
+        } else if (score1 >= 4 || score2 >= 4) {
             score = new MaybeEndGame(score1, score2);
-        }
-        else
-        {
+        } else {
             score = new InProgressScoreGame(score1, score2);
         }
         return score;

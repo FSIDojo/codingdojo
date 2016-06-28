@@ -10,7 +10,6 @@ class InProgressScoreGame implements IScore {
         this.m_score2 = m_score2;
     }
 
-
     @Override
     public String score() {
         int tempScore;
