@@ -2,8 +2,10 @@ package dojo.session7;
 
 class InProgressScoreGame implements IScore {
 
+    public static final String IN_PROGRESS_TEMPLATE = "%s-%s";
     private int m_score2;
     private int m_score1;
+    public static final String[] SCORE_NAMES = new String[]{"Love", "Fifteen", "Thirty", "Forty"};
 
     public InProgressScoreGame(int m_score1, int m_score2) {
         this.m_score1 = m_score1;
@@ -12,32 +14,7 @@ class InProgressScoreGame implements IScore {
 
     @Override
     public String score() {
-        String score = "";
-        score += translateScoreToName(m_score1);
-        score += "-";
-        score += translateScoreToName(m_score2);
-        return score;
-    }
-
-    private String translateScoreToName(int tempScore) {
-        String score;
-        switch (tempScore) {
-            case 0:
-                score = "Love";
-                break;
-            case 1:
-                score = "Fifteen";
-                break;
-            case 2:
-                score = "Thirty";
-                break;
-            case 3:
-                score = "Forty";
-                break;
-            default:
-                return "";
-        }
-        return score;
+        return String.format(IN_PROGRESS_TEMPLATE, SCORE_NAMES[m_score1], SCORE_NAMES[m_score2]);
     }
 
 }
