@@ -1,15 +1,15 @@
 package dojo.session7;
 
-class EqualScoreGame implements ScoreInvoke {
+class EqualScoreGame implements IScore {
     private final int m_score1;
-    private String ALL = "-ALL";
+    private String ALL = "-All";
 
     public EqualScoreGame(int m_score1) {
         this.m_score1 = m_score1;
     }
 
     @Override
-    public String invoke() {
+    public String score() {
         String score;
         switch (m_score1) {
             case 0:

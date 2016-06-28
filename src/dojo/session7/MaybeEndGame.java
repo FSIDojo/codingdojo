@@ -1,6 +1,6 @@
 package dojo.session7;
 
-class MaybeEndGame implements ScoreInvoke {
+class MaybeEndGame implements IScore {
 
     private final int m_score1;
     private final int m_score2;
@@ -10,7 +10,7 @@ class MaybeEndGame implements ScoreInvoke {
         this.m_score2 = m_score2;
     }
     @Override
-    public String invoke() {
+    public String score() {
         String score;
         int minusResult = m_score1 - m_score2;
         if (minusResult == 1) score = "Advantage player1";

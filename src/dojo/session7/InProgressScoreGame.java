@@ -1,6 +1,6 @@
 package dojo.session7;
 
-class InProgressScoreGame implements ScoreInvoke {
+class InProgressScoreGame implements IScore {
 
     private int m_score2;
     private int m_score1;
@@ -12,7 +12,7 @@ class InProgressScoreGame implements ScoreInvoke {
 
 
     @Override
-    public String invoke() {
+    public String score() {
         int tempScore;
         String score = "";
         for (int i = 1; i < 3; i++) {

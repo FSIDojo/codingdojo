@@ -1,7 +1,5 @@
 package dojo.session7;
 
-import dojo.session6.TennisGame;
-import dojo.session6.TennisGame1;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

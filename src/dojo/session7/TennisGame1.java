@@ -22,17 +22,24 @@ public class TennisGame1 implements TennisGame {
     public String getScore() {
         String score = "";
         int tempScore=0;
-        if (m_score1==m_score2)
+        score = createIScore(m_score1, m_score2);
+        return score;
+    }
+
+    private String createIScore(int score1, int score2) {
+        String score;
+        if (score1== score2)
+
         {
-            score = new EqualScoreGame(m_score1).invoke();
+            score = new EqualScoreGame(score1).score();
         }
-        else if (m_score1>=4 || m_score2>=4)
+        else if (score1>=4 || score2 >=4)
         {
-            score = new MaybeEndGame(m_score1, m_score2).invoke();
+            score = new MaybeEndGame(score1, score2).score();
         }
         else
         {
-            score = new InProgressScoreGame(m_score1, m_score2).invoke();
+            score = new InProgressScoreGame(score1, score2).score();
         }
         return score;
     }
