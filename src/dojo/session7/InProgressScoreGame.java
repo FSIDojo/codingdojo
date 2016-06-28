@@ -12,29 +12,30 @@ class InProgressScoreGame implements IScore {
 
     @Override
     public String score() {
-        int tempScore;
         String score = "";
-        for (int i = 1; i < 3; i++) {
-            if (i == 1) {
-                tempScore = m_score1;
-            } else {
-                score += "-";
-                tempScore = m_score2;
-            }
-            switch (tempScore) {
-                case 0:
-                    score += "Love";
-                    break;
-                case 1:
-                    score += "Fifteen";
-                    break;
-                case 2:
-                    score += "Thirty";
-                    break;
-                case 3:
-                    score += "Forty";
-                    break;
-            }
+        score += translateScoreToName(m_score1);
+        score += "-";
+        score += translateScoreToName(m_score2);
+        return score;
+    }
+
+    private String translateScoreToName(int tempScore) {
+        String score;
+        switch (tempScore) {
+            case 0:
+                score = "Love";
+                break;
+            case 1:
+                score = "Fifteen";
+                break;
+            case 2:
+                score = "Thirty";
+                break;
+            case 3:
+                score = "Forty";
+                break;
+            default:
+                return "";
         }
         return score;
     }
