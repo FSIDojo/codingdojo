@@ -1,9 +1,6 @@
-StringCalculatorTest.java:4: error: class HikerTest is public, should be declared in a file named HikerTest.java
-public class HikerTest {
-       ^
 StringCalculatorTest.java:10: error: cannot find symbol
         int actual = StringCalculator.add(numbers);
                                      ^
   symbol:   method add(String)
   location: class StringCalculator
-2 errors
+1 error
