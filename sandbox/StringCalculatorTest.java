@@ -66,4 +66,12 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add(numbers);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test_add_with_new_line_v3(){
+        int expected = 3;
+        String numbers = "//;\n1\n;2";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
 }
