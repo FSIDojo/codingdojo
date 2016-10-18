@@ -5,7 +5,7 @@ public class Hiker {
         
 
         StringBuffer sb = new StringBuffer(256);
-        Char del = '';
+        String del = "";
         if (token.startWith("//")) {
             del = token.charAt(3);
         }
@@ -13,7 +13,7 @@ public class Hiker {
              if (token.charAt(i) >= '0' && token.charAt(i) <= '9') {
                  sb.append(token.charAt(i));
              } else {
-                if (token.charAt(i) != del && del !='') {
+                if (token.charAt(i) != del.charAt(0) && !del.equals("")) {
                     return "";
                 }
                 sb.append(',');

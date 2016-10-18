@@ -1,55 +1,9 @@
-Hiker.java:8: error: empty character literal
-        Char del = '';
-                   ^
-Hiker.java:8: error: unclosed character literal
-        Char del = '';
-                    ^
-Hiker.java:8: error: ';' expected
-        Char del = '';
-                      ^
-Hiker.java:9: error: not a statement
+Hiker.java:9: error: cannot find symbol
         if (token.startWith("//")) {
-           ^
-Hiker.java:9: error: ';' expected
-        if (token.startWith("//")) {
-                                  ^
-Hiker.java:16: error: empty character literal
-                if (token.charAt(i) != del && del !='') {
-                                                    ^
-Hiker.java:16: error: unclosed character literal
-                if (token.charAt(i) != del && del !='') {
-                                                     ^
-Hiker.java:16: error: ';' expected
-                if (token.charAt(i) != del && del !='') {
-                                                       ^
-Hiker.java:22: error: illegal start of type
-        return sb.toString();
-        ^
-Hiker.java:22: error: ';' expected
-        return sb.toString();
-              ^
-Hiker.java:22: error: illegal start of type
-        return sb.toString();
                  ^
-Hiker.java:25: error: class, interface, or enum expected
-    public static int answer(String args) {
-                  ^
-Hiker.java:27: error: class, interface, or enum expected
-        String[] rs = convert(args).split(",");
-        ^
-Hiker.java:28: error: class, interface, or enum expected
-        for (int i=0; i< rs.length; i++) {
-        ^
-Hiker.java:28: error: class, interface, or enum expected
-        for (int i=0; i< rs.length; i++) {
-                      ^
-Hiker.java:28: error: class, interface, or enum expected
-        for (int i=0; i< rs.length; i++) {
-                                    ^
-Hiker.java:30: error: class, interface, or enum expected
-        }
-        ^
-Hiker.java:32: error: class, interface, or enum expected
-    }
-    ^
-18 errors
+  symbol:   method startWith(String)
+  location: variable token of type String
+Hiker.java:10: error: incompatible types: char cannot be converted to String
+            del = token.charAt(3);
+                              ^
+2 errors
