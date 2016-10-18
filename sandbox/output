@@ -1,15 +1,25 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.E.....
-Time: 0.024
-There was 1 failure:
-1) testNewLine(HikerTest)
-java.lang.NumberFormatException: For input string: "1
-2"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at Hiker.answer(Hiker.java:8)
-	at HikerTest.testNewLine(HikerTest.java:44)
-
-FAILURES!!!
-Tests run: 6,  Failures: 1
+Hiker.java:6: error: cannot find symbol
+        for (int i = 0; i < token.length; i++) {
+                                 ^
+  symbol:   variable length
+  location: variable token of type String
+Hiker.java:7: error: array required, but String found
+             if (token[i] >= '0' && token <= '9') {
+                      ^
+Hiker.java:7: error: bad operand types for binary operator '<='
+             if (token[i] >= '0' && token <= '9') {
+                                          ^
+  first type:  String
+  second type: char
+Hiker.java:8: error: array required, but String found
+                 sb.append(token[i]);
+                                ^
+Hiker.java:12: error: incompatible types: String cannot be converted to String[]
+        return sb.toString();
+                          ^
+Hiker.java:17: error: cannot find symbol
+        String[] rs = split2(args).split(",");
+                                  ^
+  symbol:   method split(String)
+  location: class String[]
+6 errors
