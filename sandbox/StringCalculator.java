@@ -6,6 +6,7 @@ public class StringCalculator {
             return 0;
         }
         number = number.replace("\n",",");
+        System.out.println(number);
         return add(number.split(","));
     }
 
