@@ -3,7 +3,4 @@ StringCalculator.java:9: error: cannot find symbol
                  ^
   symbol:   method startWith(String)
   location: variable number of type String
-StringCalculator.java:10: error: incompatible types: char cannot be converted to String
-           delimiter = number.charAt(2);
-                                    ^
-2 errors
+1 error
