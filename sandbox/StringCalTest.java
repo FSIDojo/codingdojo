@@ -42,4 +42,11 @@ public class StringCalTest {
         int actual = StringCal.answer("1,2,3,4");
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void newLine() {
+        int expected = 6;
+        int actual = StringCal.answer("1\n2,3");
+        assertEquals(expected, actual);
+    }
 }

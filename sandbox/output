@@ -1,5 +1,16 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-......
-Time: 0.018
+.....E..
+Time: 0.021
+There was 1 failure:
+1) newLine(StringCalTest)
+java.lang.NumberFormatException: For input string: "1
+2"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at StringCal.add(StringCal.java:13)
+	at StringCal.answer(StringCal.java:8)
+	at StringCalTest.newLine(StringCalTest.java:49)
 
-OK (6 tests)
+FAILURES!!!
+Tests run: 7,  Failures: 1
