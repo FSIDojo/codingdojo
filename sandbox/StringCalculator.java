@@ -5,7 +5,7 @@ public class StringCalculator {
         if(number == null || "".equals(number)){
             return 0;
         }
-        number.replace("\n",",");
+        number = number.replace("\n",",");
         return add(number.split(","));
     }
 
