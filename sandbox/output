@@ -1,38 +1,37 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .E.E.E.E.E.E.E.E
-Time: 0.024
+Time: 0.023
 There were 8 failures:
 1) one(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1918)
 	at StringCal.answer(StringCal.java:10)
 	at StringCalTest.one(StringCalTest.java:17)
 2) zero(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1918)
 	at StringCal.answer(StringCal.java:10)
 	at StringCalTest.zero(StringCalTest.java:9)
 3) spaceAndOne(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at StringCal.answer(StringCal.java:10)
-	at StringCalTest.spaceAndOne(StringCalTest.java:36)
+java.lang.AssertionError: expected:<3> but was:<2>
+	at StringCalTest.spaceAndOne(StringCalTest.java:37)
 4) oneAnd(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at StringCal.answer(StringCal.java:10)
-	at StringCalTest.oneAnd(StringCalTest.java:30)
+java.lang.AssertionError: expected:<1> but was:<0>
+	at StringCalTest.oneAnd(StringCalTest.java:31)
 5) dynamicDelimiter(StringCalTest)
 java.lang.AssertionError: expected:<6> but was:<0>
 	at StringCalTest.dynamicDelimiter(StringCalTest.java:56)
 6) anyStr(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at StringCal.answer(StringCal.java:10)
-	at StringCalTest.anyStr(StringCalTest.java:42)
+java.lang.AssertionError: expected:<10> but was:<9>
+	at StringCalTest.anyStr(StringCalTest.java:43)
 7) two(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1918)
 	at StringCal.answer(StringCal.java:10)
 	at StringCalTest.two(StringCalTest.java:23)
 8) newLine(StringCalTest)
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at StringCal.answer(StringCal.java:10)
-	at StringCalTest.newLine(StringCalTest.java:49)
+java.lang.AssertionError: expected:<6> but was:<5>
+	at StringCalTest.newLine(StringCalTest.java:50)
 
 FAILURES!!!
 Tests run: 8,  Failures: 8

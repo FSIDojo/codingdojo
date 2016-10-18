@@ -4,10 +4,10 @@ public class StringCal{
     public static int answer(String str) {
         String delimiter = ",";
         if (str.startsWith("//")){
-            delimiter = str.split("//")[1].split("\n")[0];
+            delimiter = str.split("\n")[0].substring(2);
             return 0;
         }
-        return add(0, str.split("//")[1].replaceAll("\n",",").split(","));  
+        return add(0, str.substring(2).replaceAll("\n",",").split(","));  
     }
 
     private static int add(int sum, String[] ints) {
