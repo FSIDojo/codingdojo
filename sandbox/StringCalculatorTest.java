@@ -68,7 +68,7 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void test_add_with_new_line_v3(){
+    public void test_add_with_new_line_v4(){
         int expected = 3;
         String numbers = "//;\n1\n;2";
         int actual = StringCalculator.add(numbers);
