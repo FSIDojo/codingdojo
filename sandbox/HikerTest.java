@@ -30,4 +30,10 @@ public class HikerTest {
         int actual = Hiker.answer("1,");
         assertEquals(expected, actual);
     }
+    @Test
+    public void spaceAndOne() {
+        int expected = 1;
+        int actual = Hiker.answer("1, ");
+        assertEquals(expected, actual);
+    }
 }

@@ -1,5 +1,14 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-....
-Time: 0.015
+.E....
+Time: 0.02
+There was 1 failure:
+1) spaceAndOne(HikerTest)
+java.lang.NumberFormatException: For input string: " "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at Hiker.answer(Hiker.java:12)
+	at HikerTest.spaceAndOne(HikerTest.java:36)
 
-OK (4 tests)
+FAILURES!!!
+Tests run: 5,  Failures: 1
