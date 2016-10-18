@@ -6,7 +6,7 @@ public class StringCalculator {
             return 0;
         }
         String delimiter = ",";
-        if(number.startWith("//")){
+        if(number.startsWith("//")){
            delimiter = number.charAt(2)+"";
         }
         number = number.replace("\n",delimiter);

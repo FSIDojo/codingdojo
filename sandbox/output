@@ -1,6 +1,15 @@
-StringCalculator.java:9: error: cannot find symbol
-        if(number.startWith("//")){
-                 ^
-  symbol:   method startWith(String)
-  location: variable number of type String
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..E......
+Time: 0.029
+There was 1 failure:
+1) test_add_with_new_line_v3(StringCalculatorTest)
+java.lang.NumberFormatException: For input string: "//"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at StringCalculator.add(StringCalculator.java:20)
+	at StringCalculator.add(StringCalculator.java:13)
+	at StringCalculatorTest.test_add_with_new_line_v3(StringCalculatorTest.java:66)
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
