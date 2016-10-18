@@ -1,4 +1,6 @@
-Hiker.java:12: error: ';' expected
-                    sum = sum + Integer.parseInt(ints[i])
-                                                         ^
+Hiker.java:10: error: cannot find symbol
+            for(int i=0; i< ints.length();i++) {
+                                ^
+  symbol:   method length()
+  location: variable ints of type String[]
 1 error
