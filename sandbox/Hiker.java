@@ -11,7 +11,7 @@ public class Hiker {
     private static int add(String[] ints) {
         int sum = 0;
         for (String i : ints) {
-            sum = sum + Integer.parseInt(i);
+            sum +=  Integer.parseInt(i);
         }
         return sum;
     }
