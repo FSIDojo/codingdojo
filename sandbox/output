@@ -3,7 +3,4 @@ StringCal.java:5: error: cannot find symbol
                ^
   symbol:   method startWith(String)
   location: variable str of type String
-StringCal.java:6: error: incompatible types: String cannot be converted to int
-            return str;
-                   ^
-2 errors
+1 error

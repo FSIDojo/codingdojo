@@ -3,7 +3,7 @@ public class StringCal{
 
     public static int answer(String str) {
         if (str.startWith("//")){
-            return str;
+            return 0;
         }
         return add(0, str.replaceAll("\n",",").split(","));  
     }
