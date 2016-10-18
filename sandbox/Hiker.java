@@ -5,13 +5,12 @@ public class Hiker {
         if(null == str || "".equals(str)) {
             return 0;
         }
-        return add(str.split(","));  
+        return add(0, str.split(","));  
     }
 
-    private static int add(String[] ints) {
-        int sum = 0;
+    private static int add(int sum, String[] ints) {
         for (String i : ints) {
-            sum +=  Integer.parseInt(i);
+            sum += Integer.parseInt(i);
         }
         return sum;
     }
