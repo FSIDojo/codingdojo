@@ -11,4 +11,10 @@ public class HikerTest {
     }
 
 
+    @Test
+    public void one() {
+        int expected = 1;
+        int actual = Hiker.answer("1");
+        assertEquals(expected, actual);
+    }
 }
