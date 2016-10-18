@@ -11,7 +11,6 @@ public class StringCalculator {
         }else {
             return Integer.valueOf(temp[0]) + Integer.valueOf(temp[1]);
         }
-        
-        return 6 * 9;
+       
     }
 }
