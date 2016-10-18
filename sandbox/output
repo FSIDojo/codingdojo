@@ -1,7 +1,4 @@
-StringCalculator.java:8: error: incompatible types: int cannot be converted to String[]
-        String temp[] = number.split(",").length;
-                                         ^
-StringCalculator.java:9: error: incomparable types: String[] and int
-        if(temp == 1){
-                ^
-2 errors
+StringCalculator.java:15: error: unreachable statement
+        return 6 * 9;
+        ^
+1 error
