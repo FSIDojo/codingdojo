@@ -6,7 +6,7 @@ public class StringCalTest {
     @Test
     public void zero() {
         int expected = 0;
-        int actual = StringCal.answer(null);
+        int actual = StringCal.answer("");
         assertEquals(expected, actual);
     }
 
