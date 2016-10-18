@@ -11,6 +11,15 @@ public class StringCalculator {
         }else {
             return Integer.valueOf(temp[0]) + Integer.valueOf(temp[1]);
         }
-       
+    }
+
+    private static int add(String... numbers){
+        int ret = 0;
+
+        for(String number : numbers){
+            ret += Integer.valueOf(number);            
+        }
+
+        return ret
     }
 }
