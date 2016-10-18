@@ -1,6 +1,5 @@
-Hiker.java:8: error: cannot find symbol
-            sum = sum + (rs[i].equeal("") ? 0 : Integer.parseInt(rs[i]));
-                              ^
-  symbol:   method equeal(String)
-  location: class String
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+....
+Time: 0.015
+
+OK (4 tests)
