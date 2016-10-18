@@ -5,10 +5,11 @@ public class StringCalculator {
         if(number == null || number == ""){
             return 0;
         }
-        if(number.split(",").length == 1){
-            return Integer.valueOf(number);
+        String temp[] = number.split(",").length;
+        if(temp == 1){
+            return Integer.valueOf(temp[0]);
         }else {
-            return Integer.valueOf(number[0]) + Integer.valueOf(number[1]);
+            return Integer.valueOf(temp[0]) + Integer.valueOf(temp[1]);
         }
         
         return 6 * 9;

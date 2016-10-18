@@ -1,7 +1,7 @@
-StringCalculator.java:11: error: array required, but String found
-            return Integer.valueOf(number[0]) + Integer.valueOf(number[1]);
+StringCalculator.java:8: error: incompatible types: int cannot be converted to String[]
+        String temp[] = number.split(",").length;
                                          ^
-StringCalculator.java:11: error: array required, but String found
-            return Integer.valueOf(number[0]) + Integer.valueOf(number[1]);
-                                                                      ^
+StringCalculator.java:9: error: incomparable types: String[] and int
+        if(temp == 1){
+                ^
 2 errors
