@@ -5,7 +5,7 @@ public class Hiker {
         
 
         StringBuffer sb = new StringBuffer(256);
-        char del = '';
+        Char del = '';
         if (token.startWith("//")) {
             del = token.charAt(3);
         }

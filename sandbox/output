@@ -1,11 +1,11 @@
 Hiker.java:8: error: empty character literal
-        char del = '';
+        Char del = '';
                    ^
 Hiker.java:8: error: unclosed character literal
-        char del = '';
+        Char del = '';
                     ^
 Hiker.java:8: error: ';' expected
-        char del = '';
+        Char del = '';
                       ^
 Hiker.java:9: error: not a statement
         if (token.startWith("//")) {
