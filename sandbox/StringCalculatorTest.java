@@ -43,4 +43,11 @@ public class StringCalculatorTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_add_with_new_line(){
+        int expected = 6;
+        String numbers = "1\n2,3";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
 }
