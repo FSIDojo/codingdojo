@@ -1,10 +1,37 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-...E.....
-Time: 0.029
-There was 1 failure:
-1) testNewLine3(HikerTest)
-java.lang.AssertionError: expected:<0> but was:<33>
-	at HikerTest.testNewLine3(HikerTest.java:59)
+.E.E..E.E.E.E.E
+Time: 0.022
+There were 7 failures:
+1) testNewLine(HikerTest)
+java.lang.AssertionError: expected:<6> but was:<0>
+	at HikerTest.testNewLine(HikerTest.java:45)
+2) testNewLine2(HikerTest)
+java.lang.AssertionError: expected:<33> but was:<0>
+	at HikerTest.testNewLine2(HikerTest.java:52)
+3) testOne(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.charAt(String.java:646)
+	at Hiker.convert(Hiker.java:8)
+	at Hiker.answer(Hiker.java:24)
+	at HikerTest.testOne(HikerTest.java:16)
+4) testEmpty(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.charAt(String.java:646)
+	at Hiker.convert(Hiker.java:8)
+	at Hiker.answer(Hiker.java:24)
+	at HikerTest.testEmpty(HikerTest.java:9)
+5) testSpace(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.charAt(String.java:646)
+	at Hiker.convert(Hiker.java:8)
+	at Hiker.answer(Hiker.java:24)
+	at HikerTest.testSpace(HikerTest.java:30)
+6) testUnknownLength(HikerTest)
+java.lang.AssertionError: expected:<100> but was:<90>
+	at HikerTest.testUnknownLength(HikerTest.java:38)
+7) test2(HikerTest)
+java.lang.AssertionError: expected:<4> but was:<0>
+	at HikerTest.test2(HikerTest.java:24)
 
 FAILURES!!!
-Tests run: 8,  Failures: 1
+Tests run: 8,  Failures: 7
