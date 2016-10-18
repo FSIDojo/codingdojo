@@ -2,7 +2,6 @@
 public class StringCal{
 
     public static int answer(String str) {
-       
         return add(0, str.replaceAll("\n",",").split(","));  
     }
 
