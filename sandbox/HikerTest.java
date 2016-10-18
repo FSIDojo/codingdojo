@@ -33,7 +33,7 @@ public class HikerTest {
     @Test
     public void spaceAndOne() {
         int expected = 1;
-        int actual = Hiker.answer("1, ");
+        int actual = Hiker.answer("1,2");
         assertEquals(expected, actual);
     }
 }

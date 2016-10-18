@@ -1,4 +1,4 @@
-Hiker.java:11: error: ')' expected
-                if(ints[i] != null && "".equals(ints[i].trim()) {
-                                                               ^
+Hiker.java:11: error: illegal start of expression
+                if(ints[i] != null &&) {
+                                     ^
 1 error
