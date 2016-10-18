@@ -1,4 +1,10 @@
-Hiker.java:11: error: illegal start of expression
-                if(ints[i] != null &&) {
-                                     ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E....
+Time: 0.02
+There was 1 failure:
+1) spaceAndOne(HikerTest)
+java.lang.AssertionError: expected:<1> but was:<3>
+	at HikerTest.spaceAndOne(HikerTest.java:37)
+
+FAILURES!!!
+Tests run: 5,  Failures: 1

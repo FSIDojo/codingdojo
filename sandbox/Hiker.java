@@ -8,7 +8,7 @@ public class Hiker {
             String[] ints = str.split(",");
             int sum = 0;
             for(int i=0; i< ints.length;i++) {
-                if(ints[i] != null &&) {
+                if(ints[i] != null) {
                     sum = sum + Integer.parseInt(ints[i]);
                 }
             }
