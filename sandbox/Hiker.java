@@ -5,7 +5,7 @@ public class Hiker {
         if(null == str) {
             return 0;
         } else {
-            return 1;
+            return Integer.valueof(str);
         }
         
     }
