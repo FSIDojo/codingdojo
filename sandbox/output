@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .E.....
-Time: 0.021
+Time: 0.023
 There was 1 failure:
 1) test_add_with_new_line(StringCalculatorTest)
 java.lang.NumberFormatException: For input string: "1
