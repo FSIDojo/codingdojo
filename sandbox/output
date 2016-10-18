@@ -1,6 +1,10 @@
-HikerTest.java:23: error: cannot find symbol
-        int actual = Hikcer.answer("1,3");
-                     ^
-  symbol:   variable Hikcer
-  location: class HikerTest
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...E
+Time: 0.017
+There was 1 failure:
+1) test2(HikerTest)
+java.lang.AssertionError: expected:<4> but was:<0>
+	at HikerTest.test2(HikerTest.java:24)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1

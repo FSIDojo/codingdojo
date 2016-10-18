@@ -20,7 +20,7 @@ public class HikerTest {
     @Test
     public void test2() {
         int expected = 4;
-        int actual = Hikcer.answer("1,3");
+        int actual = Hiker.answer("1,3");
         assertEquals(expected, actual);
     }
 }
