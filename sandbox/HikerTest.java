@@ -23,4 +23,11 @@ public class HikerTest {
         int actual = Hiker.answer("1,3");
         assertEquals(expected, actual);
     }
+    
+    @Test
+    public void testSpace() {
+        int expected = 4;
+        int actual = Hiker.answer("4");
+        assertEquals(expected, actual);
+    }
 }
