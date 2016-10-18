@@ -52,7 +52,7 @@ public class StringCalTest {
     @Test
     public void dynamicDelimiter() {
         int expected = 6;
-        int actual = StringCal.answer("//?\n1?2?3");
+        int actual = StringCal.answer("//,\n1,2,3");
         assertEquals(expected, actual);
     }
 }
