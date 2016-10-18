@@ -13,6 +13,5 @@ public class Hiker {
             return sum;
             
         }
-        return 0;
     }
 }
