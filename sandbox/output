@@ -1,10 +1,10 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-..E.
-Time: 0.018
+...E
+Time: 0.016
 There was 1 failure:
-1) oneAddOne(HikerTest)
+1) two(HikerTest)
 java.lang.AssertionError: expected:<2> but was:<1>
-	at HikerTest.oneAddOne(HikerTest.java:24)
+	at HikerTest.two(HikerTest.java:24)
 
 FAILURES!!!
 Tests run: 3,  Failures: 1
