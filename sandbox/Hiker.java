@@ -5,11 +5,11 @@ public class Hiker {
         if(null == str || "".equals(str)) {
             return 0;
         }
-       return add(str.split(","));  
+        return add(str.split(","));  
     }
 
     private static int add(String[] ints) {
-       int sum = 0;
+        int sum = 0;
         for (String i : ints) {
             sum = sum + Integer.parseInt(i);
         }
