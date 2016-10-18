@@ -1,4 +1,5 @@
-Hiker.java:9: error: ')' expected
-        for (String i : str.split(",") {
-                                      ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.....
+Time: 0.017
+
+OK (5 tests)

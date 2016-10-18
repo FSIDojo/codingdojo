@@ -6,7 +6,7 @@ public class Hiker {
             return 0;
         }
         int sum = 0;
-        for (String i : str.split(",") {
+        for (String i : str.split(",")) {
             sum = sum + Integer.parseInt(i);
         }
        return sum;  
