@@ -1,5 +1,10 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-......
-Time: 0.017
+..E.....
+Time: 0.02
+There was 1 failure:
+1) testNewLine2(HikerTest)
+java.lang.AssertionError: expected:<6> but was:<33>
+	at HikerTest.testNewLine2(HikerTest.java:52)
 
-OK (6 tests)
+FAILURES!!!
+Tests run: 7,  Failures: 1
