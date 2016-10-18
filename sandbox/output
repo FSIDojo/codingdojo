@@ -1,9 +1,9 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .E
-Time: 0.02
+Time: 0.015
 There was 1 failure:
 1) life_the_universe_and_everything(HikerTest)
-java.lang.AssertionError: expected:<42> but was:<54>
+java.lang.AssertionError: expected:<0> but was:<54>
 	at HikerTest.life_the_universe_and_everything(HikerTest.java:10)
 
 FAILURES!!!
