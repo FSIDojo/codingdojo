@@ -1,6 +1,5 @@
-StringCalculator.java:8: error: cannot find symbol
-        if(number.split(",").size() == 1){
-                            ^
-  symbol:   method size()
-  location: class String[]
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..
+Time: 0.013
+
+OK (2 tests)
