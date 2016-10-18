@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class StringCalTest {
 
     @Test
-    public void life_the_universe_and_everything() {
+    public void zero() {
         int expected = 0;
         int actual = Hiker.answer(null);
         assertEquals(expected, actual);

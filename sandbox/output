@@ -1,16 +1,31 @@
-Hiker.java:2: error: class StringCal is public, should be declared in a file named StringCal.java
-public class StringCal{
-       ^
-HikerTest.java:4: error: class StringCalTest is public, should be declared in a file named StringCalTest.java
-public class StringCalTest {
-       ^
-./Hiker.java:2: error: class StringCal is public, should be declared in a file named StringCal.java
-public class StringCal{
-       ^
-HikerTest.java:9: error: cannot access Hiker
+StringCalTest.java:9: error: cannot find symbol
         int actual = Hiker.answer(null);
                      ^
-  bad source file: ./Hiker.java
-    file does not contain class Hiker
-    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
-4 errors
+  symbol:   variable Hiker
+  location: class StringCalTest
+StringCalTest.java:17: error: cannot find symbol
+        int actual = Hiker.answer("1");
+                     ^
+  symbol:   variable Hiker
+  location: class StringCalTest
+StringCalTest.java:23: error: cannot find symbol
+        int actual = Hiker.answer("2");
+                     ^
+  symbol:   variable Hiker
+  location: class StringCalTest
+StringCalTest.java:30: error: cannot find symbol
+        int actual = Hiker.answer("1,");
+                     ^
+  symbol:   variable Hiker
+  location: class StringCalTest
+StringCalTest.java:36: error: cannot find symbol
+        int actual = Hiker.answer("1,2");
+                     ^
+  symbol:   variable Hiker
+  location: class StringCalTest
+StringCalTest.java:42: error: cannot find symbol
+        int actual = Hiker.answer("1,2,3,4");
+                     ^
+  symbol:   variable Hiker
+  location: class StringCalTest
+6 errors
