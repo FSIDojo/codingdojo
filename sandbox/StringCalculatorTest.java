@@ -11,4 +11,12 @@ public class StringCalculatorTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_add_with_one() {
+        int expected = 1;
+        String numbers = "1";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
+
 }

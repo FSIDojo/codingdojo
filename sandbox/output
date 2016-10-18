@@ -1,5 +1,10 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.
-Time: 0.011
+.E.
+Time: 0.027
+There was 1 failure:
+1) test_add_with_one(StringCalculatorTest)
+java.lang.AssertionError: expected:<1> but was:<54>
+	at StringCalculatorTest.test_add_with_one(StringCalculatorTest.java:19)
 
-OK (1 test)
+FAILURES!!!
+Tests run: 2,  Failures: 1
