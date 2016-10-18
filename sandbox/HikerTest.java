@@ -30,4 +30,11 @@ public class HikerTest {
         int actual = Hiker.answer("4");
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testUnknownLength() {
+        int expected = 100;
+        int actual = Hikcer.answer("10,20,30,40");
+        assertEquals(expected, actual);
+    }
 }
