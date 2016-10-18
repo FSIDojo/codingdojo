@@ -1,10 +1,21 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .....E...
-Time: 0.027
+Time: 0.024
 There was 1 failure:
 1) dynamicDelimiter(StringCalTest)
-java.lang.AssertionError: expected:<6> but was:<0>
-	at StringCalTest.dynamicDelimiter(StringCalTest.java:56)
+java.util.regex.PatternSyntaxException: Dangling meta character '?' near index 0
+?
+^
+	at java.util.regex.Pattern.error(Pattern.java:1955)
+	at java.util.regex.Pattern.sequence(Pattern.java:2123)
+	at java.util.regex.Pattern.expr(Pattern.java:1996)
+	at java.util.regex.Pattern.compile(Pattern.java:1696)
+	at java.util.regex.Pattern.<init>(Pattern.java:1351)
+	at java.util.regex.Pattern.compile(Pattern.java:1028)
+	at java.lang.String.split(String.java:2367)
+	at java.lang.String.split(String.java:2409)
+	at StringCal.answer(StringCal.java:10)
+	at StringCalTest.dynamicDelimiter(StringCalTest.java:55)
 
 FAILURES!!!
 Tests run: 8,  Failures: 1

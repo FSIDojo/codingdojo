@@ -4,9 +4,8 @@ public class StringCal{
     public static int answer(String str) {
         String delimiter = ",";
         if (str.startsWith("//")){
-            delimiter = str.split("\n")[0].substring(2);
+            delimiter = str.substring(2,3);
             str = str.split("\n")[1];
-            return 0;
         }
         return add(0, str.replaceAll("\n",delimiter ).split(delimiter ));  
     }
