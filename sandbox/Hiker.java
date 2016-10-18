@@ -2,13 +2,10 @@
 public class Hiker {
 
     public static int answer(String args) {
-            String[] rs = args.split(",");
-            int sum = 0;
-            for (int i=0; i< rs.length; i++) {
-                if (!"".equals(rs[i])) {
-                    sum += Integer.parseInt(rs[i]);           
-                } 
-            }
-            return sum;
+        int sum = 0;
+        for (String[] rs = args.split(","), int i=0; i< rs.length; i++) {
+            sum = sum + (rs[i].equeal("") ? 0 : Integer.parseInt(rs[i]));
+        }
+        return sum;
     }
 }
