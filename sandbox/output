@@ -1,9 +1,10 @@
-Hiker.java:12: error: incompatible types: String cannot be converted to String[]
-        return sb.toString();
-                          ^
-Hiker.java:17: error: cannot find symbol
-        String[] rs = split2(args).split(",");
-                                  ^
-  symbol:   method split(String)
-  location: class String[]
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...E...
+Time: 0.022
+There was 1 failure:
+1) testUnknownLength(HikerTest)
+java.lang.AssertionError: expected:<100> but was:<10>
+	at HikerTest.testUnknownLength(HikerTest.java:38)
+
+FAILURES!!!
+Tests run: 6,  Failures: 1
