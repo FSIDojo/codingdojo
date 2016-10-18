@@ -1,4 +1,10 @@
-StringCal.java:8: error: incompatible types: String[] cannot be converted to String
-            str = str.split("\n");
-                           ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.....E...
+Time: 0.027
+There was 1 failure:
+1) dynamicDelimiter(StringCalTest)
+java.lang.AssertionError: expected:<6> but was:<0>
+	at StringCalTest.dynamicDelimiter(StringCalTest.java:56)
+
+FAILURES!!!
+Tests run: 8,  Failures: 1

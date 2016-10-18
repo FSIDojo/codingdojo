@@ -5,7 +5,7 @@ public class StringCal{
         String delimiter = ",";
         if (str.startsWith("//")){
             delimiter = str.split("\n")[0].substring(2);
-            str = str.split("\n");
+            str = str.split("\n")[1];
             return 0;
         }
         return add(0, str.replaceAll("\n",delimiter ).split(delimiter ));  
