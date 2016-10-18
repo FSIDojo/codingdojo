@@ -52,5 +52,11 @@ public class HikerTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testNewLine3() {
+        int expected = 0;
+        int actual = Hiker.answer("//;\n1;2;10:20");
+        assertEquals(expected, actual);
+    }
     
 }
