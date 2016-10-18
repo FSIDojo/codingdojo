@@ -50,4 +50,12 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add(numbers);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test_add_with_new_line_v2(){
+        int expected = 6;
+        String numbers = "1\n2\n3";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
 }
