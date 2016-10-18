@@ -17,6 +17,7 @@ public class StringCalculator {
     private static int add(String... numbers){
         int ret = 0;
         for(String number : numbers){
+            if(!number.equals(""))
             ret += Integer.valueOf(number);            
         }
         return ret;
