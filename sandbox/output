@@ -1,14 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-..E.
-Time: 0.017
-There was 1 failure:
-1) testEmpty(HikerTest)
-java.lang.NumberFormatException: For input string: ""
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:592)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at Hiker.answer(Hiker.java:11)
-	at HikerTest.testEmpty(HikerTest.java:9)
+...
+Time: 0.016
 
-FAILURES!!!
-Tests run: 3,  Failures: 1
+OK (3 tests)
