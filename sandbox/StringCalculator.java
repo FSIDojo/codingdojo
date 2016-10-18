@@ -5,9 +5,12 @@ public class StringCalculator {
         if(number == null || "".equals(number)){
             return 0;
         }
-        number = number.replace("\n",",");
-        System.out.println(number);
-        return add(number.split(","));
+        String delimiter = ",";
+        if(number.startWith("//")){
+           delimiter = number.charAt(2);
+        }
+        number = number.replace("\n",delimiter);
+        return add(number.split(delimiter));
     }
 
 
