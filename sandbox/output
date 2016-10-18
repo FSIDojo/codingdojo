@@ -1,13 +1,6 @@
-Hiker.java:6: error: <identifier> expected
-        for (String[] rs = args.split(","), int i=0; i< rs.length; i++) {
-                                           ^
-Hiker.java:6: error: not a statement
-        for (String[] rs = args.split(","), int i=0; i< rs.length; i++) {
-                                                      ^
-Hiker.java:6: error: ')' expected
-        for (String[] rs = args.split(","), int i=0; i< rs.length; i++) {
-                                                                 ^
-Hiker.java:6: error: ';' expected
-        for (String[] rs = args.split(","), int i=0; i< rs.length; i++) {
-                                                                      ^
-4 errors
+Hiker.java:8: error: cannot find symbol
+            sum = sum + (rs[i].equeal("") ? 0 : Integer.parseInt(rs[i]));
+                              ^
+  symbol:   method equeal(String)
+  location: class String
+1 error
