@@ -18,5 +18,13 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add(numbers);
         assertEquals(expected, actual);
     }
+ 
+    @Test
+    public void test_add_with_two() {
+        int expected = 3;
+        String numbers = "1,2";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
 
 }
