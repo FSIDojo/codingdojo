@@ -1,4 +1,10 @@
-Hiker.java:4: error: <identifier> expected
-    public static int answer(String...) {
-                                      ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E
+Time: 0.018
+There was 1 failure:
+1) testEmpty(HikerTest)
+java.lang.AssertionError: expected:<0> but was:<54>
+	at HikerTest.testEmpty(HikerTest.java:10)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
