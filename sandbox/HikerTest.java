@@ -25,7 +25,7 @@ public class HikerTest {
     }
 
     @Test
-    public void OneAnd() {
+    public void oneAnd() {
         int expected = 1;
         int actual = Hiker.answer("1,");
         assertEquals(expected, actual);
