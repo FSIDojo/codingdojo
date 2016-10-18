@@ -1,9 +1,4 @@
-Hiker.java:9: error: cannot find symbol
-        if (token.startWith("//")) {
-                 ^
-  symbol:   method startWith(String)
-  location: variable token of type String
 Hiker.java:10: error: incompatible types: char cannot be converted to String
             del = token.charAt(3);
                               ^
-2 errors
+1 error
