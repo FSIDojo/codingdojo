@@ -5,7 +5,7 @@ public class StringCal{
         if(null == str || "".equals(str)) {
             return 0;
         }
-        return add(0, str.split(","));  
+        return add(0, str.replaceAll("\n",",").split(","));  
     }
 
     private static int add(int sum, String[] ints) {
