@@ -1,37 +1,55 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.E.E..E.E.E.E.E
-Time: 0.022
-There were 7 failures:
-1) testNewLine(HikerTest)
-java.lang.AssertionError: expected:<6> but was:<0>
-	at HikerTest.testNewLine(HikerTest.java:45)
-2) testNewLine2(HikerTest)
-java.lang.AssertionError: expected:<33> but was:<0>
-	at HikerTest.testNewLine2(HikerTest.java:52)
-3) testOne(HikerTest)
-java.lang.StringIndexOutOfBoundsException: String index out of range: 2
-	at java.lang.String.charAt(String.java:646)
-	at Hiker.convert(Hiker.java:8)
-	at Hiker.answer(Hiker.java:24)
-	at HikerTest.testOne(HikerTest.java:16)
-4) testEmpty(HikerTest)
-java.lang.StringIndexOutOfBoundsException: String index out of range: 2
-	at java.lang.String.charAt(String.java:646)
-	at Hiker.convert(Hiker.java:8)
-	at Hiker.answer(Hiker.java:24)
-	at HikerTest.testEmpty(HikerTest.java:9)
-5) testSpace(HikerTest)
-java.lang.StringIndexOutOfBoundsException: String index out of range: 2
-	at java.lang.String.charAt(String.java:646)
-	at Hiker.convert(Hiker.java:8)
-	at Hiker.answer(Hiker.java:24)
-	at HikerTest.testSpace(HikerTest.java:30)
-6) testUnknownLength(HikerTest)
-java.lang.AssertionError: expected:<100> but was:<90>
-	at HikerTest.testUnknownLength(HikerTest.java:38)
-7) test2(HikerTest)
-java.lang.AssertionError: expected:<4> but was:<0>
-	at HikerTest.test2(HikerTest.java:24)
-
-FAILURES!!!
-Tests run: 8,  Failures: 7
+Hiker.java:8: error: empty character literal
+        char del = '';
+                   ^
+Hiker.java:8: error: unclosed character literal
+        char del = '';
+                    ^
+Hiker.java:8: error: ';' expected
+        char del = '';
+                      ^
+Hiker.java:9: error: not a statement
+        if (token.startWith("//")) {
+           ^
+Hiker.java:9: error: ';' expected
+        if (token.startWith("//")) {
+                                  ^
+Hiker.java:16: error: empty character literal
+                if (token.charAt(i) != del && del !='') {
+                                                    ^
+Hiker.java:16: error: unclosed character literal
+                if (token.charAt(i) != del && del !='') {
+                                                     ^
+Hiker.java:16: error: ';' expected
+                if (token.charAt(i) != del && del !='') {
+                                                       ^
+Hiker.java:22: error: illegal start of type
+        return sb.toString();
+        ^
+Hiker.java:22: error: ';' expected
+        return sb.toString();
+              ^
+Hiker.java:22: error: illegal start of type
+        return sb.toString();
+                 ^
+Hiker.java:25: error: class, interface, or enum expected
+    public static int answer(String args) {
+                  ^
+Hiker.java:27: error: class, interface, or enum expected
+        String[] rs = convert(args).split(",");
+        ^
+Hiker.java:28: error: class, interface, or enum expected
+        for (int i=0; i< rs.length; i++) {
+        ^
+Hiker.java:28: error: class, interface, or enum expected
+        for (int i=0; i< rs.length; i++) {
+                      ^
+Hiker.java:28: error: class, interface, or enum expected
+        for (int i=0; i< rs.length; i++) {
+                                    ^
+Hiker.java:30: error: class, interface, or enum expected
+        }
+        ^
+Hiker.java:32: error: class, interface, or enum expected
+    }
+    ^
+18 errors
