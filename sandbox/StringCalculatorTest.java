@@ -11,5 +11,4 @@ public class StringCalculatorTest {
         assertEquals(expected, actual);
     }
 
-    
 }
