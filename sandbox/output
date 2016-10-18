@@ -1,14 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-..E..
-Time: 0.019
-There was 1 failure:
-1) oneAnd(HikerTest)
-java.lang.NumberFormatException: For input string: "1,"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at Hiker.answer(Hiker.java:8)
-	at HikerTest.oneAnd(HikerTest.java:30)
-
-FAILURES!!!
-Tests run: 4,  Failures: 1
+Hiker.java:12: error: ';' expected
+                    sum = sum + Integer.parseInt(ints[i])
+                                                         ^
+1 error

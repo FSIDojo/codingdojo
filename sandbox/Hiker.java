@@ -5,7 +5,14 @@ public class Hiker {
         if(null == str) {
             return 0;
         } else {
-            return Integer.parseInt(str);
+            String[] ints = str.split(",");
+            int sum = 0;
+            for(int i=0; i< ints.length();i++) {
+                if(ints[i] != null) {
+                    sum = sum + Integer.parseInt(ints[i])
+                }
+            }
+            return sum;
         }
         
     }
