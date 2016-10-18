@@ -1,5 +1,5 @@
 
-public class Hiker {
+public class StringCal{
 
     public static int answer(String str) {
         if(null == str || "".equals(str)) {

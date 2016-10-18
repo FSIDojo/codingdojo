@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class HikerTest {
+public class StringCalTest {
 
     @Test
     public void life_the_universe_and_everything() {
@@ -34,6 +34,12 @@ public class HikerTest {
     public void spaceAndOne() {
         int expected = 3;
         int actual = Hiker.answer("1,2");
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void anyStr() {
+        int expected = 10;
+        int actual = Hiker.answer("1,2,3,4");
         assertEquals(expected, actual);
     }
 }

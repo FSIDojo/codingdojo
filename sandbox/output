@@ -1,5 +1,16 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.018
-
-OK (5 tests)
+Hiker.java:2: error: class StringCal is public, should be declared in a file named StringCal.java
+public class StringCal{
+       ^
+HikerTest.java:4: error: class StringCalTest is public, should be declared in a file named StringCalTest.java
+public class StringCalTest {
+       ^
+./Hiker.java:2: error: class StringCal is public, should be declared in a file named StringCal.java
+public class StringCal{
+       ^
+HikerTest.java:9: error: cannot access Hiker
+        int actual = Hiker.answer(null);
+                     ^
+  bad source file: ./Hiker.java
+    file does not contain class Hiker
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+4 errors
