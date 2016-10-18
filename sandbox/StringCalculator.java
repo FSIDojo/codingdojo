@@ -20,6 +20,6 @@ public class StringCalculator {
             ret += Integer.valueOf(number);            
         }
 
-        return ret
+        return ret;
     }
 }
