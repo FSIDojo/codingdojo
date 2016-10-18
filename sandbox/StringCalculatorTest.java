@@ -35,4 +35,12 @@ public class StringCalculatorTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_add_with_unknown_amount_of_numbers(){
+        int expected = x;
+        String numbers = "1,2,3";
+        int actual = StringCalculator.add(numbers);
+        assertEquals(expected, actual);
+    }
+
 }

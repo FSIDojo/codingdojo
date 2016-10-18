@@ -2,7 +2,7 @@
 public class StringCalculator {
 
     public static int add(String number) {
-        if(number == null || number == ""){
+        if(number == null || "".equals(number)){
             return 0;
         }
 
