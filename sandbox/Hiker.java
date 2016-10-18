@@ -6,7 +6,8 @@ public class Hiker {
         for (int i = 0; i < token.length(); i++) {
              if (token.charAt(i) >= '0' && token.charAt(i) <= '9') {
                  sb.append(token.charAt(i));
-                 sb.append(',');
+             } else {
+                sb.append(',');
              }
         }
         return sb.toString();

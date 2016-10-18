@@ -1,10 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-...E...
-Time: 0.022
-There was 1 failure:
-1) testUnknownLength(HikerTest)
-java.lang.AssertionError: expected:<100> but was:<10>
-	at HikerTest.testUnknownLength(HikerTest.java:38)
+......
+Time: 0.019
 
-FAILURES!!!
-Tests run: 6,  Failures: 1
+OK (6 tests)
