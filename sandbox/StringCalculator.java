@@ -4,7 +4,7 @@ public class StringCalculator{
     public static int add(String numbers) {
         if (!"".equals(numbers)) {
             if (numbers.contains(",")) {
-                String[] numberArray = new String[]{"1", "2"};
+                String[] numberArray = numbers.split(",");
                 return Integer.parseInt(numberArray[0]) + Integer.parseInt(numberArray[1]);
             }
             return Integer.parseInt(numbers);
