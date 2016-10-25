@@ -3,7 +3,9 @@ public class StringCalculator{
     static final String SEPERATOR = ",";
 
     public static int add(String numbers) {
+    
         if (!"".equals(numbers)) {
+
             String[] numberArray = numbers.split(SEPERATOR);
             int result = 0;
             for (String number : numberArray) {
@@ -11,7 +13,7 @@ public class StringCalculator{
             }
             return result;
         }
-        return 0;
+        return valueOf(numbers);
     }
 
     private int valueOf(String number) {
