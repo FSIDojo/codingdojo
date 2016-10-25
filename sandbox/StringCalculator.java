@@ -3,17 +3,12 @@ public class StringCalculator{
     static final String SEPERATOR = ",";
 
     public int add(String numbers) {
-    
-        if (!"".equals(numbers)) {
-
             String[] numberArray = numbers.split(SEPERATOR);
             int result = 0;
             for (String number : numberArray) {
                 result += valueOf(number);
             }
             return result;
-        }
-        return valueOf(numbers);
     }
 
     private int valueOf(String number) {
