@@ -1,10 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-...E....
-Time: 0.025
-There was 1 failure:
-1) addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest)
-java.lang.AssertionError: expected:<-1> but was:<1>
-	at StringCalculatorTest.addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest.java:45)
+.......
+Time: 0.026
 
-FAILURES!!!
-Tests run: 7,  Failures: 1
+OK (7 tests)
