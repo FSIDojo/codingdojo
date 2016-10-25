@@ -1,77 +1,10 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-..E.E.E.E..E
-Time: 0.023
-There were 5 failures:
-1) addWithMultipleInput(StringCalculatorTest)
-java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
-*,{2}*
-^
-	at java.util.regex.Pattern.error(Pattern.java:1955)
-	at java.util.regex.Pattern.sequence(Pattern.java:2123)
-	at java.util.regex.Pattern.expr(Pattern.java:1996)
-	at java.util.regex.Pattern.compile(Pattern.java:1696)
-	at java.util.regex.Pattern.<init>(Pattern.java:1351)
-	at java.util.regex.Pattern.compile(Pattern.java:1028)
-	at java.util.regex.Pattern.matches(Pattern.java:1133)
-	at java.lang.String.matches(String.java:2108)
-	at StringCalculator.add(StringCalculator.java:11)
-	at StringCalculatorTest.addWithMultipleInput(StringCalculatorTest.java:33)
-2) addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest)
-java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
-*,{2}*
-^
-	at java.util.regex.Pattern.error(Pattern.java:1955)
-	at java.util.regex.Pattern.sequence(Pattern.java:2123)
-	at java.util.regex.Pattern.expr(Pattern.java:1996)
-	at java.util.regex.Pattern.compile(Pattern.java:1696)
-	at java.util.regex.Pattern.<init>(Pattern.java:1351)
-	at java.util.regex.Pattern.compile(Pattern.java:1028)
-	at java.util.regex.Pattern.matches(Pattern.java:1133)
-	at java.lang.String.matches(String.java:2108)
-	at StringCalculator.add(StringCalculator.java:11)
+...E....
+Time: 0.027
+There was 1 failure:
+1) addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest)
+java.lang.AssertionError: expected:<-1> but was:<1>
 	at StringCalculatorTest.addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest.java:45)
-3) addWithTwoInput(StringCalculatorTest)
-java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
-*,{2}*
-^
-	at java.util.regex.Pattern.error(Pattern.java:1955)
-	at java.util.regex.Pattern.sequence(Pattern.java:2123)
-	at java.util.regex.Pattern.expr(Pattern.java:1996)
-	at java.util.regex.Pattern.compile(Pattern.java:1696)
-	at java.util.regex.Pattern.<init>(Pattern.java:1351)
-	at java.util.regex.Pattern.compile(Pattern.java:1028)
-	at java.util.regex.Pattern.matches(Pattern.java:1133)
-	at java.lang.String.matches(String.java:2108)
-	at StringCalculator.add(StringCalculator.java:11)
-	at StringCalculatorTest.addWithTwoInput(StringCalculatorTest.java:27)
-4) addWithOneInput(StringCalculatorTest)
-java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
-*,{2}*
-^
-	at java.util.regex.Pattern.error(Pattern.java:1955)
-	at java.util.regex.Pattern.sequence(Pattern.java:2123)
-	at java.util.regex.Pattern.expr(Pattern.java:1996)
-	at java.util.regex.Pattern.compile(Pattern.java:1696)
-	at java.util.regex.Pattern.<init>(Pattern.java:1351)
-	at java.util.regex.Pattern.compile(Pattern.java:1028)
-	at java.util.regex.Pattern.matches(Pattern.java:1133)
-	at java.lang.String.matches(String.java:2108)
-	at StringCalculator.add(StringCalculator.java:11)
-	at StringCalculatorTest.addWithOneInput(StringCalculatorTest.java:21)
-5) addWithMultipleInputSplittedByNewLine(StringCalculatorTest)
-java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
-*,{2}*
-^
-	at java.util.regex.Pattern.error(Pattern.java:1955)
-	at java.util.regex.Pattern.sequence(Pattern.java:2123)
-	at java.util.regex.Pattern.expr(Pattern.java:1996)
-	at java.util.regex.Pattern.compile(Pattern.java:1696)
-	at java.util.regex.Pattern.<init>(Pattern.java:1351)
-	at java.util.regex.Pattern.compile(Pattern.java:1028)
-	at java.util.regex.Pattern.matches(Pattern.java:1133)
-	at java.lang.String.matches(String.java:2108)
-	at StringCalculator.add(StringCalculator.java:11)
-	at StringCalculatorTest.addWithMultipleInputSplittedByNewLine(StringCalculatorTest.java:39)
 
 FAILURES!!!
-Tests run: 7,  Failures: 5
+Tests run: 7,  Failures: 1
