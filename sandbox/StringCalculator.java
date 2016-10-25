@@ -7,7 +7,7 @@ public class StringCalculator{
                 String[] numberArray = numbers.split(",");
                 int result = 0;
                 for (String number : numberArray) {
-                    result += number;
+                    result += Integer.parseInt(number);
                 }
                 return result;
             }
