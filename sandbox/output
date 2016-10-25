@@ -1,4 +1,10 @@
-StringCalculatorTest.java:25: error: ';' expected
-        int expected = 1
-                        ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..E.
+Time: 0.018
+There was 1 failure:
+1) addWithOneInput(StringCalculatorTest)
+java.lang.AssertionError: expected:<1> but was:<0>
+	at StringCalculatorTest.addWithOneInput(StringCalculatorTest.java:27)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
