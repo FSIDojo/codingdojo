@@ -5,7 +5,7 @@ public class StringCalculator {
 
     public static int add(String input) {
        int validateResult = validateInput(input);
-       if (validateResult < =0 ){
+       if (validateResult <= 0 ){
           return validateResult;
        }
 

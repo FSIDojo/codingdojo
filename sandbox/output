@@ -1,4 +1,4 @@
-StringCalculator.java:8: error: illegal start of expression
-       if (validateResult < =0 ){
-                            ^
+StringCalculator.java:24: error: missing return statement
+    }
+    ^
 1 error
