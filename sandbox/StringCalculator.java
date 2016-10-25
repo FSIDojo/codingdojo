@@ -7,8 +7,8 @@ public class StringCalculator {
        }
        String[] splittedInput = input.split(",");
        if (splittedInput.length == 1)
-           return splittedInput[0];
+           return Integer.valueOf(splittedInput[0]);
        else if (splittedInput.length == 2) 
-           return  splittedInput[0] + splittedInput[1];
+           return  Integer.valueOf(splittedInput[0] + splittedInput[1]);
     }
 }
