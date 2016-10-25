@@ -10,8 +10,9 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void one_from_one() {
+    public void one_number_from_single_string() {
         assertEquals(1, caculator.add("1"));
+        assertEquals(2, caculator.add("2"));
     }
 
 
