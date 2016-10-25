@@ -1,11 +1,5 @@
-StringCalculator.java:7: error: cannot find symbol
-            if (numbers.contains(SPARATOR)) {
-                                 ^
-  symbol:   variable SPARATOR
-  location: class StringCalculator
-StringCalculator.java:8: error: cannot find symbol
-                String[] numberArray = numbers.split(SPARATOR);
-                                                     ^
-  symbol:   variable SPARATOR
-  location: class StringCalculator
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+....
+Time: 0.017
+
+OK (4 tests)
