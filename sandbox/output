@@ -1,10 +1,9 @@
-StringCalculator.java:20: error: illegal character: '\'
-            String[] numberArray = numbers.split(\n);
-                                                 ^
-StringCalculator.java:20: error: ';' expected
-            String[] numberArray = numbers.split(\n);
-                                                  ^
-StringCalculator.java:20: error: illegal start of expression
-            String[] numberArray = numbers.split(\n);
-                                                   ^
-3 errors
+StringCalculator.java:20: error: cannot find symbol
+            String[] numberArray = numbers.split("\n");
+                                   ^
+  symbol:   variable numbers
+  location: class StringCalculator
+StringCalculator.java:21: error: variable number is already defined in method valueOf(String)
+            for (String number : numberArray) {
+                        ^
+2 errors
