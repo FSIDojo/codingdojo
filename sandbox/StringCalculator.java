@@ -11,6 +11,6 @@ public class StringCalculator{
             }
             return result;
         }
-        return 0;
+        return Integer.parseInt("");
     }
 }
