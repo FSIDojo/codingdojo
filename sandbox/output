@@ -1,6 +1,5 @@
-StringCalculator.java:5: error: cannot find symbol
-       if(input == null || input.length == 0){ 
-                                ^
-  symbol:   variable length
-  location: variable input of type String
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..
+Time: 0.014
+
+OK (2 tests)
