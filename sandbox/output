@@ -1,5 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.017
-
-OK (5 tests)
+StringCalculator.java:8: error: cannot find symbol
+        if (number.contains("\n")) {
+            ^
+  symbol:   variable number
+  location: class StringCalculator
+StringCalculator.java:9: error: cannot find symbol
+            String[] numberArray = number.split("\n");
+                                   ^
+  symbol:   variable number
+  location: class StringCalculator
+2 errors
