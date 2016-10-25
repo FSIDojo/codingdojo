@@ -11,6 +11,13 @@ public class StringCalculator{
             }
             return result;
         }
-        return Integer.valueOf("");
+        return 0;
+    }
+
+    private int valueOf(String number) {
+        if (!"".equals(number)) {
+            return Integer.parseInt(number);
+        }
+        return 0;        
     }
 }
