@@ -24,5 +24,10 @@ public class StringCalculatorTest {
     public void sum_number_from_three_string() {
         assertEquals(10, caculator.add("1,2,7"));
     }
+
+    @Test
+    public void should_accept_newline_seperator() {
+        assertEquals(10, caculator.add("1\n2,7"));
+    }
     
 }
