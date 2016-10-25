@@ -26,4 +26,12 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add(input);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void addWithTowInput() {
+        String input = "1,2";
+        int expected = 3;
+        int actual = StringCalculator.add(input);
+        assertEquals(expected, actual);
+    }
 }
