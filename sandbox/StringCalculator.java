@@ -3,7 +3,7 @@ public class StringCalculator{
 
     public static int add(String arg) {
         if (!"".equals(arg)) {
-            return 1;
+            return Integer.parseInt(arg);
         }
         return 0;
     }
