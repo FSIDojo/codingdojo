@@ -28,9 +28,17 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void addWithTowInput() {
+    public void addWithTwoInput() {
         String input = "1,2";
         int expected = 3;
+        int actual = StringCalculator.add(input);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void addWithMultipleInput() {
+        String input = "1,2,3";
+        int expected = 6;
         int actual = StringCalculator.add(input);
         assertEquals(expected, actual);
     }
