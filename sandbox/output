@@ -1,8 +1,10 @@
-StringCalculatorTest.java:8: error: incompatible types: String cannot be converted to int
-        int input = "";
-                    ^
-StringCalculatorTest.java:10: error: incompatible types: int cannot be converted to String
-        int actual = StringCalculator.add(input);
-                                          ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E
+Time: 0.016
+There was 1 failure:
+1) addWithEmpty(StringCalculatorTest)
+java.lang.AssertionError: expected:<42> but was:<54>
+	at StringCalculatorTest.addWithEmpty(StringCalculatorTest.java:11)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1

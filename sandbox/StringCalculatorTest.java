@@ -5,7 +5,7 @@ public class StringCalculatorTest {
 
     @Test
     public void addWithEmpty() {
-        int input = "";
+        String input = "";
         int expected = 42;
         int actual = StringCalculator.add(input);
         assertEquals(expected, actual);
