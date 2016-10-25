@@ -16,9 +16,9 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void one_number_from_two_string() {
+    public void sum_number_from_two_string() {
         assertEquals(3, caculator.add("1,2"));
     }
 
-
+    
 }
