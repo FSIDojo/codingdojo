@@ -32,4 +32,10 @@ public class StringCalculatorTest {
         String input = "1,2,3";
         assertEquals(6, StringCalculator.add(input));
     }
+
+    @Test
+    public void addWithMultipleInput() {
+        String input = "1\n2,3";
+        assertEquals(6, StringCalculator.add(input));
+    }
 }
