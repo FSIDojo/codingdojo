@@ -6,7 +6,7 @@ public class StringCalculator{
             if (numbers.contains(",")) {
                 String[] numberArray = numbers.split(",");
                 return Integer.parseInt(numberArray[0]) 
-                    + Integer.parseInt(numberArray[1])
+                    + Integer.parseInt(numberArray[1]);
             }
             return Integer.parseInt(numbers);
         }
