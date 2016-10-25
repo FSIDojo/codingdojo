@@ -27,7 +27,7 @@ public class StringCalculatorTest {
 
     @Test
     public void should_accept_newline_seperator() {
-        assertEquals(10, caculator.add("1\n2,7"));
+        assertEquals(10, caculator.add("1\n2"));
     }
     
 }
