@@ -1,5 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-....
-Time: 0.015
-
-OK (4 tests)
+StringCalculator.java:7: error: cannot find symbol
+            if (numbers.contains(SPARATOR)) {
+                                 ^
+  symbol:   variable SPARATOR
+  location: class StringCalculator
+1 error
