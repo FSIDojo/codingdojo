@@ -2,7 +2,7 @@
 public class StringCalculator{
     static final String SEPERATOR = ",";
 
-    public static int add(String numbers) {
+    public int add(String numbers) {
     
         if (!"".equals(numbers)) {
 
