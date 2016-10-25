@@ -34,7 +34,7 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void addWithMultipleInput() {
+    public void addWithMultipleInputSplittedByNewLine() {
         String input = "1\n2,3";
         assertEquals(6, StringCalculator.add(input));
     }
