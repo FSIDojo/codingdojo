@@ -38,4 +38,10 @@ public class StringCalculatorTest {
         String input = "1\n2,3";
         assertEquals(6, StringCalculator.add(input));
     }
+     
+    @Test
+    public void addWithMultipleInputSplittedByNewLineNotOk() {
+        String input = "1\n,";
+        assertEquals(-1, StringCalculator.add(input));
+    }
 }
