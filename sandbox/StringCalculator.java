@@ -5,6 +5,10 @@ public class StringCalculator {
        if(input == null || input.length() == 0){ 
            return 0;
        }
-       return Integer.valueOf(input);
+       String[] splittedInput = input.split(",");
+       if (splittedInput.length == 1)
+           return splittedInput[0];
+       else if (splittedInput.length == 2) 
+           return  splittedInput[0] + splittedInput[1];
     }
 }

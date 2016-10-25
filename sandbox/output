@@ -1,14 +1,7 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.E...
-Time: 0.017
-There was 1 failure:
-1) addWithTowInput(StringCalculatorTest)
-java.lang.NumberFormatException: For input string: "1,2"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.valueOf(Integer.java:766)
-	at StringCalculator.add(StringCalculator.java:8)
-	at StringCalculatorTest.addWithTowInput(StringCalculatorTest.java:34)
-
-FAILURES!!!
-Tests run: 4,  Failures: 1
+StringCalculator.java:10: error: incompatible types: String cannot be converted to int
+           return splittedInput[0];
+                               ^
+StringCalculator.java:12: error: incompatible types: String cannot be converted to int
+           return  splittedInput[0] + splittedInput[1];
+                                    ^
+2 errors
