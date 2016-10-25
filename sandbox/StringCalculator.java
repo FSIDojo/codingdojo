@@ -10,5 +10,6 @@ public class StringCalculator {
            return Integer.valueOf(splittedInput[0]);
        else if (splittedInput.length == 2) 
            return  Integer.valueOf(splittedInput[0] + splittedInput[1]);
+       return 0; 
     }
 }

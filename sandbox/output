@@ -1,4 +1,10 @@
-StringCalculator.java:13: error: missing return statement
-    }
-    ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E...
+Time: 0.022
+There was 1 failure:
+1) addWithTowInput(StringCalculatorTest)
+java.lang.AssertionError: expected:<3> but was:<12>
+	at StringCalculatorTest.addWithTowInput(StringCalculatorTest.java:35)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
