@@ -10,4 +10,14 @@ public class StringCalculatorTest {
         int actual = caculator.add("");
         assertEquals(expected, actual);
     }
+
+     @Test
+    public void one_from_one() {
+        StringCalculator caculator = new StringCalculator();
+        int expected = 1;
+        int actual = caculator.add("1");
+        assertEquals(expected, actual);
+    }
+
+
 }
