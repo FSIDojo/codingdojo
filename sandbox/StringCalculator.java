@@ -1,15 +1,17 @@
 
 public class StringCalculator {
 
+    private static final String COMMA_SPLITTER = ",";
+
     public static int add(String input) {
        if(input == null || input.length() == 0){ 
            return 0;
        }
-       input = input.replace("\n", ",");
-       if(input.contains(",,")){  
+       input = input.replace("\n", COMMA_SPLITTER);
+       if(input.match(COMMA_SPLITTER + "{2}")){  
           return -1;
        }
-       String[] splittedInput = input.split(",");
+       String[] splittedInput = input.split(COMMA_SPLITTER);
        return addArgs(splittedInput);
     }
 
