@@ -9,7 +9,7 @@ public class StringCalculator{
             String[] numberArray = numbers.split(SEPERATOR);
             int result = 0;
             for (String number : numberArray) {
-                result += Integer.parseInt(number);
+                result += valueOf(number);
             }
             return result;
         }
