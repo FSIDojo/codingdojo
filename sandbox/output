@@ -1,5 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.......
-Time: 0.023
-
-OK (7 tests)
+StringCalculator.java:8: error: illegal start of expression
+       if (validateResult < =0 ){
+                            ^
+1 error

@@ -4,6 +4,16 @@ public class StringCalculator {
     private static final String COMMA_SPLITTER = ",";
 
     public static int add(String input) {
+       int validateResult = validateInput(input);
+       if (validateResult < =0 ){
+          return validateResult;
+       }
+
+       String[] splittedInput = input.split(COMMA_SPLITTER);
+       return addArgs(splittedInput);
+    }
+
+    private static int validateInput(String input){
        if(input == null || input.length() == 0){ 
            return 0;
        }
@@ -11,8 +21,6 @@ public class StringCalculator {
        if(input.matches(".*?,{2}.*?")){  
           return -1;
        }
-       String[] splittedInput = input.split(COMMA_SPLITTER);
-       return addArgs(splittedInput);
     }
 
     private static int addArgs(String... number){
