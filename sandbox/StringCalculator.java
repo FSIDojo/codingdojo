@@ -1,12 +1,12 @@
 
 public class StringCalculator{
 
-    public static int add(String arg) {
-        if (!"".equals(arg)) {
+    public static int add(String numbers) {
+        if (!"".equals(numbers)) {
             if (arg.contains(",")) {
                 return 3;
             }
-            return Integer.parseInt(arg);
+            return Integer.parseInt(numbers);
         }
         return 0;
     }

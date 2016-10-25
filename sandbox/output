@@ -1,5 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...
-Time: 0.014
-
-OK (3 tests)
+StringCalculator.java:6: error: cannot find symbol
+            if (arg.contains(",")) {
+                ^
+  symbol:   variable arg
+  location: class StringCalculator
+1 error
