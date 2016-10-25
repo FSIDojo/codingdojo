@@ -5,8 +5,8 @@ public class StringCalculator{
     public int add(String numbers) {
         {
         int result = 0;
-        if (number.contains("\n")) {
-            String[] numberArray = number.split("\n");
+        if (numbers.contains("\n")) {
+            String[] numberArray = numbers.split("\n");
             for (String num : numberArray) {
                 result += valueOf(num);
             }
