@@ -6,6 +6,9 @@ public class StringCalculator {
            return 0;
        }
        input = input.replace("\n", ",");
+       if(input.contains(",,")){  
+          return -1;
+       }
        String[] splittedInput = input.split(",");
        return addArgs(splittedInput);
     }
