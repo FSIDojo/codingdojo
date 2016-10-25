@@ -1,10 +1,40 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...E....
-Time: 0.031
-There was 1 failure:
-1) addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest)
-java.lang.AssertionError: expected:<-1> but was:<1>
-	at StringCalculatorTest.addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest.java:45)
-
-FAILURES!!!
-Tests run: 7,  Failures: 1
+StringCalculator.java:11: error: ')' expected
+       if(input.matches("\" + COMMA_SPLITTER + "{2}")){  
+                                                ^
+StringCalculator.java:11: error: not a statement
+       if(input.matches("\" + COMMA_SPLITTER + "{2}")){  
+                                                 ^
+StringCalculator.java:11: error: ';' expected
+       if(input.matches("\" + COMMA_SPLITTER + "{2}")){  
+                                                  ^
+StringCalculator.java:11: error: unclosed string literal
+       if(input.matches("\" + COMMA_SPLITTER + "{2}")){  
+                                                   ^
+StringCalculator.java:12: error: illegal start of type
+          return -1;
+                 ^
+StringCalculator.java:12: error: ';' expected
+          return -1;
+                  ^
+StringCalculator.java:14: error: class, interface, or enum expected
+       String[] splittedInput = input.split(COMMA_SPLITTER);
+       ^
+StringCalculator.java:15: error: class, interface, or enum expected
+       return addArgs(splittedInput);
+       ^
+StringCalculator.java:16: error: class, interface, or enum expected
+    }
+    ^
+StringCalculator.java:18: error: class, interface, or enum expected
+    public static int addArgs(String... number){
+                  ^
+StringCalculator.java:20: error: class, interface, or enum expected
+        for(String temp : number){
+        ^
+StringCalculator.java:22: error: class, interface, or enum expected
+       }
+       ^
+StringCalculator.java:24: error: class, interface, or enum expected
+    }
+    ^
+13 errors
