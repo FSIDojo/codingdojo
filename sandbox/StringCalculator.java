@@ -7,9 +7,17 @@ public class StringCalculator {
        }
        String[] splittedInput = input.split(",");
        if (splittedInput.length == 1)
-           return Integer.valueOf(splittedInput[0]);
+           return addArgs(splittedInput);
        else if (splittedInput.length == 2) 
-           return  Integer.valueOf(splittedInput[0]) + Integer.valueOf(splittedInput[1]);
+           return addArgs(splittedInput);
        return 0; 
+    }
+
+    public static int addArgs(String... number){
+        int result = 0; 
+        for(String temp : number){
+           result += Integer.valueOf(temp);
+       }
+       return result;
     }
 }
