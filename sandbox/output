@@ -1,11 +1,9 @@
-StringCalculatorTest.java:8: error: cannot find symbol
-        StringCalculator caculator = new StringCalculator();
-        ^
-  symbol:   class StringCalculator
-  location: class StringCalculatorTest
-StringCalculatorTest.java:8: error: cannot find symbol
-        StringCalculator caculator = new StringCalculator();
-                                         ^
-  symbol:   class StringCalculator
-  location: class StringCalculatorTest
+Hiker.java:2: error: class StringCalculator is public, should be declared in a file named StringCalculator.java
+public class StringCalculator{
+       ^
+StringCalculatorTest.java:10: error: cannot find symbol
+        int actual = caculator.Add("");
+                              ^
+  symbol:   method Add(String)
+  location: variable caculator of type StringCalculator
 2 errors

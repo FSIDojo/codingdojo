@@ -1,7 +1,7 @@
 
-public class Hiker {
+public class StringCalculator{
 
-    public static int answer(String arg) {
-        return 6 * 9;
+    public static int add(String arg) {
+        return 0;
     }
 }
