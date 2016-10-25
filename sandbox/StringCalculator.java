@@ -8,7 +8,7 @@ public class StringCalculator {
            return 0;
        }
        input = input.replace("\n", COMMA_SPLITTER);
-       if(input.match(COMMA_SPLITTER + "{2}")){  
+       if(input.matches(COMMA_SPLITTER + "{2}")){  
           return -1;
        }
        String[] splittedInput = input.split(COMMA_SPLITTER);

@@ -1,6 +1,10 @@
-StringCalculator.java:11: error: cannot find symbol
-       if(input.match(COMMA_SPLITTER + "{2}")){  
-               ^
-  symbol:   method match(String)
-  location: variable input of type String
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...E....
+Time: 0.031
+There was 1 failure:
+1) addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest)
+java.lang.AssertionError: expected:<-1> but was:<1>
+	at StringCalculatorTest.addWithMultipleInputSplittedByNewLineNotOk(StringCalculatorTest.java:45)
+
+FAILURES!!!
+Tests run: 7,  Failures: 1
