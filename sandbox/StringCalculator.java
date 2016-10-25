@@ -17,9 +17,9 @@ public class StringCalculator{
             return Integer.parseInt(number);
         }
         if (number.contains("\n")) {
-            String[] numberArray = numbers.split("\n");
-            for (String number : numberArray) {
-                result += valueOf(number);
+            String[] numberArray = number.split("\n");
+            for (String num : numberArray) {
+                result += valueOf(num);
             }
             return result;
         }
