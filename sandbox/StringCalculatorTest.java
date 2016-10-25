@@ -15,5 +15,10 @@ public class StringCalculatorTest {
         assertEquals(2, caculator.add("2"));
     }
 
+    @Test
+    public void one_number_from_two_string() {
+        assertEquals(3, caculator.add("1,2"));
+    }
+
 
 }
