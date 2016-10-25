@@ -3,4 +3,9 @@ StringCalculator.java:7: error: cannot find symbol
                                  ^
   symbol:   variable SPARATOR
   location: class StringCalculator
-1 error
+StringCalculator.java:8: error: cannot find symbol
+                String[] numberArray = numbers.split(SPARATOR);
+                                                     ^
+  symbol:   variable SPARATOR
+  location: class StringCalculator
+2 errors

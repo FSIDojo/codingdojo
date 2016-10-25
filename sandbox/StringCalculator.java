@@ -5,7 +5,7 @@ public class StringCalculator{
     public static int add(String numbers) {
         if (!"".equals(numbers)) {
             if (numbers.contains(SPARATOR)) {
-                String[] numberArray = numbers.split(SEPERATOR);
+                String[] numberArray = numbers.split(SPARATOR);
                 int result = 0;
                 for (String number : numberArray) {
                     result += Integer.parseInt(number);
