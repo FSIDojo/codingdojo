@@ -7,7 +7,7 @@ public class StringCalculatorTest {
     public void zero_from_empty() {
         StringCalculator caculator = new StringCalculator();
         int expected = 0;
-        int actual = caculator.Add("");
+        int actual = caculator.add("");
         assertEquals(expected, actual);
     }
 }

@@ -1,9 +1,5 @@
-Hiker.java:2: error: class StringCalculator is public, should be declared in a file named StringCalculator.java
-public class StringCalculator{
-       ^
-StringCalculatorTest.java:10: error: cannot find symbol
-        int actual = caculator.Add("");
-                              ^
-  symbol:   method Add(String)
-  location: variable caculator of type StringCalculator
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.
+Time: 0.012
+
+OK (1 test)
