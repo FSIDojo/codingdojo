@@ -20,7 +20,7 @@ public class StringCalculatorTest {
         assertEquals(3, caculator.add("1,2"));
     }
 
-    //@Test
+    @Test
     public void sum_number_from_three_string() {
         assertEquals(10, caculator.add("1,2,7"));
     }
