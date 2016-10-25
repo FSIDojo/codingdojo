@@ -6,11 +6,7 @@ public class StringCalculator {
            return 0;
        }
        String[] splittedInput = input.split(",");
-       if (splittedInput.length == 1)
-           return addArgs(splittedInput);
-       else if (splittedInput.length == 2) 
-           return addArgs(splittedInput);
-       return 0; 
+       return addArgs(splittedInput);
     }
 
     public static int addArgs(String... number){
