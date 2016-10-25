@@ -9,7 +9,7 @@ public class StringCalculatorTest {
         assertEquals(0, caculator.add(""));
     }
 
-     @Test
+    @Test
     public void one_from_one() {
         assertEquals(1, caculator.add("1"));
     }
