@@ -1,4 +1,19 @@
-StringCalculator.java:24: error: missing return statement
-    }
-    ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+..E..E.E..E
+Time: 0.035
+There were 4 failures:
+1) addWithMultipleInput(StringCalculatorTest)
+java.lang.AssertionError: expected:<6> but was:<-2>
+	at StringCalculatorTest.addWithMultipleInput(StringCalculatorTest.java:33)
+2) addWithTwoInput(StringCalculatorTest)
+java.lang.AssertionError: expected:<3> but was:<-2>
+	at StringCalculatorTest.addWithTwoInput(StringCalculatorTest.java:27)
+3) addWithOneInput(StringCalculatorTest)
+java.lang.AssertionError: expected:<1> but was:<-2>
+	at StringCalculatorTest.addWithOneInput(StringCalculatorTest.java:21)
+4) addWithMultipleInputSplittedByNewLine(StringCalculatorTest)
+java.lang.AssertionError: expected:<6> but was:<-2>
+	at StringCalculatorTest.addWithMultipleInputSplittedByNewLine(StringCalculatorTest.java:39)
+
+FAILURES!!!
+Tests run: 7,  Failures: 4

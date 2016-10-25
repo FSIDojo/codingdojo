@@ -21,6 +21,7 @@ public class StringCalculator {
        if(input.matches(".*?,{2}.*?")){  
           return -1;
        }
+       return -2;
     }
 
     private static int addArgs(String... number){
