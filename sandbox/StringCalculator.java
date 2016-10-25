@@ -15,7 +15,7 @@ public class StringCalculator {
        return addArgs(splittedInput);
     }
 
-    public static int addArgs(String... number){
+    private static int addArgs(String... number){
         int result = 0; 
         for(String temp : number){
            result += Integer.valueOf(temp);
