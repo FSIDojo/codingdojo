@@ -33,7 +33,7 @@ public class StringCalculatorTest {
         try {
             int willFail = StringCalculator.add("1,\n");
         } catch (Exception e) {
-            assertEquals("Format error", e.message());
+            assertEquals("Format error", e.getMessage());
         }
     }
 }
