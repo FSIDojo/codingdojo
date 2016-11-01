@@ -18,4 +18,9 @@ public class StringCalculatorTest {
         assertEquals(3, StringCalculator.add("1,2"));
     }
 
+    @Test
+    public void should_return_sum_from_multiple_string() {
+        assertEquals(6, StringCalculator.add("1,2,3"));
+    }
+
 }
