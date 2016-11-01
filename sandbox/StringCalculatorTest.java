@@ -28,6 +28,8 @@ public class StringCalculatorTest {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 
+    @Rule ExpectedException thrown = ExpectedException.none();
+
     @Test(expected=NumberFormatException.class)
     public void should_throw_exception_if_format_error() {
          int willFail = StringCalculator.add("1\n,");
@@ -38,4 +40,11 @@ public class StringCalculatorTest {
     public void should_sum_if_different_delimiters() {
         assertEquals(3, StringCalculator.add("//;\n1;2"));
     }
+
+    @Test
+    public void should_throw_exception_to_negative_numbers() {
+        
+        
+    }
+
 }
