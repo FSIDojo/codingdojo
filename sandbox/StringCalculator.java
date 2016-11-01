@@ -6,11 +6,7 @@ public class StringCalculator {
     }
     
     private static int split_comma(String input){
-        String[] parts = input.split(",");
-        if(parts.length > 1){
-            return addAll(parts);
-        }
-        return Integer.valueOf(parts[0]);
+        return addAll(input.split(","));
     }
 
     private static int addAll(String... inputs){
