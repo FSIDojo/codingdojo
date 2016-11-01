@@ -32,6 +32,7 @@ public class StringCalculatorTest {
     public void should_throw_exception_if_format_error() {
         try {
             int willFail = StringCalculator.add("1,\n");
+            fail("shoud throw exception");
         } catch (Exception e) {
             assertEquals("Format error", e.getMessage());
         }
