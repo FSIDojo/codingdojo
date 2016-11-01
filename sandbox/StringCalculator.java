@@ -2,7 +2,6 @@
 public class StringCalculator {
 
     public static int add(String input) {
-        
-        return input == "" ?0 :1;
+        return input.equals("") ?0 :1;
     }
 }
