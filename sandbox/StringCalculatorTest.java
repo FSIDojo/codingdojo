@@ -3,6 +3,8 @@ import org.junit.rules.ExpectedException;
 import static org.junit.Assert.*;
 
 public class StringCalculatorTest {
+    @Rule public ExpectedException thrown = ExpectedException.none();
+
 
     @Test
     public void should_return_zero_from_empty() {
@@ -28,8 +30,6 @@ public class StringCalculatorTest {
     public void should_accept_newline_as_sparator() {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
-
-    @Rule ExpectedException thrown = ExpectedException.none();
 
     @Test(expected=NumberFormatException.class)
     public void should_throw_exception_if_format_error() {

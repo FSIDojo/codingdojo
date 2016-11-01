@@ -1,9 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.E
-Time: 0.014
-There was 1 failure:
-1) initializationError(StringCalculatorTest)
-java.lang.Exception: The @Rule 'thrown' must be public.
+........
+Time: 0.038
 
-FAILURES!!!
-Tests run: 1,  Failures: 1
+OK (8 tests)
