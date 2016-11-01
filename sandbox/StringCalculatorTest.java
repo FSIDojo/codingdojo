@@ -30,7 +30,7 @@ public class StringCalculatorTest {
 
     @Test(expected=NumberFormatException.class)
     public void should_throw_exception_if_format_error() {
-         int willFail = StringCalculator.add("1,\n");
+         int willFail = StringCalculator.add("1\n,");
          fail("should throw exception");
     }
 }
