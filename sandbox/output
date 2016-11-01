@@ -1,15 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.E...
-Time: 0.02
-There was 1 failure:
-1) should_return_zero_from_empty(StringCalculatorTest)
-java.lang.NumberFormatException: For input string: ""
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:592)
-	at java.lang.Integer.valueOf(Integer.java:766)
-	at StringCalculator.addAll(StringCalculator.java:11)
-	at StringCalculator.add(StringCalculator.java:5)
-	at StringCalculatorTest.should_return_zero_from_empty(StringCalculatorTest.java:8)
+....
+Time: 0.017
 
-FAILURES!!!
-Tests run: 4,  Failures: 1
+OK (4 tests)
