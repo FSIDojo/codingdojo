@@ -2,7 +2,7 @@
 public class StringCalculator {
 
     public static int add(String input) {
-        return addAll(input.split(","));
+        return addAll(input.split(",|\n"));
     }
 
     private static int addAll(String... inputs){
