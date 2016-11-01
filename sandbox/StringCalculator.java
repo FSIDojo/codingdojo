@@ -11,7 +11,6 @@ public class StringCalculator {
 
     private static int addAll(String... inputs){
         int result = 0;
-        System.out.println(inputs.length);
         for(String temp : inputs){
             if(temp.equals("")){
                 throw new NumberFormatException("Format error");            

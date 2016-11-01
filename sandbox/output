@@ -1,7 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.1
-E
-Time: 0.019
+.E.....
+Time: 0.023
 There was 1 failure:
 1) should_throw_exception_if_format_error(StringCalculatorTest)
 java.lang.Exception: Unexpected exception, expected<java.lang.NumberFormatException> but was<java.lang.AssertionError>
@@ -10,4 +9,4 @@ Caused by: java.lang.AssertionError: should throw exception
 	... 23 more
 
 FAILURES!!!
-Tests run: 1,  Failures: 1
+Tests run: 6,  Failures: 1
