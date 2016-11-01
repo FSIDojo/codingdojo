@@ -14,7 +14,7 @@ public class StringCalculator {
     private static int addAll(String... inputs){
         int result = 0;
         for(String temp : inputs){
-            if(temp.contains("-")){
+            if(temp.startsWith("-")){
                 throw new NumberFormatException("negatives not allowed " + temp);
             }
             result += Integer.valueOf(temp);
