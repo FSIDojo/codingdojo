@@ -10,8 +10,12 @@ public class StringCalculatorTest {
 
     @Test
     public void should_return_intvalue_from_single_string() {
-        assertEquals(1, StringCalculator.add("1"));
         assertEquals(2, StringCalculator.add("2"));
+    }
+
+    @Test
+    public void should_return_sum_from_two_string() {
+        assertEquals(3, StringCalculator.add("1,2"));
     }
 
 }
