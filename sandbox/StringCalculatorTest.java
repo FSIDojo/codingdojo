@@ -28,7 +28,7 @@ public class StringCalculatorTest {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 
-    @Test(expected="NumberFormatException.class")
+    @Test(expected=NumberFormatException.class)
     public void should_throw_exception_if_format_error() {
          int willFail = StringCalculator.add("1,\n");
          fail("should throw exception");
