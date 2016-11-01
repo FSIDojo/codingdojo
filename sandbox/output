@@ -1,5 +1,11 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-........
-Time: 0.027
+........E
+Time: 0.035
+There was 1 failure:
+1) should_throw_exception_to_negative_numbers(StringCalculatorTest)
+java.lang.AssertionError: Expected test to throw (an instance of java.lang.NumberFormatException and exception with message a string containing "negatives not allowed -2")
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:166)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:18)
 
-OK (8 tests)
+FAILURES!!!
+Tests run: 8,  Failures: 1
