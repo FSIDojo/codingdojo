@@ -25,6 +25,6 @@ public class StringCalculatorTest {
 
     @Test
     public void should_accept_newline_as_sparator() {
-        assertEquals(3, StringCalculator.add("1\n2"));
+        assertEquals(6, StringCalculator.add("1\n2,3"));
     }
 }
