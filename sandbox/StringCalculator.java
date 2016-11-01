@@ -4,12 +4,11 @@ public class StringCalculator {
     public static int add(String input) {
         if (input.equals("")) return 0;
         String delimiter = ",|\n";
-        String numbers = input;
         if(input.startsWith("//")){
             delimiter = input.substring(2,3);
-            numbers = input.substring(4);
+            input = input.substring(4);
         }
-        return addAll(numbers.split(delimiter, -1));
+        return addAll(input.split(delimiter, -1));
     }
 
     private static int addAll(String... inputs){
