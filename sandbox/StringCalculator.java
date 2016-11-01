@@ -2,6 +2,9 @@
 public class StringCalculator {
 
     public static int add(String input) {
+        if(input.contains(",\n")){
+            throw new NumberFormatException("Format error");
+        }
         return addAll(input.split(",|\n"));
     }
 
