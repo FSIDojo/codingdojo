@@ -7,7 +7,7 @@ public class StringCalculator {
     
     private static int splict_comma(String input){
         if(input.contains(",")){
-            String[] parts = new String[]{"1", "2"};
+            String[] parts = inputs.split(",");
             return Integer.valueOf(parts[0]) + Integer.valueOf(parts[1]);
         }
         return Integer.valueOf(input);
