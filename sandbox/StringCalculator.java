@@ -3,9 +3,6 @@ public class StringCalculator {
 
     public static int add(String input) {
         if (input.equals("")) return 0;
-        if(input.contains(",\n")){
-            throw new NumberFormatException("Format error");
-        }
         return addAll(input.split(",|\n", -1));
     }
 
