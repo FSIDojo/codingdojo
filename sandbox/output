@@ -1,5 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.......
-Time: 0.023
-
-OK (7 tests)
+StringCalculator.java:10: error: cannot find symbol
+            numbers = input.subString(5);
+                           ^
+  symbol:   method subString(int)
+  location: variable input of type String
+1 error
