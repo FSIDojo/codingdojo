@@ -3,6 +3,9 @@ public class StringCalculator {
 
     public static int add(String input) {
         if (input.equals("")) return 0;
+        if(input.contains("-")){
+            throw new NumberFormatException("negatives not allowed -2");
+        }
         String delimiter = ",|\n";
         if(input.startsWith("//")){
             delimiter = input.substring(2,3);
