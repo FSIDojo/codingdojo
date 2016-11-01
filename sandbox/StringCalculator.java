@@ -4,7 +4,9 @@ public class StringCalculator {
     public static int add(String input) {
         if (input.equals("")) return 0;
         if(input.startsWith("//;\n")){
-            return addAll("1;2".split(";", -1));
+            String delimiter = ";";
+            String nummbers = "1;2";
+            return addAll(numbers.split(delimiter, -1));
         }
         return addAll(input.split(",|\n", -1));
     }
