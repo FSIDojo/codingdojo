@@ -5,8 +5,9 @@ public class StringCalculator {
         if (input.equals("")) return 0;
         String delimiter = ",|\n";
         String numbers = input;
-        if(input.startsWith("//;\n")){
-            delimiter = ";";
+        if(input.startsWith("//")){
+            String[] parts = input.split("\n");
+            delimiter = parts[0].substring(2);
             numbers = input.substring(4);
         }
         return addAll(numbers.split(delimiter, -1));
