@@ -6,7 +6,7 @@ public class StringCalculator {
         if(input.contains(",\n")){
             throw new NumberFormatException("Format error");
         }
-        return addAll(input.split(",|\n"));
+        return addAll(input.split(",|\n", -1));
     }
 
     private static int addAll(String... inputs){
