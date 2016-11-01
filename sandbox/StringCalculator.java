@@ -8,8 +8,7 @@ public class StringCalculator {
     private static int splict_comma(String input){
         if(input.contains(",")){
             return 3;
-        }else{
-            return Integer.valueOf(input);
         }
+        return Integer.valueOf(input);
     }
 }
