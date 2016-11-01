@@ -27,4 +27,13 @@ public class StringCalculatorTest {
     public void should_accept_newline_as_sparator() {
         assertEquals(6, StringCalculator.add("1\n2,3"));
     }
+
+    @Test
+    public void should_throw_exception_if_format_error() {
+        try {
+            int willFail = StringCalculator.add("1,\n"));
+        } catch (e Exception) {
+            assertEquals("Format error", e.message());
+        }
+    }
 }
