@@ -3,9 +3,6 @@ public class StringCalculator {
 
     public static int add(String input) {
         if (input.equals("")) return 0;
-        if(input.contains("-")){
-            throw new NumberFormatException("negatives not allowed -2");
-        }
         String delimiter = ",|\n";
         if(input.startsWith("//")){
             delimiter = input.substring(2,3);
@@ -17,6 +14,9 @@ public class StringCalculator {
     private static int addAll(String... inputs){
         int result = 0;
         for(String temp : inputs){
+            if(temp.contains("-")){
+                throw new NumberFormatException("negatives not allowed -2");
+            }
             result += Integer.valueOf(temp);
         }
         return result;
