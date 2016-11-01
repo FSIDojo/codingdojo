@@ -5,7 +5,7 @@ public class StringCalculatorTest {
 
     @Test
     public void should_return_zero_from_empty() {
-        assertEquals(0, StringCalculator.add(input));
+        assertEquals(0, StringCalculator.add(""));
     }
 
 }
