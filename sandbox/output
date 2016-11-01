@@ -1,11 +1,6 @@
-StringCalculatorTest.java:35: error: cannot find symbol
-        } catch (e Exception) {
-                 ^
-  symbol:   class e
-  location: class StringCalculatorTest
 StringCalculatorTest.java:36: error: cannot find symbol
             assertEquals("Format error", e.message());
-                                         ^
-  symbol:   variable e
-  location: class StringCalculatorTest
-2 errors
+                                          ^
+  symbol:   method message()
+  location: variable e of type Exception
+1 error
