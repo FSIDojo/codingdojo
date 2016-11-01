@@ -3,12 +3,14 @@ public class StringCalculator {
 
     public static int add(String input) {
         if (input.equals("")) return 0;
+        String delimiter = ",|\n";
+        String numbers = input;
         if(input.startsWith("//;\n")){
-            String delimiter = ";";
-            String numbers = "1;2";
-            return addAll(numbers.split(delimiter, -1));
+            delimiter = ";";
+            numbers = "1;2";
+
         }
-        return addAll(input.split(",|\n", -1));
+        return addAll(numbers.split(delimiter, -1));
     }
 
     private static int addAll(String... inputs){
