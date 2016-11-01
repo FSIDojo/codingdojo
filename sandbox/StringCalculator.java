@@ -15,7 +15,7 @@ public class StringCalculator {
         int result = 0;
         for(String temp : inputs){
             if(temp.contains("-")){
-                throw new NumberFormatException("negatives not allowed -2");
+                throw new NumberFormatException("negatives not allowed " + temp);
             }
             result += Integer.valueOf(temp);
         }
