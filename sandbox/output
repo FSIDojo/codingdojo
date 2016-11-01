@@ -1,6 +1,17 @@
-StringCalculator.java:14: error: cannot find symbol
-        System.out.println(inputs.size());
-                                 ^
-  symbol:   method size()
-  location: variable inputs of type String[]
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.1
+E..1
+.2
+.3
+.3
+
+Time: 0.023
+There was 1 failure:
+1) should_throw_exception_if_format_error(StringCalculatorTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.NumberFormatException> but was<java.lang.AssertionError>
+Caused by: java.lang.AssertionError: should throw exception
+	at StringCalculatorTest.should_throw_exception_if_format_error(StringCalculatorTest.java:34)
+	... 23 more
+
+FAILURES!!!
+Tests run: 6,  Failures: 1
