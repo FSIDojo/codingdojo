@@ -33,9 +33,8 @@ public class StringCalculatorTest {
 
     @Test
     public void should_throw_exception_if_format_error() {
-         int willFail = StringCalculator.add("1\n,");
          thrown.expect(NumberFormatException.class);
-         fail("should throw exception");
+         int willFail = StringCalculator.add("1\n,");
     }
 
     @Test

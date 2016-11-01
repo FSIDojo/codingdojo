@@ -1,17 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.E.......
-Time: 0.022
-There was 1 failure:
-1) should_throw_exception_if_format_error(StringCalculatorTest)
-java.lang.NumberFormatException: For input string: ""
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:592)
-	at java.lang.Integer.valueOf(Integer.java:766)
-	at StringCalculator.addAll(StringCalculator.java:17)
-	at StringCalculator.add(StringCalculator.java:11)
-	at StringCalculatorTest.should_throw_exception_if_format_error(StringCalculatorTest.java:36)
-	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:154)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:18)
+........
+Time: 0.027
 
-FAILURES!!!
-Tests run: 8,  Failures: 1
+OK (8 tests)
