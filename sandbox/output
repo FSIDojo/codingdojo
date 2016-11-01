@@ -1,5 +1,16 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-....
-Time: 0.017
+.....E
+Time: 0.021
+There was 1 failure:
+1) should_accept_newline_as_sparator(StringCalculatorTest)
+java.lang.NumberFormatException: For input string: "1
+2"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at StringCalculator.addAll(StringCalculator.java:12)
+	at StringCalculator.add(StringCalculator.java:5)
+	at StringCalculatorTest.should_accept_newline_as_sparator(StringCalculatorTest.java:28)
 
-OK (4 tests)
+FAILURES!!!
+Tests run: 5,  Failures: 1
