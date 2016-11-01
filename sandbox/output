@@ -1,0 +1,10 @@
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E
+Time: 0.016
+There was 1 failure:
+1) StringCalculator(StringCalculatorTest)
+java.lang.AssertionError: expected:<42> but was:<54>
+	at StringCalculatorTest.StringCalculator(StringCalculatorTest.java:11)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
