@@ -13,7 +13,7 @@ public class StringCalculator {
         return Integer.valueOf(parts[0]);
     }
 
-    private static addAll(String... inputs){
+    private static int addAll(String... inputs){
         int result = 0;
         for(String temp : inputs){
             result += Integer.valueOf(temp) ;
