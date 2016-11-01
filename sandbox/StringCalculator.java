@@ -6,7 +6,7 @@ public class StringCalculator {
         String delimiter = ",|\n";
         String numbers = input;
         if(input.startsWith("//")){
-            delimiter = input.substring(2,1);
+            delimiter = input.substring(2,3);
             numbers = input.substring(4);
         }
         return addAll(numbers.split(delimiter, -1));

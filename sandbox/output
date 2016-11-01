@@ -1,12 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-...E....
-Time: 0.025
-There was 1 failure:
-1) should_sum_if_different_delimiters(StringCalculatorTest)
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(String.java:1954)
-	at StringCalculator.add(StringCalculator.java:9)
-	at StringCalculatorTest.should_sum_if_different_delimiters(StringCalculatorTest.java:39)
+.......
+Time: 0.023
 
-FAILURES!!!
-Tests run: 7,  Failures: 1
+OK (7 tests)
