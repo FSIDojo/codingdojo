@@ -1,4 +1,11 @@
-StringCalculatorTest.java:34: error: ';' expected
-            int willFail = StringCalculator.add("1,\n"));
-                                                       ^
-1 error
+StringCalculatorTest.java:35: error: cannot find symbol
+        } catch (e Exception) {
+                 ^
+  symbol:   class e
+  location: class StringCalculatorTest
+StringCalculatorTest.java:36: error: cannot find symbol
+            assertEquals("Format error", e.message());
+                                         ^
+  symbol:   variable e
+  location: class StringCalculatorTest
+2 errors
