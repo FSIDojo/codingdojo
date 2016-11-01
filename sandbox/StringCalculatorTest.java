@@ -33,4 +33,9 @@ public class StringCalculatorTest {
          int willFail = StringCalculator.add("1\n,");
          fail("should throw exception");
     }
+
+    @Test
+    public void should_sum_if_different_delimiters() {
+        assertEquals(3, StringCalculator.add("//;\n1;2"));
+    }
 }
