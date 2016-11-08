@@ -11,6 +11,13 @@ public class HikerTest {
     }
 
     @Test
+    public void one() {
+        int expected = 1;
+        int actual = Hiker.add("1");
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void oneTwo() {
         int expected = 3;
         int actual = Hiker.add("1,2");
