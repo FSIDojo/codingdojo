@@ -1,14 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-..E..
-Time: 0.015
-There was 1 failure:
-1) get_x_add_y_add_z_with_two_delimater(StringCalculatorTest)
-java.lang.NumberFormatException: For input string: "2,3"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.valueOf(Integer.java:766)
-	at StringCalculator.add(StringCalculator.java:13)
-	at StringCalculatorTest.get_x_add_y_add_z_with_two_delimater(StringCalculatorTest.java:23)
+....
+Time: 0.014
 
-FAILURES!!!
-Tests run: 4,  Failures: 1
+OK (4 tests)
