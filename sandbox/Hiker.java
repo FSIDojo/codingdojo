@@ -1,7 +1,7 @@
 
 public class Hiker {
 
-    public static int answer(String param) throws Exception {
+    public static int answer(String param) throws RuntimeException {
         String[] splits = purify(param).split(",");
         
        return calc(splits);
@@ -18,7 +18,7 @@ public class Hiker {
         }
         
     }
-    private static int calc(String[] splits) throws Exception {
+    private static int calc(String[] splits) throws RuntimeException {
         int result = 0;
         String negatives = "";
         for (String s : splits) {
@@ -29,7 +29,7 @@ public class Hiker {
             result += Integer.parseInt(s);
         }
         if (negatives.length() > 0) {
-            throw new Exception(negatives);
+            throw new RuntimeException (negatives);
         }
         return result ;
     }
