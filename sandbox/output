@@ -1,10 +1,7 @@
 StringCalculator.java:9: error: ';' expected
-        retrun addArray(res);
+        retrun addArray(purky(numbers));
                        ^
-StringCalculator.java:9: error: not a statement
-        retrun addArray(res);
-                        ^
 StringCalculator.java:9: error: ';' expected
-        retrun addArray(res);
-                           ^
-3 errors
+        retrun addArray(purky(numbers));
+                                      ^
+2 errors

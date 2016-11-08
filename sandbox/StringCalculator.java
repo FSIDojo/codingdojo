@@ -5,8 +5,8 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        String[] res = purky(numbers);
-        retrun addArray(res);
+       // String[] res = 
+        retrun addArray(purky(numbers));
     }
     
     public static String[] purky(String numbers){    
