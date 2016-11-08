@@ -18,7 +18,7 @@ public class Hiker {
         }
         
     }
-    private static int calc(String[] splits) {
+    private static int calc(String[] splits) throws Exception {
         int result = 0;
         String negatives = "";
         for (String s : splits) {

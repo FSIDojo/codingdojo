@@ -1,4 +1,4 @@
-Hiker.java:32: error: unreported exception Exception; must be caught or declared to be thrown
-            throw new Exception(negatives);
-            ^
+Hiker.java:7: error: unreported exception Exception; must be caught or declared to be thrown
+       return calc(splits);
+                  ^
 1 error
