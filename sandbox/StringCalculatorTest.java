@@ -30,5 +30,9 @@ public class StringCalculatorTest {
         assertEquals(6, actual);
     }
 
-
+    @Test
+    public void add_with_delimiter() {
+        int actual = StringCalculator.add("//;\n1;2");
+        assertEquals(3, actual);
+    }
 }
