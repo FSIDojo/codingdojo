@@ -9,7 +9,7 @@ public class Hiker {
     }
 
     private static String purify(String raw) {
-        if(raw.startsWith("//")) {
+        if(!raw.startsWith("//")) {
             return raw.replace("\n",",");
         } else {
             String[] arry = raw.split("\n");
