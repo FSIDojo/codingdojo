@@ -1,9 +1,10 @@
 import org.junit.*;
 import static org.junit.Assert.*;
+import org.junit.rules.ExpectedException;
 
 public class StringCalculatorTest {
     @Rule
-    public ExpectedException thrown= ExpectedException.none();
+    public ExpectedException thrown = ExpectedException.none();
 
     @Test
     public void space() {
@@ -46,6 +47,7 @@ public class StringCalculatorTest {
     @Test
     public void add_with_delimiter_negative() {
         thrown.expect(RuntimeException.class);
+        thrown.expectMessage("negatives not allowed");
         StringCalculator.add("-1,2");
     }
 
