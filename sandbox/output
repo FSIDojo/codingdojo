@@ -1,4 +1,11 @@
-HikerTest.java:49: error: ';' expected
-    public void testNegative() throw RuntimeException  {
-                              ^
-1 error
+HikerTest.java:46: error: cannot find symbol
+    public ExpectedException expectedEx = ExpectedException.none(); 
+           ^
+  symbol:   class ExpectedException
+  location: class HikerTest
+HikerTest.java:46: error: cannot find symbol
+    public ExpectedException expectedEx = ExpectedException.none(); 
+                                          ^
+  symbol:   variable ExpectedException
+  location: class HikerTest
+2 errors
