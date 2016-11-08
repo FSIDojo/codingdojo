@@ -1,7 +1,7 @@
 
 public class Hiker {
 
-    public static int answer() {
-        return 6 * 9;
+    public static int add(String numbers) {
+        return 3;
     }
 }

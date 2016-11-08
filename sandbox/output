@@ -1,0 +1,4 @@
+HikerTest.java:9: error: ';' expected
+        String actual = Hiker.add("1,2")
+                                        ^
+1 error
