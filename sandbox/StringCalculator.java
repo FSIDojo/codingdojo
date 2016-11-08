@@ -1,5 +1,5 @@
 
-public class Hiker {
+public class StringCalculator{
 
     public static int add(String numbers) {
         if ("".equals(numbers)) {
