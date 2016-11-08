@@ -31,6 +31,16 @@ public class StringCalculatorTest {
     @Test(expected=Exception.class)
     public void throw_exception_if_not_define_delimiter() {
         int fail = new StringCalculator().add("1;3");
-        fail("Should fail");
+        fail("Should fail if not define different delimiter");
+    }
+
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+
+    @Test
+    public void throw_exception_if_has_negatives() {
+        thrown.expectMessage("negaives not allowed -3");
+        int fail = new StringCalculator().add("1,-3");
+        fail("Should fail if has negatives");        
     }
 }
