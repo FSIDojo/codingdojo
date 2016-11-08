@@ -9,7 +9,15 @@ public class Hiker {
     }
 
     private static String purify(String raw) {
-        return raw.replace("\n",",");
+        if(raw.startWith("//")) {
+            return raw.replace("\n",",");
+        } else {
+            String[] arry = raw.split("\n");
+            String delimiter = arry[0].subString(2);
+            return arry[1].split(delimiter);
+            
+        }
+        
     }
     private static int calc(String[] splits) {
         int result = 0;
