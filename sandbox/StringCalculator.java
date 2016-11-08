@@ -5,10 +5,17 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        String[] temp = numbers.split(",");
-        if(temp.length == 1){
-            return 1;
+        return add(numbers.split(",|\n"));
+    }
+    
+    public static int add(String[] numbers){
+        int result = 0;
+        if(numbers.length == 1){
+            return Integer.valueOf(numbers[0]);
         }
-        return 3;
+        for(String temp:numbers){
+            result += Integer.valueOf(temp);
+        }
+        return result;
     }
 }
