@@ -23,6 +23,12 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add("1,2");
         assertEquals(expected, actual);
     }
+    
+    @Test
+    public void add_with_new_line() {
+        int actual = StringCalculator.add("1\n2,3");
+        assertEquals(6, actual);
+    }
 
 
 }

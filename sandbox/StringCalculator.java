@@ -9,7 +9,6 @@ public class StringCalculator{
         if(temp.length == 1){
             return 1;
         }
-        //for(String a:temp)
         return 3;
     }
 }
