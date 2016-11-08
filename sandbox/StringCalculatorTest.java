@@ -17,4 +17,9 @@ public class StringCalculatorTest {
     public void two_string_get_x_add_y() {
         assertEquals(3, new StringCalculator().add("1,2"));
     }
+
+    @Test
+    public void two_string_get_x_add_y() {
+        assertEquals(6, new StringCalculator().add("1\n2,3"));
+    }
 }

@@ -1,5 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...
-Time: 0.014
-
-OK (3 tests)
+StringCalculatorTest.java:22: error: method two_string_get_x_add_y() is already defined in class StringCalculatorTest
+    public void two_string_get_x_add_y() {
+                ^
+1 error
