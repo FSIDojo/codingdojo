@@ -1,9 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.......E
-Time: 0.021
-There was 1 failure:
-1) add_with_delimiter_negative(StringCalculatorTest)
-java.lang.AssertionError: Expected exception: java.lang.Exception
-
-FAILURES!!!
-Tests run: 7,  Failures: 1
+StringCalculator.java:8: error: cannot find symbol
+        if(numbers.contain("-1")){
+                  ^
+  symbol:   method contain(String)
+  location: variable numbers of type String
+1 error
