@@ -1,5 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.......
-Time: 0.02
-
-OK (7 tests)
+HikerTest.java:49: error: ';' expected
+    public void testNegative() throw RuntimeException  {
+                              ^
+1 error

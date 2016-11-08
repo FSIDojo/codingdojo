@@ -40,10 +40,15 @@ public class HikerTest {
     public void testSlash() {
         int expected = 5;
         int actual = Hiker.answer("2;3");
-    }   
-    @Test(expected=Exception.class)
-    public void testNegative() {
-        int expected = 5;
+    }
+    
+    @Rule
+    public ExpectedException expectedEx = ExpectedException.none(); 
+  
+    @Test
+    public void testNegative() throw RuntimeException  {
         int actual = Hiker.answer("-2,3");
+        expectedEx.expect(RuntimeException.class);
+        expectedEx.expectMessage("-2,");
     }  
 }
