@@ -2,8 +2,8 @@
 public class StringCalculator {
 
     public static int add(String param) {
-        String delimiter = ",";
         int result=0;
+        String delimiter = ",";
         if (param.contains("\n")) {
             delimiter = "\n";
         }
