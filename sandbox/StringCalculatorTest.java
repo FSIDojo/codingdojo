@@ -28,7 +28,7 @@ public class StringCalculatorTest {
         assertEquals(4, new StringCalculator().add("//;\n1;3"));
     }
 
-    @Test(Expected=Exception.class)
+    @Test(expected=Exception.class)
     public void throw_exception_if_not_define_delimiter() {
         int fail = new StringCalculator().add("1;3");
         fail("Should fail");
