@@ -11,20 +11,17 @@ public class StringCalculator {
             return sumByDelimiter(param, delimiter);
         }
         if (!param.equals("")) {
-            String[] digits = param.split(delimiter);
-            for(String i: digits){
-                result += Integer.valueOf(i);
-            }
+            return sumByDelimiter(param, delimiter);
         }
         return result;
     }
 
     private int sumByDelimiter(String numbers, String delimiter) {
         int result=0;
-            String[] digits = numbers.split(delimiter);
-            for(String i: digits){
-                result += Integer.valueOf(i);
-            }
-            return result;
+        String[] digits = numbers.split(delimiter);
+        for(String i : digits){
+            result += Integer.valueOf(i);
+        }
+        return result;
     } 
 }
