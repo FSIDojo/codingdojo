@@ -2,6 +2,10 @@
 public class StringCalculator {
 
     public int add(String param) {
+        if (param.contains("-")) {
+            throw new RuntimeException("negaives not allowed -3");
+        }
+
         if (param.equals("")) {
             return 0;
         }
