@@ -20,6 +20,7 @@ public class StringCalculator {
     }
 
     private int sumByDelimiter(String numbers, String delimiter) {
+        int result=0;
             String[] digits = numbers.split(delimiter);
             for(String i: digits){
                 result += Integer.valueOf(i);
