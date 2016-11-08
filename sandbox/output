@@ -1,4 +1,4 @@
-HikerTest.java:9: error: ';' expected
-        String actual = Hiker.add("1,2")
-                                        ^
+HikerTest.java:9: error: incompatible types: int cannot be converted to String
+        String actual = Hiker.add("1,2");
+                                 ^
 1 error
