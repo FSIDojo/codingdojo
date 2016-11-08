@@ -28,7 +28,7 @@ public class Hiker {
             }
             result += Integer.parseInt(s);
         }
-        if (negatives.length > 0) {
+        if (negatives.length() > 0) {
             throw new Exception(negatives);
         }
         return result ;

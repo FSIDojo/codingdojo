@@ -1,6 +1,4 @@
-Hiker.java:31: error: cannot find symbol
-        if (negatives.length > 0) {
-                     ^
-  symbol:   variable length
-  location: variable negatives of type String
+Hiker.java:32: error: unreported exception Exception; must be caught or declared to be thrown
+            throw new Exception(negatives);
+            ^
 1 error
