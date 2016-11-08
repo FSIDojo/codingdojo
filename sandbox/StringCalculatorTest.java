@@ -19,7 +19,12 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void get_x_add_y_add_z_with_two_delimater() {
+    public void get_x_add_y_add_z_with_two_delimiter() {
         assertEquals(6, new StringCalculator().add("1\n2,3"));
+    }
+
+    @Test
+    public void could_define_delimiter() {
+        assertEquals(4, new StringCalculator().add("\\;\n1;3"));
     }
 }
