@@ -17,7 +17,7 @@ public class StringCalculator {
         int result=0;
         String[] digits = numbers.split(delimiter);
         for(String i : digits){
-            if (i.starts("-")) {
+            if (i.startsWith("-")) {
                 throw new RuntimeException("negaives not allowed -3");
             }
 
