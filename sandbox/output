@@ -1,4 +1,9 @@
-StringCalculator.java:9: error: ')' expected
-        if (numbers.startWith("//") {
-                                   ^
-1 error
+StringCalculator.java:9: error: cannot find symbol
+        if (numbers.startWith("//")) {
+                   ^
+  symbol:   method startWith(String)
+  location: variable numbers of type String
+StringCalculator.java:10: error: incompatible types: char cannot be converted to String
+            splitChar = numbers.charAt(2);
+                                      ^
+2 errors
