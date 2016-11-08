@@ -2,9 +2,6 @@
 public class StringCalculator{
 
     public static int add(String numbers) {
-        if ("".equals(numbers)) {
-            return 0;
-        }
         String splitChar = ",";
         if (numbers.startsWith("//")) {
             splitChar = numbers.charAt(2) + "";
