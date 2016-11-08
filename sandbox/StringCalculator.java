@@ -5,9 +5,11 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        if("1".equals(numbers)){
+        String[] temp = numbers.split(",");
+        if(temp.size == 1){
             return 1;
         }
+        //for(String a:temp)
         return 3;
     }
 }
