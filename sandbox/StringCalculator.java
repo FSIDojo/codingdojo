@@ -2,7 +2,7 @@
 public class StringCalculator {
 
     public static int add(String param) {
-        if (param.equals("1")) {
+        if (!param.equals("")) {
             return Integer.valueOf(param);
         }
         return 0;
