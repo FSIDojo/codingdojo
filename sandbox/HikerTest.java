@@ -40,5 +40,10 @@ public class HikerTest {
     public void testSlash() {
         int expected = 5;
         int actual = Hiker.answer("2;3");
-    }    
+    }   
+    @Test(expected=Exception.class)
+    public void testNegative() {
+        int expected = 5;
+        int actual = Hiker.answer("-2;3");
+    }  
 }
