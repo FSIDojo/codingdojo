@@ -2,18 +2,15 @@
 public class StringCalculator {
 
     public int add(String param) {
-        int result=0;
         String delimiter = ",|\n";
         if(param.startsWith("//")){
             delimiter = ";";
             param = "1;3";
-
-            return sumByDelimiter(param, delimiter);
         }
-        if (!param.equals("")) {
-            return sumByDelimiter(param, delimiter);
+        if (param.equals("")) {
+            return 0;
         }
-        return result;
+        return sumByDelimiter(param, delimiter);
     }
 
     private int sumByDelimiter(String numbers, String delimiter) {
