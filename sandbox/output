@@ -1,10 +1,10 @@
 StringCalculator.java:9: error: ';' expected
-        retrun add(res);
-                  ^
+        retrun addArray(res);
+                       ^
 StringCalculator.java:9: error: not a statement
-        retrun add(res);
-                   ^
+        retrun addArray(res);
+                        ^
 StringCalculator.java:9: error: ';' expected
-        retrun add(res);
-                      ^
+        retrun addArray(res);
+                           ^
 3 errors

@@ -6,7 +6,7 @@ public class StringCalculator{
             return 0;
         }
         String[] res = purky(numbers);
-        retrun add(res);
+        retrun addArray(res);
     }
     
     public static String[] purky(String numbers){    
@@ -18,7 +18,7 @@ public class StringCalculator{
         return numbers.split(splitChar + "|\n");
     }        
 
-    public static int add(String[] numbers){
+    public static int addArray(String[] numbers){
         int result = 0;
         for(String temp:numbers){
             result += Integer.valueOf(temp);
