@@ -14,7 +14,7 @@ public class Hiker {
         } else {
             String[] arry = raw.split("\n");
             String delimiter = arry[0].subString(2);
-            return arry[1].split(delimiter);
+            return arry[1].replace(delimiter, ",");
             
         }
         

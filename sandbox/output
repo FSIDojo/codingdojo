@@ -8,7 +8,4 @@ Hiker.java:16: error: cannot find symbol
                                       ^
   symbol:   method subString(int)
   location: class String
-Hiker.java:17: error: incompatible types: String[] cannot be converted to String
-            return arry[1].split(delimiter);
-                                ^
-3 errors
+2 errors
