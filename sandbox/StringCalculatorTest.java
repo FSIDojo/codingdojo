@@ -35,4 +35,10 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add("//;\n1;2");
         assertEquals(3, actual);
     }
+    
+    @Test(expected="Exception.class")
+    public void add_with_delimiter_issue() {
+        int actual = StringCalculator.add("1;2");
+    }
+
 }
