@@ -1,5 +1,9 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.......
+..E.....
 Time: 0.02
+There was 1 failure:
+1) testNegative(HikerTest)
+java.lang.AssertionError: Expected exception: java.lang.Exception
 
-OK (7 tests)
+FAILURES!!!
+Tests run: 7,  Failures: 1
