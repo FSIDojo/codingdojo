@@ -8,7 +8,7 @@ public class StringCalculator{
         String splitChar = ",";
         if (numbers.startsWith("//")) {
             splitChar = numbers.charAt(2) + "";
-            numbers = numbers.substring(6);
+            numbers = numbers.substring(4);
         }
         return add(numbers.split(splitChar + "|\n"));
     }
