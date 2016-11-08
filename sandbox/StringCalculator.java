@@ -7,7 +7,7 @@ public class StringCalculator {
         }
         String delimiter = ",|\n";
         if(param.startsWith("//")){
-            delimiter = ";";
+            delimiter = param.substring(2,1);
             param = param.substring(4);
         }
         return sumByDelimiter(param, delimiter);
