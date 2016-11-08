@@ -12,4 +12,9 @@ public class StringCalculatorTest {
     public void single_string_get_x() {
         assertEquals(1, new StringCalculator().add("1"));
     }
+
+    @Test
+    public void two_string_get_x_add_y() {
+        assertEquals(3, new StringCalculator().add("1,2"));
+    }
 }
