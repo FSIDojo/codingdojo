@@ -9,4 +9,10 @@ public class HikerTest {
         int actual = Hiker.answer("1");
         assertEquals(expected, actual);
     }
+    @Test
+    public void testadd3() {
+        int expected = 3;
+        int actual = Hiker.answer("1,2");
+        assertEquals(expected, actual);
+    }
 }
