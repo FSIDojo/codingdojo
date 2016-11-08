@@ -41,4 +41,10 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add("1;2");
     }
 
+    @Test(expected=Exception.class)
+    public void add_with_delimiter_negative() {
+        int actual = StringCalculator.add("-1,2");
+    }
+
+
 }
