@@ -20,7 +20,7 @@ public class StringCalculator{
     public static int addArray(String[] numbers){
         int result = 0;
         String message = "negatives not allowed";
-        String neg = ""
+        String neg = "";
         for(String temp:numbers){
             if(Integer.valueOf(temp) < 0) {
                 neg = neg + " " + Integer.valueOf(temp);

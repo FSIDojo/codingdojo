@@ -1,7 +1,4 @@
-StringCalculator.java:23: error: ';' expected
-        String neg = ""
-                       ^
 StringCalculator.java:30: error: ')' expected
         if(!neg.equals(""){
                           ^
-2 errors
+1 error
