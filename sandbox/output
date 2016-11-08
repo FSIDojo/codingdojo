@@ -1,11 +1,6 @@
-Hiker.java:12: error: cannot find symbol
-        if(raw.startWith("//")) {
-              ^
-  symbol:   method startWith(String)
-  location: variable raw of type String
 Hiker.java:16: error: cannot find symbol
             String delimiter = arry[0].subString(2);
                                       ^
   symbol:   method subString(int)
   location: class String
-2 errors
+1 error
