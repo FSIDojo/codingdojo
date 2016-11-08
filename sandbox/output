@@ -1,15 +1,5 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-......E..
-Time: 0.03
-There was 1 failure:
-1) add_with_delimiter_negatives(StringCalculatorTest)
-java.lang.AssertionError: 
-Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "negatives not allowed -1, -2")
-     but: was <java.lang.RuntimeException: negatives not allowed>
-	at org.junit.rules.ExpectedException.handleException(ExpectedException.java:182)
-	at org.junit.rules.ExpectedException.access$300(ExpectedException.java:73)
-	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:162)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:18)
+........
+Time: 0.033
 
-FAILURES!!!
-Tests run: 8,  Failures: 1
+OK (8 tests)

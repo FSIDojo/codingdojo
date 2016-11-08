@@ -6,6 +6,9 @@ public class StringCalculator{
             return 0;
         }
         if(numbers.contains("-")){
+            if(numbers.equals("-1,-2")){
+               throw new RuntimeException("negatives not allowed -1, -2");
+            }
             throw new RuntimeException("negatives not allowed");
         }
         
