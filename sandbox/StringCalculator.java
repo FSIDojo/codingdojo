@@ -6,7 +6,7 @@ public class StringCalculator{
             return 0;
         }
         String[] temp = numbers.split(",");
-        if(temp.size == 1){
+        if(temp.length == 1){
             return 1;
         }
         //for(String a:temp)
