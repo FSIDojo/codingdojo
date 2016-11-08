@@ -13,7 +13,7 @@ public class Hiker {
             return raw.replace("\n",",");
         } else {
             String[] arry = raw.split("\n");
-            String delimiter = arry[0].subString(2);
+            String delimiter = arry[0].substring(2);
             return arry[1].replace(delimiter, ",");
             
         }

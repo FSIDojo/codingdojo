@@ -1,6 +1,43 @@
-Hiker.java:16: error: cannot find symbol
-            String delimiter = arry[0].subString(2);
-                                      ^
-  symbol:   method subString(int)
-  location: class String
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E.E.E.E.E.E
+Time: 0.02
+There were 6 failures:
+1) testNewLine(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1918)
+	at Hiker.purify(Hiker.java:16)
+	at Hiker.answer(Hiker.java:5)
+	at HikerTest.testNewLine(HikerTest.java:29)
+2) testadd3digits(HikerTest)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at Hiker.purify(Hiker.java:17)
+	at Hiker.answer(Hiker.java:5)
+	at HikerTest.testadd3digits(HikerTest.java:22)
+3) testadd1(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1918)
+	at Hiker.purify(Hiker.java:16)
+	at Hiker.answer(Hiker.java:5)
+	at HikerTest.testadd1(HikerTest.java:9)
+4) testadd3(HikerTest)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at Hiker.purify(Hiker.java:17)
+	at Hiker.answer(Hiker.java:5)
+	at HikerTest.testadd3(HikerTest.java:15)
+5) testSlashAndNewLine(HikerTest)
+java.lang.NumberFormatException: For input string: "//;"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at Hiker.calc(Hiker.java:25)
+	at Hiker.answer(Hiker.java:7)
+	at HikerTest.testSlashAndNewLine(HikerTest.java:42)
+6) testNewLineAndComma(HikerTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1918)
+	at Hiker.purify(Hiker.java:16)
+	at Hiker.answer(Hiker.java:5)
+	at HikerTest.testNewLineAndComma(HikerTest.java:35)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
