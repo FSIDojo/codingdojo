@@ -1,5 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.015
-
-OK (5 tests)
+StringCalculator.java:25: error: cannot find symbol
+                result += Integer.valueOf(i);
+                ^
+  symbol:   variable result
+  location: class StringCalculator
+StringCalculator.java:27: error: cannot find symbol
+            return result;
+                   ^
+  symbol:   variable result
+  location: class StringCalculator
+2 errors
