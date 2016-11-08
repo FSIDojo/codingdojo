@@ -5,7 +5,7 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        if(numbers.contain("-1")){
+        if(numbers.contains("-")){
             throw new RuntimeException();
         }
         return addArray(purky(numbers));
