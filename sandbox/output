@@ -1,0 +1,6 @@
+HikerTest.java:8: error: cannot find symbol
+        int actual = new StringCalculator().add("");
+                         ^
+  symbol:   class StringCalculator
+  location: class HikerTest
+1 error
