@@ -35,4 +35,11 @@ public class HikerTest {
         int actual = Hiker.answer("1\n2,3");
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testSlashAndNewLine() {
+        int expected = 5;
+        int actual = Hiker.answer("//;\n2;3");
+        assertEquals(expected, actual);
+    }    
 }
