@@ -1,4 +1,5 @@
-StringCalculatorTest.java:39: error: incompatible types: String cannot be converted to Class<? extends Throwable>
-    @Test(expected="Exception.class")
-                   ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+......
+Time: 0.018
+
+OK (6 tests)
