@@ -6,7 +6,7 @@ public class StringCalculator{
             return 0;
         }
         if(numbers.contains("-")){
-            throw new RuntimeException();
+            throw new RuntimeException("negatives not allowed");
         }
         return addArray(purky(numbers));
     }

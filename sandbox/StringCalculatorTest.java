@@ -2,6 +2,8 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class StringCalculatorTest {
+    @Rule
+    public ExpectedException thrown= ExpectedException.none();
 
     @Test
     public void space() {
@@ -41,9 +43,10 @@ public class StringCalculatorTest {
         int actual = StringCalculator.add("1;2");
     }
 
-    @Test(expected=Exception.class)
+    @Test
     public void add_with_delimiter_negative() {
-        int actual = StringCalculator.add("-1,2");
+        thrown.expect(RuntimeException.class);
+        StringCalculator.add("-1,2");
     }
 
 
