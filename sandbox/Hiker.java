@@ -11,6 +11,6 @@ public class Hiker {
     }
 
     private static String purify(String raw) {
-        return param.replace("\n",",");
+        return raw.replace("\n",",");
     }
 }

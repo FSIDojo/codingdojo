@@ -1,6 +1,5 @@
-Hiker.java:14: error: cannot find symbol
-        return param.replace("\n",",");
-               ^
-  symbol:   variable param
-  location: class Hiker
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.....
+Time: 0.015
+
+OK (5 tests)
