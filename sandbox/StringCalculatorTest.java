@@ -51,5 +51,13 @@ public class StringCalculatorTest {
         StringCalculator.add("-1,2");
     }
 
+      @Test
+    public void add_with_delimiter_negative() {
+        thrown.expect(RuntimeException.class);
+        thrown.expectMessage("negatives not allowed -1, -2");
+        StringCalculator.add("-1,-2");
+    }
+
+
 
 }

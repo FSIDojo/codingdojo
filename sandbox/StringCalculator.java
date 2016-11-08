@@ -8,6 +8,7 @@ public class StringCalculator{
         if(numbers.contains("-")){
             throw new RuntimeException("negatives not allowed");
         }
+        
         return addArray(purky(numbers));
     }
     
