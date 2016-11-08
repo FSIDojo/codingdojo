@@ -47,9 +47,9 @@ public class HikerTest {
     public ExpectedException expectedEx = ExpectedException.none(); 
   
     @Test
-    public void testNegative() throws RuntimeException  {
-        int actual = Hiker.answer("-2,3");
+    public void testNegative() throws RuntimeException  {       
         expectedEx.expect(RuntimeException.class);
         expectedEx.expectMessage("-2,");
+        int actual = Hiker.answer("-2,3");
     }  
 }
