@@ -27,7 +27,7 @@ public class StringCalculator{
             }
             result += Integer.valueOf(temp);
         }
-        if(!neg.equals(""){
+        if(!neg.equals("")) {
             throw new RuntimeException(message + neg);
         }    
         return result;
