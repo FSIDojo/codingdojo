@@ -1,4 +1,22 @@
-Hiker.java:7: error: unreported exception Exception; must be caught or declared to be thrown
-       return calc(splits);
-                  ^
-1 error
+HikerTest.java:9: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("1");
+                                 ^
+HikerTest.java:15: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("1,2");
+                                 ^
+HikerTest.java:22: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("1,2,4");
+                                 ^
+HikerTest.java:29: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("1\n2");
+                                 ^
+HikerTest.java:35: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("1\n2,3");
+                                 ^
+HikerTest.java:42: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("2;3");
+                                 ^
+HikerTest.java:47: error: unreported exception Exception; must be caught or declared to be thrown
+        int actual = Hiker.answer("-2,3");
+                                 ^
+7 errors

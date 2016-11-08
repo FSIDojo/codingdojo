@@ -1,7 +1,7 @@
 
 public class Hiker {
 
-    public static int answer(String param) {
+    public static int answer(String param) throws Exception {
         String[] splits = purify(param).split(",");
         
        return calc(splits);
