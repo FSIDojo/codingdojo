@@ -5,7 +5,11 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        return add(numbers.split(",|\n"));
+        String splitChar = ",";
+        if (numbers.startWith("//") {
+            splitChar = numbers.charAt(2);
+        }
+        return add(numbers.split(splitChar + "|\n"));
     }
     
     public static int add(String[] numbers){
