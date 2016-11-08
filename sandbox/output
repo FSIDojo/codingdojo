@@ -1,9 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-..E.....
-Time: 0.02
-There was 1 failure:
-1) testNegative(HikerTest)
-java.lang.AssertionError: Expected exception: java.lang.Exception
-
-FAILURES!!!
-Tests run: 7,  Failures: 1
+Hiker.java:31: error: cannot find symbol
+        if (negatives.length > 0) {
+                     ^
+  symbol:   variable length
+  location: variable negatives of type String
+1 error
