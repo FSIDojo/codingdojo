@@ -6,7 +6,7 @@ public class StringCalculator{
             return 0;
         }
        // String[] res = 
-        retrun addArray(purky(numbers));
+        return addArray(purky(numbers));
     }
     
     public static String[] purky(String numbers){    
