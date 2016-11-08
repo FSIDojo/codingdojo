@@ -2,13 +2,13 @@
 public class StringCalculator {
 
     public int add(String param) {
+        if (param.equals("")) {
+            return 0;
+        }
         String delimiter = ",|\n";
         if(param.startsWith("//")){
             delimiter = ";";
             param = "1;3";
-        }
-        if (param.equals("")) {
-            return 0;
         }
         return sumByDelimiter(param, delimiter);
     }
