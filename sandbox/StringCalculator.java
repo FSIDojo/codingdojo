@@ -5,7 +5,7 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        String [] res = purky(numbers);
+        String[] res = purky(numbers);
         retrun add(res);
     }
     
