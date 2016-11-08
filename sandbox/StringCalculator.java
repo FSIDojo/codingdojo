@@ -5,13 +5,6 @@ public class StringCalculator{
         if ("".equals(numbers)) {
             return 0;
         }
-        if(numbers.contains("-")){
-            if(numbers.equals("-1,-2")){
-               throw new RuntimeException("negatives not allowed -1, -2");
-            }
-            throw new RuntimeException("negatives not allowed");
-        }
-        
         return addArray(purky(numbers));
     }
     
@@ -26,9 +19,17 @@ public class StringCalculator{
 
     public static int addArray(String[] numbers){
         int result = 0;
+        String message = "negatives not allowed";
+        String neg = ""
         for(String temp:numbers){
+            if(Integer.valueOf(temp) < 0) {
+                neg = neg + " " + Integer.valueOf(temp);
+            }
             result += Integer.valueOf(temp);
         }
+        if(!neg.equals(""){
+            throw new RuntimeException(message + neg);
+        }    
         return result;
     }
 }
