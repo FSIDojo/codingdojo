@@ -25,6 +25,6 @@ public class StringCalculatorTest {
 
     @Test
     public void could_define_delimiter() {
-        assertEquals(4, new StringCalculator().add("\\;\n1;3"));
+        assertEquals(4, new StringCalculator().add("//;\n1;3"));
     }
 }
