@@ -20,6 +20,6 @@ public class StringCalculatorTest {
 
     @Test
     public void get_x_add_y_add_z_with_two_delimater() {
-        assertEquals(6, new StringCalculator().add("1\n2,3"));
+        assertEquals(3, new StringCalculator().add("1\n2"));
     }
 }
