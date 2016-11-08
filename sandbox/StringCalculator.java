@@ -2,10 +2,6 @@
 public class StringCalculator {
 
     public int add(String param) {
-        if (param.contains("-")) {
-            throw new RuntimeException("negaives not allowed -3");
-        }
-
         if (param.equals("")) {
             return 0;
         }
@@ -18,6 +14,10 @@ public class StringCalculator {
     }
 
     private int sumByDelimiter(String numbers, String delimiter) {
+        if (numbers.contains("-")) {
+            throw new RuntimeException("negaives not allowed -3");
+        }
+
         int result=0;
         String[] digits = numbers.split(delimiter);
         for(String i : digits){
