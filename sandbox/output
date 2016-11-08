@@ -1,0 +1,10 @@
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E
+Time: 0.014
+There was 1 failure:
+1) testadd1(HikerTest)
+java.lang.AssertionError: expected:<1> but was:<54>
+	at HikerTest.testadd1(HikerTest.java:10)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
