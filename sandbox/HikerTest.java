@@ -36,10 +36,9 @@ public class HikerTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(expected=Exception.class)
     public void testSlash() {
         int expected = 5;
         int actual = Hiker.answer("2;3");
-        assertEquals(expected, actual);
     }    
 }
