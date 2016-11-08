@@ -14,13 +14,13 @@ public class StringCalculator {
     }
 
     private int sumByDelimiter(String numbers, String delimiter) {
-        if (numbers.contains("-")) {
-            throw new RuntimeException("negaives not allowed -3");
-        }
-
         int result=0;
         String[] digits = numbers.split(delimiter);
         for(String i : digits){
+            if (i.starts("-")) {
+                throw new RuntimeException("negaives not allowed -3");
+            }
+
             result += Integer.valueOf(i);
         }
         return result;
