@@ -42,6 +42,5 @@ public class StringCalculatorTest {
     public void throw_exception_if_has_negatives() {
         thrown.expectMessage("negaives not allowed -3");
         int fail = new StringCalculator().add("1,-3");
-        fail("Should fail if has negatives");        
     }
 }
