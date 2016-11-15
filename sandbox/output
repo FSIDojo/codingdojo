@@ -1,9 +1,9 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 ..E...
-Time: 0.282
+Time: 0.277
 There was 1 failure:
 1) testParser(NumberParserTest)
-java.lang.AssertionError: expected:<null> but was:<[I@1f17ae12>
+java.lang.AssertionError: expected:<[I@1f17ae12> but was:<[I@4d405ef7>
 	at org.junit.Assert.fail(Assert.java:92)
 	at org.junit.Assert.failNotEquals(Assert.java:646)
 	at org.junit.Assert.assertEquals(Assert.java:127)
