@@ -9,4 +9,9 @@ public class AcceptanceTest {
         assertEquals(4, calculator.add("1,3")); 
     }
 
+    @Test
+    public void shoud_add_numbers_in_string2() {
+        StringCalculator calculator = new StringCalculator(new NumberParser());
+        assertEquals(6, calculator.add("1\n2,3")); 
+    }
 }
