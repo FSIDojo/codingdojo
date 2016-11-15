@@ -8,12 +8,12 @@ public class StingCalculatorTest {
     public void should_parse_number_from_text_and_sum () {
         //Given
         NumberParser parser = mock(NumberParser.class);
-        int[] shouldReturn = new int[]{1,2};
-        when(parser.parse("1,2")).thenReturn(shouldReturn);
+        int[] shouldReturn = new int[]{2,3};
+        when(parser.parse("2,3")).thenReturn(shouldReturn);
         StringCalculator calculator = new StringCalculator(parser);
         //When
-        int result = calculator.add("1,2");
+        int result = calculator.add("2,3");
         //Then
-        assertEquals(result, 3);
+        assertEquals(result, 5);
     }
 }
