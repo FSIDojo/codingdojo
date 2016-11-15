@@ -1,11 +1,5 @@
-NumberParser.java:5: error: cannot find symbol
-        int result[] = new int[arr.length()];
-                                  ^
-  symbol:   method length()
-  location: variable arr of type String[]
-NumberParser.java:6: error: cannot find symbol
-        for(int i = 0; i < arr.length(); i ++) {
-                              ^
-  symbol:   method length()
-  location: variable arr of type String[]
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...
+Time: 0.269
+
+OK (3 tests)
