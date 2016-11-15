@@ -1,5 +1,10 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...
-Time: 0.27
-
-OK (3 tests)
+NumberParser.java:5: error: ']' expected
+        int result[arr.length()] = {};
+                   ^
+NumberParser.java:5: error: illegal start of expression
+        int result[arr.length()] = {};
+                      ^
+NumberParser.java:5: error: ';' expected
+        int result[arr.length()] = {};
+                             ^
+3 errors
