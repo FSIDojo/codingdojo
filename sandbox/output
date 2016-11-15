@@ -1,10 +1,11 @@
-StingCalculatorTest.java:11: error: illegal start of expression
-        int[] shouldReturn = [1,2];
-                             ^
-StingCalculatorTest.java:11: error: not a statement
-        int[] shouldReturn = [1,2];
-                              ^
-StingCalculatorTest.java:11: error: ';' expected
-        int[] shouldReturn = [1,2];
-                               ^
-3 errors
+StingCalculatorTest.java:12: error: cannot find symbol
+        when(parse.parse("1,2")).thenReturn(shouldReturn);
+             ^
+  symbol:   variable parse
+  location: class StingCalculatorTest
+StingCalculatorTest.java:17: error: cannot find symbol
+        AssertEqual(result, 3);
+        ^
+  symbol:   method AssertEqual(int,int)
+  location: class StingCalculatorTest
+2 errors
