@@ -7,9 +7,15 @@ public class StringCalculator {
     }
 
     public int add(String text) {
+        int[] resultArray = null;
+        int result;
         if (parser != null) {
-            parser.parse(text);
+            resultArray = parser.parse(text);
         }
-        return 3;
+
+        if(resultArray != null) {
+            result = resultArray[0] + resultArray[1];
+        }        
+        return result ;
     }
 }
