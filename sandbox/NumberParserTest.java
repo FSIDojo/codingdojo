@@ -11,7 +11,7 @@ public class NumberParserTest {
         //When
         int[] resultArray = parser.parse("");
         //Then
-        assertEquals(resultArray, new int[0]);
+        assertArrayEquals(resultArray, new int[0]);
     }
 
 }
