@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 ...E...
-Time: 0.273
+Time: 0.283
 There was 1 failure:
 1) testParse2(NumberParserTest)
 java.lang.AssertionError: expected:<3> but was:<2>
