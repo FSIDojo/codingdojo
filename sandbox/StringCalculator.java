@@ -9,7 +9,12 @@ public class StringCalculator {
     public int add(String text) {
         if (parser != null) {
            int[] temp = parser.parse(text);
-           return temp[0] + temp[1]; 
+            
+            int result = 0;
+            for(int a: temp) {
+                result += a;
+            }
+           return result; 
         }
 
         return 4;
