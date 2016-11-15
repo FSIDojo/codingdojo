@@ -1,6 +1,6 @@
 StingCalculatorTest.java:17: error: cannot find symbol
-        AssertEqual(result, 3);
+        AssertEquals(result, 3);
         ^
-  symbol:   method AssertEqual(int,int)
+  symbol:   method AssertEquals(int,int)
   location: class StingCalculatorTest
 1 error
