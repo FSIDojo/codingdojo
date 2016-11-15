@@ -7,9 +7,11 @@ public class StringCalculator {
     }
 
     public int add(String text) {
+        int[] temp;
         if (parser != null) {
-            parser.parse(text);
+           temp = parser.parse(text);
         }
-        return 3;
+        
+        return temp[0] + temp[1];
     }
 }
