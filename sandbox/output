@@ -1,5 +1,28 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-..
-Time: 0.28
-
-OK (2 tests)
+StingCalculatorTest.java:11: error: '.class' expected
+        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+                                                 ^
+StingCalculatorTest.java:11: error: ';' expected
+        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+                                                  ^
+StingCalculatorTest.java:11: error: illegal start of expression
+        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+                                                   ^
+StingCalculatorTest.java:11: error: ';' expected
+        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+                                                    ^
+StingCalculatorTest.java:11: error: illegal start of type
+        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+                                                      ^
+StingCalculatorTest.java:16: error: invalid method declaration; return type required
+        AssertEqual(result, 3);
+        ^
+StingCalculatorTest.java:16: error: <identifier> expected
+        AssertEqual(result, 3);
+                          ^
+StingCalculatorTest.java:16: error: illegal start of type
+        AssertEqual(result, 3);
+                            ^
+StingCalculatorTest.java:18: error: class, interface, or enum expected
+}
+^
+9 errors
