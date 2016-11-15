@@ -1,10 +1,10 @@
 NumberParser.java:5: error: ']' expected
-        int result[arr.length] = {};
+        int result[arr.size()] = {};
                    ^
 NumberParser.java:5: error: illegal start of expression
-        int result[arr.length] = {};
+        int result[arr.size()] = {};
                       ^
 NumberParser.java:5: error: ';' expected
-        int result[arr.length] = {};
-                             ^
+        int result[arr.size()] = {};
+                           ^
 3 errors

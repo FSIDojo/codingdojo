@@ -2,8 +2,8 @@
 public class NumberParser {
     public int[] parse(String text) {
         String[] arr = text.split(",");
-        int result[arr.length] = {};
-        for(int i = 0; i < arr.length; i ++) {
+        int result[arr.size()] = {};
+        for(int i = 0; i < arr.size(); i ++) {
             result[i] = Integer.parseInt(arr[i]);
         }
         
