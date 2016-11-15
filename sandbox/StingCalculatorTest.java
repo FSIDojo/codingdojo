@@ -14,6 +14,6 @@ public class StingCalculatorTest {
         //When
         int result = calculator.add("1,2");
         //Then
-        AssertEquals(result, 3);
+        assertEquals(result, 3);
     }
 }
