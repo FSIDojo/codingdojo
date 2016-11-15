@@ -11,11 +11,14 @@ public class StringCalculator {
         int result;
         if (parser != null) {
             resultArray = parser.parse(text);
+            if(resultArray != null) {
+                result = resultArray[0] + resultArray[1];
+            }        
+            return result ;
+        } else {
+            return 3;
         }
 
-        if(resultArray != null) {
-            result = resultArray[0] + resultArray[1];
-        }        
-        return result ;
+
     }
 }

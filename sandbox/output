@@ -1,4 +1,4 @@
-StringCalculator.java:19: error: variable result might not have been initialized
-        return result ;
-               ^
+StringCalculator.java:17: error: variable result might not have been initialized
+            return result ;
+                   ^
 1 error
