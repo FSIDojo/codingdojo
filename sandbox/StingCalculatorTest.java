@@ -32,4 +32,18 @@ public class StingCalculatorTest {
 //then   
         assertEquals(7, result);
     }
+
+    @Test
+    public void should_parse_number_from_text_and_sum3 () {
+//given
+        NumberParser parser = mock(NumberParser.class);
+        int[] a = {};
+        when(parser.parse("")).thenReturn(a);
+        StringCalculator calculator = new StringCalculator(parser);
+//when
+        int result = calculator.add("");
+
+//then   
+        assertEquals(0, result);
+    }
 }
