@@ -9,7 +9,7 @@ public class StingCalculatorTest {
         //Given
         NumberParser parser = mock(NumberParser.class);
         int[] shouldReturn = new int[]{1,2};
-        when(parse.parse("1,2")).thenReturn(shouldReturn);
+        when(parser.parse("1,2")).thenReturn(shouldReturn);
         StringCalculator calculator = new StringCalculator(parser);
         //When
         int result = calculator.add("1,2");

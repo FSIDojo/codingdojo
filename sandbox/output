@@ -1,11 +1,6 @@
-StingCalculatorTest.java:12: error: cannot find symbol
-        when(parse.parse("1,2")).thenReturn(shouldReturn);
-             ^
-  symbol:   variable parse
-  location: class StingCalculatorTest
 StingCalculatorTest.java:17: error: cannot find symbol
         AssertEqual(result, 3);
         ^
   symbol:   method AssertEqual(int,int)
   location: class StingCalculatorTest
-2 errors
+1 error
