@@ -17,7 +17,7 @@ public class NumberParserTest {
     public void testParse2() {
 //given
         NumberParser parser = new NumberParser();
-        int[] result = parser.parse("1,2,");
+        int[] result = parser.parse(",1,2");
 //then   
         assertEquals(3, result.length);
     }
