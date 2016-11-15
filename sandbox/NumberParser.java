@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class NumberParser {
     public int[] parse(String text) {
         if(text.equals("")) {
