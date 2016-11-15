@@ -11,7 +11,9 @@ public class StringCalculator {
         int result;
         if (parser != null) {
             resultArray = parser.parse(text);
-            result = resultArray[0] + resultArray[1];      
+            for(int a : resultArray) {
+                result += a; 
+            }
             return result ;
         } else {
             return 3;
