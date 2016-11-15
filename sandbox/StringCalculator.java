@@ -8,7 +8,7 @@ public class StringCalculator {
 
     public int add(String text) {
         int[] resultArray = null;
-        int result;
+        int result = 0;
         if (parser != null) {
             resultArray = parser.parse(text);
             for(int a : resultArray) {
