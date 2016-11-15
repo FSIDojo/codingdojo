@@ -17,4 +17,19 @@ public class StingCalculatorTest {
 //then   
         assertEquals(3, result);
     }
+
+    
+    @Test
+    public void should_parse_number_from_text_and_sum2 () {
+//given
+        NumberParser parser = mock(NumberParser.class);
+        int[] a = {1,2,4};
+        when(parser.parse("1,2,4")).thenReturn(a);
+        StringCalculator calculator = new StringCalculator(parser);
+//when
+        int result = calculator.add("1,2,4");
+
+//then   
+        assertEquals(7, result);
+    }
 }
