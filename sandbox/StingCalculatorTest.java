@@ -8,7 +8,8 @@ public class StingCalculatorTest {
     public void should_parse_number_from_text_and_sum () {
         //Given
         NumberParser parser = mock(NumberParser.class);
-        when(parse.parse("1,2")).thenReturn(int[]{1,2});
+        int[] shouldReturn = [1,2];
+        when(parse.parse("1,2")).thenReturn(shouldReturn);
         StringCalculator calculator = new StringCalculator(parser);
         //When
         int result = calculator.add("1,2");
