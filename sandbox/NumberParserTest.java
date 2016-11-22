@@ -17,13 +17,21 @@ public class NumberParserTest {
         verify(spliter).split("");
         assertArrayEquals(new int[]{}, actual);
     }
-/*
+
     @Test
     public void should_return_1_from_1_number() {
-        NumberParser parser = new NumberParser();
-        assertArrayEquals(new int[]{1}, parser.parse("1"));
+        //given
+        Spliter spliter = mock(Spliter.class); 
+        NumberParser parser = new NumberParser(spliter);
+        when(spliter.split("1")).thenReturn(new String[]{"1"});
+        //when
+        int[] actual = parser.parse("1");
+        //then
+        verify(spliter).setDelimiter(",");
+        verify(spliter).split("1");
+        assertArrayEquals(new int[]{1}, actual);
     }
-
+/*
     @Test
     public void should_return_2_from_2_number() {
         NumberParser parser = new NumberParser();
