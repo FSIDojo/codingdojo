@@ -8,7 +8,8 @@ public class StringCalculator {
 
     public int add(String text) {
         if (parser != null) {
-            parser.parse(text);
+            int[] temp = parser.parse(text);
+            return temp[0] + temp[1];
         }
         return 3;
     }
