@@ -9,4 +9,5 @@ public class SpliterTest {
         spliter.setDelimiter(",");
         assertArrayEquals(new String[]{"1","2"}, spliter.split("1,2"));
     }
+
 }
