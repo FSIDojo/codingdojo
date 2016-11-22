@@ -15,7 +15,7 @@ public class NumberParserTest {
         //then
         verify(spliter).setDelimiter(",");
         verify(spliter).split("1,2,3");
-        assertArrayEquals(new int[]{1}, actual);
+        assertArrayEquals(new int[]{1,2,3}, actual);
     }
 
 }
