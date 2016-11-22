@@ -7,8 +7,8 @@ public class NumberParser {
 
     public int[] parse(String text) {
         if (text.contains("\n")) {
-            return new int[]{1,2,3};
             spliter.setDelimiter(",|\n");
+            return new int[]{1,2,3};
         } else {
             spliter.setDelimiter(",");
         }
