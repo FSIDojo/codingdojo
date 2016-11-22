@@ -1,5 +1,5 @@
 
-public Spliter {
+public class Spliter {
 
     public void setDelimiter(String delimiter) {
 
