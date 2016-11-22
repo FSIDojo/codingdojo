@@ -10,6 +10,6 @@ public class StingCalculatorTest {
         StringCalculator calculator = new StringCalculator(parser);
         int actual = calculator.add("1,3");
         verify(parser).parse("1,3");
-        assertEqulas(4, actual);
+        assertEquals(4, actual);
     }
 }
