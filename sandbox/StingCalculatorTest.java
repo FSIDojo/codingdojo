@@ -16,4 +16,17 @@ public class StingCalculatorTest {
         verify(parser).parse("1,3");
         assertEquals(1+3, actual);
     }
+
+    @Test
+    public void should_return_single_number () {
+        //given
+        NumberParser parser = mock(NumberParser.class);
+        StringCalculator calculator = new StringCalculator(parser);
+        when(parser.parse("1")).thenReturn(new int[]{1});
+        //when
+        int actual = calculator.add("1");
+        //then
+        verify(parser).parse("1");
+        assertEquals(1, actual);
+    }
 }
