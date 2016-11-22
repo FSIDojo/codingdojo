@@ -1,11 +1,13 @@
-NumberParserTest.java:10: error: cannot find symbol
-        Spliter spliter = mock(Spliter.class); 
-        ^
-  symbol:   class Spliter
-  location: class NumberParserTest
-NumberParserTest.java:10: error: cannot find symbol
-        Spliter spliter = mock(Spliter.class); 
-                               ^
-  symbol:   class Spliter
-  location: class NumberParserTest
-2 errors
+Spliter.java:2: error: class, interface, or enum expected
+public Spliter {
+       ^
+Spliter.java:4: error: class, interface, or enum expected
+    public void setDelimiter(String delimiter) {
+           ^
+Spliter.java:8: error: class, interface, or enum expected
+    public String[] split(String text) {
+           ^
+Spliter.java:10: error: class, interface, or enum expected
+    }
+    ^
+4 errors
