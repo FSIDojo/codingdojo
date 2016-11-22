@@ -19,7 +19,7 @@ public class NumberParserTest {
     }
 
     @Test
-    public void should_set_delimiter_convert_string_array_to_int() {
+    public void should_set_delimiter_convert_string_array_to_int2() {
         //given
         Spliter spliter = mock(Spliter.class); 
         NumberParser parser = new NumberParser(spliter);
