@@ -4,7 +4,7 @@ public class NumberParser {
         if(text.equals("")){
             return new int[]{};
         }else{
-            return new int[]{1};
+            return new int[]{Integer.valueOf(text)};
         }
     }
 }
