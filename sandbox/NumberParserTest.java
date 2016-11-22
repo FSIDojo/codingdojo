@@ -6,7 +6,7 @@ public class NumberParserTest {
 
     @Test
     public void should_return_empty_from_empty_string() {
-        NumberParser parser = new Numberparser();
+        NumberParser parser = new NumberParser();
         assertArrayEquals(new int[]{}, parser.parse(""));
     }
 }
