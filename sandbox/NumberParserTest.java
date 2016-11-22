@@ -5,7 +5,7 @@ import static org.mockito.Mockito.*;
 public class NumberParserTest {
 
     @Test
-    public void should_convert_string_array_to_int() {
+    public void should_set_delimiter_convert_string_array_to_int() {
         //given
         Spliter spliter = mock(Spliter.class); 
         NumberParser parser = new NumberParser(spliter);
