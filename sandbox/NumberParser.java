@@ -4,7 +4,12 @@ public class NumberParser {
         if(text.equals("")){
             return new int[]{};
         }else{
-            return new int[]{Integer.valueOf(text)};
+            String[] source = text.split(",");
+            int[] res = new int[source.length];
+            for(int i=0;i<source.length;i++ ){
+                res[i] = Integer.valueOf(source[i]);
+            }
+            return res;
         }
     }
 }
