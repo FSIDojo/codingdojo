@@ -13,8 +13,8 @@ public class NumberParserTest {
         //when
         int[] actual = parser.parse("");
         //then
-        varify(spliter).setDelimiter(",");
-        varify(spliter).split("");
+        verify(spliter).setDelimiter(",");
+        verify(spliter).split("");
         assertArrayEquals(new int[]{}, actual);
     }
 /*
