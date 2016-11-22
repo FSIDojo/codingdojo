@@ -15,4 +15,11 @@ public class NumberParserTest {
         NumberParser parser = new NumberParser();
         assertArrayEquals(new int[]{1}, parser.parse("1"));
     }
+
+    @Test
+    public void should_return_2_from_2_number() {
+        NumberParser parser = new NumberParser();
+        assertArrayEquals(new int[]{2,3}, parser.parse("2,3"));
+    }
+
 }
