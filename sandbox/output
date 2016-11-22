@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 ..E
-Time: 0.305
+Time: 0.364
 There was 1 failure:
 1) should_parse_number_from_text_and_sum(StingCalculatorTest)
 java.lang.AssertionError: expected:<4> but was:<3>
@@ -9,7 +9,7 @@ java.lang.AssertionError: expected:<4> but was:<3>
 	at org.junit.Assert.assertEquals(Assert.java:127)
 	at org.junit.Assert.assertEquals(Assert.java:471)
 	at org.junit.Assert.assertEquals(Assert.java:455)
-	at StingCalculatorTest.should_parse_number_from_text_and_sum(StingCalculatorTest.java:13)
+	at StingCalculatorTest.should_parse_number_from_text_and_sum(StingCalculatorTest.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
