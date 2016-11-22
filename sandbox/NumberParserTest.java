@@ -27,8 +27,9 @@ public class NumberParserTest {
         //when
         int[] actual = parser.parse("1\n2,3");
         //then
+ verify(spliter).split("1\n2,3");
         verify(spliter).setDelimiter(",|\n");
-        verify(spliter).split("1\n2,3");
+       
         assertArrayEquals(new int[]{1,2,3}, actual);
     }
 }
