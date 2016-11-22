@@ -1,14 +1,16 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 ..E..
-Time: 0.363
+Time: 0.331
 There was 1 failure:
 1) should_return_empty_from_empty_string(NumberParserTest)
 Wanted but not invoked:
-spliter.setDelimiter(",");
--> at NumberParserTest.should_return_empty_from_empty_string(NumberParserTest.java:16)
-Actually, there were zero interactions with this mock.
+spliter.split("");
+-> at NumberParserTest.should_return_empty_from_empty_string(NumberParserTest.java:17)
 
-	at NumberParserTest.should_return_empty_from_empty_string(NumberParserTest.java:16)
+However, there were other interactions with this mock:
+-> at NumberParser.parse(NumberParser.java:9)
+
+	at NumberParserTest.should_return_empty_from_empty_string(NumberParserTest.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

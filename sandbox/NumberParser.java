@@ -1,10 +1,12 @@
 
 public class NumberParser {
+    private Spliter spliter;
     public NumberParser(Spliter spliter) {
-        
+        this.spliter = spliter;
     }    
 
     public int[] parse(String text) {
+        spliter.setDelimiter(",");
         if(text.equals("")){
             return new int[]{};
         }else{
