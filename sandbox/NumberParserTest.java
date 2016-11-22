@@ -25,10 +25,10 @@ public class NumberParserTest {
         NumberParser parser = new NumberParser(spliter);
         when(spliter.split("1\n2,3")).thenReturn(new String[]{"1","2","3"});
         //when
-        int[] actual = parser.parse("1,2,3");
+        int[] actual = parser.parse("1\n2,3");
         //then
         verify(spliter).setDelimiter(",");
-        verify(spliter).split("1,2,3");
+        verify(spliter).split("1\n2,3");
         assertArrayEquals(new int[]{1,2,3}, actual);
     }
 
