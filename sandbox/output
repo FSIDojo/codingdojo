@@ -1,17 +1,15 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-....E...
-Time: 0.429
+.E......
+Time: 0.338
 There was 1 failure:
-1) should_set_delimiter_with_newline_convert_string_array_to_int(NumberParserTest)
-Wanted but not invoked:
-spliter.split("1
-2,3");
--> at NumberParserTest.should_set_delimiter_with_newline_convert_string_array_to_int(NumberParserTest.java:31)
-
-However, there were other interactions with this mock:
--> at NumberParser.parse(NumberParser.java:10)
-
-	at NumberParserTest.should_set_delimiter_with_newline_convert_string_array_to_int(NumberParserTest.java:31)
+1) shoud_add_numbers_with_newline(AcceptanceTest)
+java.lang.NullPointerException
+	at java.lang.String.split(String.java:2324)
+	at java.lang.String.split(String.java:2409)
+	at Spliter.split(Spliter.java:11)
+	at NumberParser.parse(NumberParser.java:10)
+	at StringCalculator.add(StringCalculator.java:11)
+	at AcceptanceTest.shoud_add_numbers_with_newline(AcceptanceTest.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
