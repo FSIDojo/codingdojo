@@ -6,11 +6,7 @@ public class NumberParser {
     }    
 
     public int[] parse(String text) {
-        if (text.contains("\n")) {
-            spliter.setDelimiter(",|\n");
-        } else {
-            spliter.setDelimiter(",");
-        }
+        spliter.setDelimiter(",|\n");
         String[] source = spliter.split(text);
         int[] res = new int[source.length];
         for(int i=0;i<source.length;i++ ){
