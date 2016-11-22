@@ -8,7 +8,7 @@ public class NumberParser {
     public int[] parse(String text) {
         spliter.setDelimiter(",");
         String[] source = spliter.split(text);
-        if(source.length == 0){
+        if(false && source.length == 0){
             return new int[]{};
         }else{
             int[] res = new int[source.length];
