@@ -19,7 +19,7 @@ public class NumberParserTest {
     }
 
     @Test
-    public void should_set_delimiter_convert_string_array_to_int2() {
+    public void should_set_delimiter_with_newline_convert_string_array_to_int() {
         //given
         Spliter spliter = mock(Spliter.class); 
         NumberParser parser = new NumberParser(spliter);
@@ -27,9 +27,8 @@ public class NumberParserTest {
         //when
         int[] actual = parser.parse("1\n2,3");
         //then
-        verify(spliter).setDelimiter(",");
+        verify(spliter).setDelimiter(",|\n");
         verify(spliter).split("1\n2,3");
         assertArrayEquals(new int[]{1,2,3}, actual);
     }
-
 }
