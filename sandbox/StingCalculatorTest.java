@@ -7,7 +7,7 @@ public class StingCalculatorTest {
     private StringCalculator calculator;
 
     @Before
-    public setup() {
+    public void setup() {
         parser = mock(NumberParser.class);
         calculator = new StringCalculator(parser);
     }
