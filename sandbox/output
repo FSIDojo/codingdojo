@@ -1,5 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-......
-Time: 0.365
-
-OK (6 tests)
+NumberParserTest.java:10: error: cannot find symbol
+        Spliter spliter = mock(Spliter.class); 
+        ^
+  symbol:   class Spliter
+  location: class NumberParserTest
+NumberParserTest.java:10: error: cannot find symbol
+        Spliter spliter = mock(Spliter.class); 
+                               ^
+  symbol:   class Spliter
+  location: class NumberParserTest
+2 errors
