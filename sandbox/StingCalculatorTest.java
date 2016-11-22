@@ -3,12 +3,18 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 public class StingCalculatorTest {
+    private NumberParser parser;
+    private StringCalculator calculator;
+
+    @Before
+    public setup() {
+        parser = mock(NumberParser.class);
+        calculator = new StringCalculator(parser);
+    }
 
     @Test
-    public void should_parse_number_from_text_and_sum () {
+    public void should_parse_number_from_text_and_sum() {
         //given
-        NumberParser parser = mock(NumberParser.class);
-        StringCalculator calculator = new StringCalculator(parser);
         when(parser.parse("1,3")).thenReturn(new int[]{1,3});
         //when
         int actual = calculator.add("1,3");
@@ -18,10 +24,8 @@ public class StingCalculatorTest {
     }
 
     @Test
-    public void should_return_single_number () {
+    public void should_return_single_number() {
         //given
-        NumberParser parser = mock(NumberParser.class);
-        StringCalculator calculator = new StringCalculator(parser);
         when(parser.parse("1")).thenReturn(new int[]{1});
         //when
         int actual = calculator.add("1");
