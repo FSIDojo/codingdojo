@@ -9,4 +9,10 @@ public class NumberParserTest {
         NumberParser parser = new NumberParser();
         assertArrayEquals(new int[]{}, parser.parse(""));
     }
+
+    @Test
+    public void should_return_1_from_1_number() {
+        NumberParser parser = new NumberParser();
+        assertArrayEquals(new int[]{1}, parser.parse("1"));
+    }
 }
