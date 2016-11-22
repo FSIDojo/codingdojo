@@ -1,5 +1,9 @@
 
 public class NumberParser {
+    public NumberParser(Spliter spliter) {
+        
+    }    
+
     public int[] parse(String text) {
         if(text.equals("")){
             return new int[]{};
