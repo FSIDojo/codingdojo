@@ -1,7 +1,7 @@
 
 public class FtsTranslator {
 
-    public static int translate(boolean flag, String keywords) {
+    public static String translate(boolean flag, String keywords) {
         return "word*";
     }
 }

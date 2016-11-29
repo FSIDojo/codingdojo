@@ -1,7 +1,11 @@
-FtsTranslator.java:5: error: incompatible types: String cannot be converted to int
-        return "word*";
-               ^
-HikerStepDef.java:11: error: incompatible types: int cannot be converted to String
-        output = FtsTranslator.translate(flag, keywords);
-                                        ^
-2 errors
+JUnit version 4.12
+...
+1 Scenarios (1 passed)
+2 Steps (2 passed)
+0m0.216s
+
+
+Time: 0.463
+
+OK (3 tests)
+
