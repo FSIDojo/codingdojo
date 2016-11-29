@@ -1,6 +1,4 @@
-HikerStepDef.java:11: error: cannot find symbol
-        output = FtsTranslator.translate(flag, keywords);
-                 ^
-  symbol:   variable FtsTranslator
-  location: class HikerStepDef
+FtsTranslator.java:4: error: missing return statement
+    }
+    ^
 1 error
