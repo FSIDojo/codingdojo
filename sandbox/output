@@ -1,34 +1,11 @@
 JUnit version 4.12
-......EE
-Failed scenarios:
-Hiker.feature:10 # Scenario Outline: user input words
-
-2 Scenarios (1 failed, 1 passed)
-4 Steps (1 failed, 3 passed)
-0m0.212s
-
-org.junit.ComparisonFailure: expected:<*word*[]> but was:<*word*[*]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
-	at ?.Then the translation output will be *word*(Hiker.feature:6)
+......
+2 Scenarios (2 passed)
+4 Steps (4 passed)
+0m0.215s
 
 
-Time: 0.493
-There were 2 failures:
-1) Then the translation output will be *word*(| *word* | false | *word* |)
-org.junit.ComparisonFailure: expected:<*word*[]> but was:<*word*[*]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
-	at ?.Then the translation output will be *word*(Hiker.feature:6)
-2) | *word* | false | *word* |
-org.junit.ComparisonFailure: expected:<*word*[]> but was:<*word*[*]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
-	at ?.Then the translation output will be *word*(Hiker.feature:6)
+Time: 0.471
 
-FAILURES!!!
-Tests run: 6,  Failures: 2
+OK (6 tests)
 
