@@ -5,6 +5,10 @@ import cucumber.api.java.en.*;
 public class FtsTranslator{
 
     public static String translate(boolean flag, String keywords){
-        return keywords;
+        String result = keywords + "*";
+        if(keywords.endsWith("**")) {
+            result = keywords;
+        }
+        return result;
     }
 }
