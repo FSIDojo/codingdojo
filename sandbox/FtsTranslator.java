@@ -4,7 +4,7 @@ import cucumber.api.java.en.*;
 
 public class FtsTranslator{
 
-    public static String translate(flag, keywords){
+    public static String translate(boolean flag, String keywords){
         return "word*";
     }
 }

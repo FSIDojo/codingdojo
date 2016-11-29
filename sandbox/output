@@ -1,7 +1,11 @@
-FtsTranslator.java:7: error: <identifier> expected
-    public static String translate(flag, keywords){
-                                       ^
-FtsTranslator.java:7: error: <identifier> expected
-    public static String translate(flag, keywords){
-                                                 ^
-2 errors
+JUnit version 4.12
+...
+1 Scenarios (1 passed)
+2 Steps (2 passed)
+0m0.224s
+
+
+Time: 0.474
+
+OK (3 tests)
+
