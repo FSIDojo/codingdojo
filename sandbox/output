@@ -1,6 +1,7 @@
-HikerStepDef.java:11: error: cannot find symbol
-        output = FtsTranslator.translate(flag, keywords);
-                 ^
-  symbol:   variable FtsTranslator
-  location: class HikerStepDef
-1 error
+FtsTranslator.java:7: error: <identifier> expected
+    public static String translate(flag, keywords){
+                                       ^
+FtsTranslator.java:7: error: <identifier> expected
+    public static String translate(flag, keywords){
+                                                 ^
+2 errors
