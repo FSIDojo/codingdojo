@@ -8,3 +8,4 @@ Examples:
 |keywords| flag  | output  |
 | word   | false |  word*  |
 | *word* | false |  *word* |
+| *word * | false | *word AND * |
