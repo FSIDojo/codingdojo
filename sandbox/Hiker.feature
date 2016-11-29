@@ -9,3 +9,4 @@ Examples:
 | word   | false |  word*  |
 | *word* | false | *word*  |
 | *word *| false | *word AND * |
+| *wor*d*| false | *wor*d* |
