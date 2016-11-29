@@ -1,4 +1,34 @@
-FtsTranslator.java:4: error: missing return statement
-    }
-    ^
-1 error
+JUnit version 4.12
+...EE
+Failed scenarios:
+Hiker.feature:9 # Scenario Outline: user input words
+
+1 Scenarios (1 failed)
+2 Steps (1 failed, 1 passed)
+0m0.342s
+
+org.junit.ComparisonFailure: expected:<word[*]> but was:<word[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
+	at ?.Then the translation output will be word*(Hiker.feature:6)
+
+
+Time: 0.728
+There were 2 failures:
+1) Then the translation output will be word*(| word | false | word* |)
+org.junit.ComparisonFailure: expected:<word[*]> but was:<word[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
+	at ?.Then the translation output will be word*(Hiker.feature:6)
+2) | word | false | word* |
+org.junit.ComparisonFailure: expected:<word[*]> but was:<word[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at HikerStepDef.translationOutputIs(HikerStepDef.java:16)
+	at ?.Then the translation output will be word*(Hiker.feature:6)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
