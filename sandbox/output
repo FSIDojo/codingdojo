@@ -1,6 +1,7 @@
-HikerStepDef.java:11: error: cannot find symbol
+FtsTranslator.java:5: error: incompatible types: String cannot be converted to int
+        return "word*";
+               ^
+HikerStepDef.java:11: error: incompatible types: int cannot be converted to String
         output = FtsTranslator.translate(flag, keywords);
-                 ^
-  symbol:   variable FtsTranslator
-  location: class HikerStepDef
-1 error
+                                        ^
+2 errors
