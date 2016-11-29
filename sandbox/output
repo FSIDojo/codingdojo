@@ -1,4 +1,11 @@
-FtsTranslator.java:5: error: ')' expected
-        if (keywords.startsWith("*") {
-                                    ^
-1 error
+JUnit version 4.12
+......
+2 Scenarios (2 passed)
+4 Steps (4 passed)
+0m0.227s
+
+
+Time: 0.476
+
+OK (6 tests)
+
