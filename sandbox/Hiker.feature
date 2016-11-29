@@ -8,4 +8,5 @@ Examples:
 |keywords| flag  | output  |
 | word   | false |  word*  |
 | *word* | false | *word*  |
-| *wor*d*| false | *wor*d* | 
+| *wor*d*| false | *wor*d* |
+| ?word? | false | ?word?  | 
