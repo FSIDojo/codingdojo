@@ -7,3 +7,4 @@ Then the translation output will be <output>
 Examples:
 |keywords| flag  | output  |
 | word   | false |  word*  |
+| *word* | false | *word*  |
