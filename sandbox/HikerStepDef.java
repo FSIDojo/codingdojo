@@ -6,12 +6,12 @@ public class HikerStepDef {
 
     private String output;
 
-    @When("^user input (\\S+) with exactly (\\w+)$")
+    @When("^user input (.+) with exactly (\\w+)$")
     public void userInput(String keywords, boolean flag) throws Throwable {
         output = FtsTranslator.translate(flag, keywords);
     }
 
-    @Then("^the translation output will be (\\S+)$")
+    @Then("^the translation output will be (.+)$")
     public void translationOutputIs(String expected) throws Throwable {
         assertEquals(expected, output);     
     }
