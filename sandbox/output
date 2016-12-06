@@ -1,28 +1,11 @@
 JUnit version 4.12
-..EEII
-Pending scenarios:
-Search.feature:4 # Scenario: return all lines contains the user input words
-
-1 Scenarios (1 pending)
-3 Steps (2 skipped, 1 pending)
-0m0.245s
-
-cucumber.api.PendingException: TODO: implement me
-	at SearchStepDef.theTextContent(SearchStepDef.java:11)
-	at ?.Given the text content:(Search.feature:5)
+....
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m0.221s
 
 
-Time: 0.517
-There were 2 failures:
-1) Given the text content:(Scenario: return all lines contains the user input words)
-cucumber.api.PendingException: TODO: implement me
-	at SearchStepDef.theTextContent(SearchStepDef.java:11)
-	at ?.Given the text content:(Search.feature:5)
-2) Scenario: return all lines contains the user input words
-cucumber.api.PendingException: TODO: implement me
-	at SearchStepDef.theTextContent(SearchStepDef.java:11)
-	at ?.Given the text content:(Search.feature:5)
+Time: 0.488
 
-FAILURES!!!
-Tests run: 2,  Failures: 2
+OK (4 tests)
 
