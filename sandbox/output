@@ -3,19 +3,4 @@ SearchStepDef.java:8: error: cannot find symbol
                                ^
   symbol:   class List
   location: class SearchStepDef
-SearchStepDef.java:13: error: cannot find symbol
-        throw new PendingException();
-                  ^
-  symbol:   class PendingException
-  location: class SearchStepDef
-SearchStepDef.java:19: error: cannot find symbol
-        throw new PendingException();
-                  ^
-  symbol:   class PendingException
-  location: class SearchStepDef
-SearchStepDef.java:25: error: cannot find symbol
-        throw new PendingException();
-                  ^
-  symbol:   class PendingException
-  location: class SearchStepDef
-4 errors
+1 error

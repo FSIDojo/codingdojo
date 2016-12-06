@@ -7,5 +7,5 @@ Given the text content:
     |Four little, five little, six little Indians|
     |Seven little, eight little, nine little Indians|
     |Ten little Indian boys.|
-When I input "five"
+When I input <five>
 Then the result will be: "Four little, five little, six little Indians"
