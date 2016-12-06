@@ -1,11 +1,40 @@
 JUnit version 4.12
-....
-1 Scenarios (1 passed)
-3 Steps (3 passed)
-0m0.245s
+....EE
+Failed scenarios:
+Search.feature:4 # Scenario: return all lines contains the user input words
+
+1 Scenarios (1 failed)
+3 Steps (1 failed, 2 passed)
+0m0.214s
+
+java.lang.AssertionError: expected:<[One little, two little, three little Indians, Four little, five little, six little Indians, Seven little, eight little, nine little Indians, Ten little Indian boys.]> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SearchStepDef.theResultWillBe(SearchStepDef.java:24)
+	at ?.Then the result will be:(Search.feature:11)
 
 
-Time: 0.58
+Time: 0.505
+There were 2 failures:
+1) Then the result will be:(Scenario: return all lines contains the user input words)
+java.lang.AssertionError: expected:<[One little, two little, three little Indians, Four little, five little, six little Indians, Seven little, eight little, nine little Indians, Ten little Indian boys.]> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SearchStepDef.theResultWillBe(SearchStepDef.java:24)
+	at ?.Then the result will be:(Search.feature:11)
+2) Scenario: return all lines contains the user input words
+java.lang.AssertionError: expected:<[One little, two little, three little Indians, Four little, five little, six little Indians, Seven little, eight little, nine little Indians, Ten little Indian boys.]> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SearchStepDef.theResultWillBe(SearchStepDef.java:24)
+	at ?.Then the result will be:(Search.feature:11)
 
-OK (4 tests)
+FAILURES!!!
+Tests run: 4,  Failures: 2
 

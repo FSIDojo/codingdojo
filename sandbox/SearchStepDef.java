@@ -20,7 +20,7 @@ public class SearchStepDef {
     }
   
     @Then("^the result will be:$")
-    public void theResultWillBe(List<String> result) throws Throwable {
-        assertEquals(4, result.size());
+    public void theResultWillBe(List<String> expected) throws Throwable {
+        assertEquals(expected, results);
     } 
 }
