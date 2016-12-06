@@ -1,11 +1,11 @@
-JUnit version 4.12
-....
-1 Scenarios (1 passed)
-3 Steps (3 passed)
-0m0.221s
-
-
-Time: 0.488
-
-OK (4 tests)
-
+SearchStepDef.java:18: error: cannot find symbol
+        SearchWorker worker = new SearchWorker();
+        ^
+  symbol:   class SearchWorker
+  location: class SearchStepDef
+SearchStepDef.java:18: error: cannot find symbol
+        SearchWorker worker = new SearchWorker();
+                                  ^
+  symbol:   class SearchWorker
+  location: class SearchStepDef
+2 errors

@@ -5,6 +5,7 @@ import cucumber.api.java.en.*;
 import cucumber.api.*;
 
 public class SearchStepDef {
+    List<String> results;
 
     @Given("^the text content:$")
     public void theTextContent(List<String> text) throws Throwable {
@@ -14,11 +15,12 @@ public class SearchStepDef {
 
     @When("^I search <([^>]*)>$")
     public void iSearchIndian(String input) throws Throwable {
-       
+        SearchWorker worker = new SearchWorker();
+        results = worker.search(input);
     }
   
     @Then("^the result will be:$")
     public void theResultWillBe(List<String> result) throws Throwable {
-
+        assertEquals(4, result.size());
     } 
 }
