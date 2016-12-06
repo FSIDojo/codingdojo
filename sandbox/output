@@ -1,11 +1,4 @@
-SearchStepDef.java:18: error: cannot find symbol
-        SearchWorker worker = new SearchWorker();
-        ^
-  symbol:   class SearchWorker
-  location: class SearchStepDef
-SearchStepDef.java:18: error: cannot find symbol
-        SearchWorker worker = new SearchWorker();
-                                  ^
-  symbol:   class SearchWorker
-  location: class SearchStepDef
-2 errors
+SearchWorker.java:3: error: <identifier> expected
+    public List<String> search(String) {
+                                     ^
+1 error
