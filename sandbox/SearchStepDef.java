@@ -11,13 +11,21 @@ public class SearchStepDef {
         throw new PendingException();
     }
     
-    @When("^I input <[^>]*>$")
-    public void iInputFive(String input) throws Throwable {
+
+    @When("^I search <([^>]*)>$")
+    public void iSearchIndian(String input) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
-    
+        
     @Then("^the result will be: \"([^\"]*)\"$")
     public void theResultWillBe(String arg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^the result will be:$")
+    public void theResultWillBe(List<String> result) throws Throwable {
+
         throw new PendingException();
     } 
 }

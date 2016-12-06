@@ -1,37 +1,19 @@
 JUnit version 4.12
-..EE.EE.EE
-Undefined scenarios:
+..EEII
+Pending scenarios:
 Search.feature:4 # Scenario: return all lines contains the user input words
 
-1 Scenarios (1 undefined)
-3 Steps (1 pending, 2 undefined)
-0m0.216s
+1 Scenarios (1 pending)
+3 Steps (2 skipped, 1 pending)
+0m0.245s
 
 cucumber.api.PendingException: TODO: implement me
 	at SearchStepDef.theTextContent(SearchStepDef.java:11)
 	at ?.Given the text content:(Search.feature:5)
 
 
-You can implement missing steps with the snippets below:
-
-@When("^I search <Indian>$")
-public void iSearchIndian() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Then("^the result will be:$")
-public void theResultWillBe(DataTable arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc)
-    throw new PendingException();
-}
-
-
-Time: 0.482
-There were 6 failures:
+Time: 0.517
+There were 2 failures:
 1) Given the text content:(Scenario: return all lines contains the user input words)
 cucumber.api.PendingException: TODO: implement me
 	at SearchStepDef.theTextContent(SearchStepDef.java:11)
@@ -40,137 +22,7 @@ cucumber.api.PendingException: TODO: implement me
 cucumber.api.PendingException: TODO: implement me
 	at SearchStepDef.theTextContent(SearchStepDef.java:11)
 	at ?.Given the text content:(Search.feature:5)
-3) When I search <Indian>(Scenario: return all lines contains the user input words)
-cucumber.api.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:134)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:122)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:91)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:281)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
-4) Scenario: return all lines contains the user input words
-cucumber.api.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:134)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:122)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:91)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:281)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
-5) Then the result will be:(Scenario: return all lines contains the user input words)
-cucumber.api.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:134)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:122)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:91)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:281)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
-6) Scenario: return all lines contains the user input words
-cucumber.api.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:134)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:122)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:91)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:281)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit
-output truncated by cyber-dojo server
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
